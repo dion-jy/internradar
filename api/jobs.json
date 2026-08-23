@@ -1,0 +1,777 @@
+{
+ "generated_at": "2026-08-24T08:19:55.860972+00:00",
+ "count": 40,
+ "jobs": [
+  {
+   "company": "Mercor",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "mercor.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Mercor Research Fellowship — APEX",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/mercor/a0a98be0-d856-4129-b500-c0a3e412ef01",
+   "posted_at": "2026-08-22T02:19:29.278+00:00",
+   "department": "Research",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "ashby:mercor:a0a98be0-d856-4129-b500-c0a3e412ef01"
+  },
+  {
+   "company": "Modal",
+   "tier": "infra",
+   "ats": "ashby",
+   "domain": "modal.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "ML Research Intern",
+   "location": "New York",
+   "url": "https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a",
+   "posted_at": "2026-07-28T22:02:03.674+00:00",
+   "department": "Engineering",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": true,
+   "job_id": "ashby:modal:38888294-6bc7-4dab-b072-6d0f0c2ed79a"
+  },
+  {
+   "company": "Allen Institute for AI (AI2)",
+   "tier": "frontier",
+   "ats": "greenhouse",
+   "domain": "allenai.org",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Young Investigator, Open Language Models for Biology",
+   "location": "Seattle, WA",
+   "url": "https://job-boards.greenhouse.io/thealleninstitute/jobs/8090222",
+   "posted_at": "2026-07-28T13:31:32-04:00",
+   "department": "Research",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:thealleninstitute:8090222"
+  },
+  {
+   "company": "Pika",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "pika.art",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Intern (BS/MS/PhD)",
+   "location": "Palo Alto HQ",
+   "url": "https://jobs.ashbyhq.com/pika/e135acb1-2a0b-47b4-81b2-3cb0f787657a",
+   "posted_at": "2026-07-10T18:04:54.423+00:00",
+   "department": "Research",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": true,
+   "job_id": "ashby:pika:e135acb1-2a0b-47b4-81b2-3cb0f787657a"
+  },
+  {
+   "company": "Allen Institute for AI (AI2)",
+   "tier": "frontier",
+   "ats": "greenhouse",
+   "domain": "allenai.org",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Predoctoral Young Investigator, Open Ecosystem",
+   "location": "Seattle, WA",
+   "url": "https://job-boards.greenhouse.io/thealleninstitute/jobs/8054878",
+   "posted_at": "2026-07-10T14:11:19-04:00",
+   "department": "Research",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": true,
+   "job_id": "greenhouse:thealleninstitute:8054878"
+  },
+  {
+   "company": "Baseten",
+   "tier": "infra",
+   "ats": "ashby",
+   "domain": "baseten.co",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Base Labs Fellowship",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51",
+   "posted_at": "2026-07-06T22:24:08.492+00:00",
+   "department": "EPD",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "ashby:baseten:58d7d8e6-86ee-43a1-baec-3dddcb661d51"
+  },
+  {
+   "company": "1X",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "1x.tech",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "AI Residency",
+   "location": "San Carlos, CA",
+   "url": "https://jobs.ashbyhq.com/1x/5b2b4c73-13b5-46ca-8467-8024741a4b57",
+   "posted_at": "2026-06-17T00:24:39.004+00:00",
+   "department": "Artificial Intelligence ",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "ashby:1x:5b2b4c73-13b5-46ca-8467-8024741a4b57"
+  },
+  {
+   "company": "Scale AI",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "scale.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "AI Builder Intern",
+   "location": "San Francisco, CA",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005",
+   "posted_at": "2026-06-06T01:30:38-04:00",
+   "department": "Data, Technology & Systems",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:scaleai:4703343005"
+  },
+  {
+   "company": "Tenstorrent",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "tenstorrent.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "CPU Verification Fellow, RISC-V High-Performance Processor",
+   "location": "Santa Clara, California, United States",
+   "url": "https://job-boards.greenhouse.io/tenstorrent/jobs/5148052007",
+   "posted_at": "2026-05-28T13:30:11-04:00",
+   "department": "Architecture: Design Verification",
+   "confidence": "medium",
+   "match": [
+    "program-form"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:tenstorrent:5148052007"
+  },
+  {
+   "company": "Cohere",
+   "tier": "frontier",
+   "ats": "ashby",
+   "domain": "cohere.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Machine Learning Intern/Co-op  (Winter 2027)",
+   "location": "Canada",
+   "url": "https://jobs.ashbyhq.com/cohere/36d1f52f-8270-4652-adf5-5303a0ff341b",
+   "posted_at": "2026-05-13T17:16:14.014+00:00",
+   "department": "Internships",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "ashby:cohere:36d1f52f-8270-4652-adf5-5303a0ff341b"
+  },
+  {
+   "company": "Cohere",
+   "tier": "frontier",
+   "ats": "ashby",
+   "domain": "cohere.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Internship (Fall, Winter 2026)",
+   "location": "Canada",
+   "url": "https://jobs.ashbyhq.com/cohere/73bd3e2b-6597-4124-b64b-1e5dbc32e785",
+   "posted_at": "2026-05-01T20:26:46.572+00:00",
+   "department": "Internships",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": true,
+   "job_id": "ashby:cohere:73bd3e2b-6597-4124-b64b-1e5dbc32e785"
+  },
+  {
+   "company": "Scale AI",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "scale.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "SWE Fellow - Human Frontier Collective (Canada)",
+   "location": "Canada",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689954005",
+   "posted_at": "2026-04-29T14:02:27-04:00",
+   "department": "Human Frontier Collective",
+   "confidence": "medium",
+   "match": [
+    "program-form"
+   ],
+   "phd": true,
+   "job_id": "greenhouse:scaleai:4689954005"
+  },
+  {
+   "company": "Scale AI",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "scale.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "SWE Fellow - Human Frontier Collective (UK)",
+   "location": "United Kingdom",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689950005",
+   "posted_at": "2026-04-29T14:02:26-04:00",
+   "department": "Human Frontier Collective",
+   "confidence": "medium",
+   "match": [
+    "program-form"
+   ],
+   "phd": true,
+   "job_id": "greenhouse:scaleai:4689950005"
+  },
+  {
+   "company": "Scale AI",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "scale.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "SWE Fellow - Human Frontier Collective (US)",
+   "location": "United States",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689947005",
+   "posted_at": "2026-04-29T14:02:21-04:00",
+   "department": "Human Frontier Collective",
+   "confidence": "medium",
+   "match": [
+    "program-form"
+   ],
+   "phd": true,
+   "job_id": "greenhouse:scaleai:4689947005"
+  },
+  {
+   "company": "Allen Institute for AI (AI2)",
+   "tier": "frontier",
+   "ats": "greenhouse",
+   "domain": "allenai.org",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Young Investigator, Robotics",
+   "location": "Seattle, WA",
+   "url": "https://job-boards.greenhouse.io/thealleninstitute/jobs/7852135",
+   "posted_at": "2026-04-28T17:17:45-04:00",
+   "department": "Research",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": true,
+   "job_id": "greenhouse:thealleninstitute:7852135"
+  },
+  {
+   "company": "Anthropic",
+   "tier": "frontier",
+   "ats": "greenhouse",
+   "domain": "anthropic.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)",
+   "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183053008",
+   "posted_at": "2026-04-23T23:14:47-04:00",
+   "department": "AI Research & Engineering",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:anthropic:5183053008"
+  },
+  {
+   "company": "Anthropic",
+   "tier": "frontier",
+   "ats": "greenhouse",
+   "domain": "anthropic.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Anthropic Fellows Program, ML Systems & Reinforcement Learning",
+   "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183051008",
+   "posted_at": "2026-04-09T20:30:30-04:00",
+   "department": "AI Research & Engineering",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:anthropic:5183051008"
+  },
+  {
+   "company": "Anthropic",
+   "tier": "frontier",
+   "ats": "greenhouse",
+   "domain": "anthropic.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Anthropic Fellows Program, AI Safety & Security",
+   "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183044008",
+   "posted_at": "2026-04-09T20:28:23-04:00",
+   "department": "AI Research & Engineering",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:anthropic:5183044008"
+  },
+  {
+   "company": "Perplexity",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "perplexity.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Internship - Search Machine Learning Engineer",
+   "location": "London",
+   "url": "https://jobs.ashbyhq.com/perplexity/71168628-1998-47d3-87a9-be7bc56a430d",
+   "posted_at": "2026-04-08T13:33:01.709+00:00",
+   "department": "Search",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "ashby:perplexity:71168628-1998-47d3-87a9-be7bc56a430d"
+  },
+  {
+   "company": "Applied Intuition",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "appliedintuition.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Intern - World-Action Foundation Model, Robotics",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/edc2528d-6e6c-4a67-b871-bfe7d9c890b4",
+   "posted_at": "2026-02-13T02:46:12.197+00:00",
+   "department": "AI Research",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "ashby:applied:edc2528d-6e6c-4a67-b871-bfe7d9c890b4"
+  },
+  {
+   "company": "Applied Intuition",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "appliedintuition.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Intern - Robotic Hardware, Simulation and Data",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/5bb0567a-8d07-4cc4-be7c-c06b31361883",
+   "posted_at": "2026-02-13T02:46:11.410+00:00",
+   "department": "AI Research",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "ashby:applied:5bb0567a-8d07-4cc4-be7c-c06b31361883"
+  },
+  {
+   "company": "Applied Intuition",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "appliedintuition.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Intern - Reinforcement Learning, Robotics",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/bb953f29-0059-4a40-aa9e-3a8c88733902",
+   "posted_at": "2026-02-13T02:46:08.533+00:00",
+   "department": "AI Research",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "ashby:applied:bb953f29-0059-4a40-aa9e-3a8c88733902"
+  },
+  {
+   "company": "Applied Intuition",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "appliedintuition.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Intern - 3D Vision and Generation, Self-Driving",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/91e0686e-272a-4780-b33d-d7860b94a7b4",
+   "posted_at": "2026-02-13T02:46:07.710+00:00",
+   "department": "AI Research",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "ashby:applied:91e0686e-272a-4780-b33d-d7860b94a7b4"
+  },
+  {
+   "company": "Scale AI",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "scale.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Machine Learning Fellow - Human Frontier Collective (Canada)",
+   "location": "Canada",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4661650005",
+   "posted_at": "2026-02-12T19:02:45-05:00",
+   "department": "Human Frontier Collective",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": true,
+   "job_id": "greenhouse:scaleai:4661650005"
+  },
+  {
+   "company": "Scale AI",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "scale.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Machine Learning Fellow - Human Frontier Collective (UK)",
+   "location": "United Kingdom",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4661647005",
+   "posted_at": "2026-02-12T18:59:42-05:00",
+   "department": "Human Frontier Collective",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": true,
+   "job_id": "greenhouse:scaleai:4661647005"
+  },
+  {
+   "company": "Scale AI",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "scale.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Machine Learning Fellow - Human Frontier Collective (US)",
+   "location": "United States",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4660340005",
+   "posted_at": "2026-02-12T18:42:31-05:00",
+   "department": "Human Frontier Collective",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": true,
+   "job_id": "greenhouse:scaleai:4660340005"
+  },
+  {
+   "company": "Perplexity",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "perplexity.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Internship - Search Machine Learning Engineer",
+   "location": "Belgrade",
+   "url": "https://jobs.ashbyhq.com/perplexity/9246cf02-26fd-4ae8-90c5-639c6e85e9e2",
+   "posted_at": "2026-01-13T21:20:02.894+00:00",
+   "department": "Search",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "ashby:perplexity:9246cf02-26fd-4ae8-90c5-639c6e85e9e2"
+  },
+  {
+   "company": "Waabi",
+   "tier": "startup",
+   "ats": "lever",
+   "domain": "waabi.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Internship/Co-op",
+   "location": "Toronto, ON",
+   "url": "https://jobs.lever.co/waabi/0fd4e30b-9bd1-4b53-9043-6088457363cb",
+   "posted_at": "2025-12-18T22:08:55.237000+00:00",
+   "department": "Internships / Co-ops",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": true,
+   "job_id": "lever:waabi:0fd4e30b-9bd1-4b53-9043-6088457363cb"
+  },
+  {
+   "company": "Waabi",
+   "tier": "startup",
+   "ats": "lever",
+   "domain": "waabi.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "2026 Intern, PhD Research Scientist",
+   "location": "Toronto, ON",
+   "url": "https://jobs.lever.co/waabi/62700386-b9db-4c78-aec3-5ef59cbe841e",
+   "posted_at": "2025-12-18T21:59:13.993000+00:00",
+   "department": "Internships / Co-ops",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": true,
+   "job_id": "lever:waabi:62700386-b9db-4c78-aec3-5ef59cbe841e"
+  },
+  {
+   "company": "Anthropic",
+   "tier": "frontier",
+   "ats": "greenhouse",
+   "domain": "anthropic.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Anthropic Fellows Program",
+   "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5023394008",
+   "posted_at": "2025-12-11T12:27:23-05:00",
+   "department": "AI Research & Engineering",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:anthropic:5023394008"
+  },
+  {
+   "company": "Etched",
+   "tier": "infra",
+   "ats": "ashby",
+   "domain": "etched.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Inference Intern",
+   "location": "San Jose",
+   "url": "https://jobs.ashbyhq.com/etched/6f23713f-5409-45b7-aae8-adb8710cdbc3",
+   "posted_at": "2025-12-08T22:27:58.860+00:00",
+   "department": "Architecture",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "job_id": "ashby:etched:6f23713f-5409-45b7-aae8-adb8710cdbc3"
+  },
+  {
+   "company": "Allen Institute for AI (AI2)",
+   "tier": "frontier",
+   "ats": "greenhouse",
+   "domain": "allenai.org",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Young Investigator, FlexOlmo",
+   "location": "Berkeley, CA",
+   "url": "https://job-boards.greenhouse.io/thealleninstitute/jobs/7417128",
+   "posted_at": "2025-11-25T12:18:32-05:00",
+   "department": "Research",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": true,
+   "job_id": "greenhouse:thealleninstitute:7417128"
+  },
+  {
+   "company": "Nuro",
+   "tier": "startup",
+   "ats": "greenhouse",
+   "domain": "nuro.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Software Engineer, AI Platform - Intern",
+   "location": "Mountain View, California (HQ)",
+   "url": "https://nuro.ai/careersitem?gh_jid=7351061",
+   "posted_at": "2025-10-22T18:23:06-04:00",
+   "department": "AI Platform",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:nuro:7351061"
+  },
+  {
+   "company": "Scale AI",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "scale.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Medical Fellow - Human Frontier Collective (UK)",
+   "location": "United Kingdom",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612329005",
+   "posted_at": "2025-10-17T19:03:21-04:00",
+   "department": "Human Frontier Collective",
+   "confidence": "medium",
+   "match": [
+    "program-form"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:scaleai:4612329005"
+  },
+  {
+   "company": "Scale AI",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "scale.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "STEM Fellow - Human Frontier Collective (UK)",
+   "location": "United Kingdom",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4620719005",
+   "posted_at": "2025-10-17T19:03:11-04:00",
+   "department": "Human Frontier Collective",
+   "confidence": "medium",
+   "match": [
+    "program-form"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:scaleai:4620719005"
+  },
+  {
+   "company": "Scale AI",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "scale.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Medical Fellow - Human Frontier Collective (US)",
+   "location": "United States",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4591782005",
+   "posted_at": "2025-07-30T15:15:34-04:00",
+   "department": "Human Frontier Collective",
+   "confidence": "medium",
+   "match": [
+    "program-form"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:scaleai:4591782005"
+  },
+  {
+   "company": "Scale AI",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "scale.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "STEM Fellow - Human Frontier Collective (US)",
+   "location": "United States",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4574113005",
+   "posted_at": "2025-06-06T19:02:38-04:00",
+   "department": "Human Frontier Collective",
+   "confidence": "medium",
+   "match": [
+    "program-form"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:scaleai:4574113005"
+  },
+  {
+   "company": "Applied Intuition",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "appliedintuition.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Intern - Reinforcement Learning, Self-Driving",
+   "location": "Sunnyvale",
+   "url": "https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526",
+   "posted_at": "2024-09-21T01:04:03.643+00:00",
+   "department": "AI Research",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "ashby:applied:ce58d9fd-f22b-4336-80b5-ba1e8d764526"
+  },
+  {
+   "company": "Physical Intelligence",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "physicalintelligence.company",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Internships",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/physicalintelligence/f020ff1a-4b4c-4415-8434-2da5010a7076",
+   "posted_at": "2024-08-24T23:26:05.122+00:00",
+   "department": "AI & Robotics Research",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "ashby:physicalintelligence:f020ff1a-4b4c-4415-8434-2da5010a7076"
+  },
+  {
+   "company": "Databricks",
+   "tier": "infra",
+   "ats": "greenhouse",
+   "domain": "databricks.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "PhD GenAI Research Scientist Intern",
+   "location": "San Francisco, California",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002",
+   "posted_at": "2023-11-07T16:36:32-05:00",
+   "department": "University Recruiting",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": true,
+   "job_id": "greenhouse:databricks:7011263002"
+  }
+ ]
+}

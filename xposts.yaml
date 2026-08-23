@@ -1,0 +1,17 @@
+# X posts to show in the live strip at the top of the page.
+#
+# Paste the link. Everything else -- author, avatar, text, date, outbound link --
+# is read from the post itself at build time by x_source.py.
+#
+# These render as post cards, not as board listings. If you also want one to be
+# searchable and filterable in the main list, add it to manual.yaml as well.
+#
+#   - url: https://x.com/msraurjp/status/2090645729052418108
+#     note: optional line of your own, shown under the post
+#
+# Newest first is not required; they are sorted by post date.
+
+posts:
+  - url: https://x.com/jonLorraine9/status/2090896086072197600
+  - url: https://x.com/msraurjp/status/2090645729052418108
+  - url: https://x.com/RHachiuma/status/2091476599460057353

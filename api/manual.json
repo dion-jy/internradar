@@ -1,0 +1,69 @@
+{
+ "generated_at": "2026-08-24T08:19:55.860972+00:00",
+ "count": 3,
+ "jobs": [
+  {
+   "company": "Sakana AI",
+   "tier": "frontier",
+   "ats": "manual",
+   "source": "manual",
+   "kind": "evergreen",
+   "title": "Member of Technical Staff — Internship / Visiting Researcher",
+   "location": "Tokyo, Japan",
+   "url": "https://sakana.ai/careers/member-of-technical-staff",
+   "posted_at": null,
+   "department": "",
+   "source_label": "Lab website",
+   "confidence": "high",
+   "match": [
+    "off-board",
+    "via-lab-page"
+   ],
+   "phd": false,
+   "note": "Research category, listed as \"Internship / Visiting Researcher\", English. \"We are occasionally hiring researchers who are passionate about novel approaches to develop the next generation of nature-inspired foundation AI models.\" No degree requirement stated. Apply by emailing careers@sakana.ai naming the role, then submit their Google Form with CV and cover letter in English.",
+   "job_id": "manual:44c6a22d93d3a3cb"
+  },
+  {
+   "company": "Sakana AI",
+   "tier": "frontier",
+   "ats": "manual",
+   "source": "manual",
+   "kind": "evergreen",
+   "title": "Member of Technical Staff (RSI Lab) — Internship / Visiting Researcher",
+   "location": "Tokyo, Japan",
+   "url": "https://sakana.ai/careers/member-of-technical-staff-rsi-lab",
+   "posted_at": null,
+   "department": "",
+   "source_label": "Lab website",
+   "confidence": "high",
+   "match": [
+    "off-board",
+    "via-lab-page"
+   ],
+   "phd": false,
+   "note": "Listed as \"Full-time / Visiting Researcher / Internship\". The Recursive Self-Improvement Lab works on redesigning the AI development process itself with AI. Apply by emailing careers@sakana.ai naming the role, then submit their Google Form.",
+   "job_id": "manual:79175c948fb48e7e"
+  },
+  {
+   "company": "Sakana AI",
+   "tier": "frontier",
+   "ats": "manual",
+   "source": "manual",
+   "kind": "evergreen",
+   "title": "Applied Research Engineer — Full-time / Contract / Intern",
+   "location": "Tokyo, Japan",
+   "url": "https://sakana.ai/careers/applied-research-engineer",
+   "posted_at": null,
+   "department": "",
+   "source_label": "Lab website",
+   "confidence": "high",
+   "match": [
+    "off-board",
+    "via-lab-page"
+   ],
+   "phd": false,
+   "note": "Product-side applied research (Sakana Chat, Marlin, Fugu), listed as \"Full-time / Contract / Intern\". Apply by emailing careers@sakana.ai naming the role, then submit their Google Form.",
+   "job_id": "manual:8da55e842aa205f7"
+  }
+ ]
+}

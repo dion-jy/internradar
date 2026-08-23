@@ -1,0 +1,951 @@
+# PhD Intern Board — lab catalogue
+# Verified 2026-08-23. A slug is only recorded once the board responded with the right
+# shape AND the owning company name matched what we expected. `ats: none` entries are
+# kept deliberately so the same dead ends are not retried every run.
+# `active: false` means the board is real but deliberately left out of collection.
+# `domain` is used to fetch the company logo at build time.
+labs:
+- name: Anthropic
+  ats: greenhouse
+  slug: anthropic
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 518
+  active: true
+  domain: anthropic.com
+- name: OpenAI
+  ats: ashby
+  slug: openai
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 753
+  active: true
+  domain: openai.com
+- name: Google DeepMind
+  ats: greenhouse
+  slug: deepmind
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 10
+  active: true
+  domain: deepmind.google
+- name: xAI
+  ats: greenhouse
+  slug: xai
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 259
+  note: board is named 'SpaceXAI' — shares recruiting infrastructure with SpaceX
+  active: true
+  domain: x.ai
+- name: Cohere
+  ats: ashby
+  slug: cohere
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 150
+  active: true
+  domain: cohere.com
+- name: Thinking Machines Lab
+  ats: ashby
+  slug: thinkingmachines
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 34
+  active: true
+  domain: thinkingmachines.ai
+- name: Reflection AI
+  ats: ashby
+  slug: reflectionai
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 53
+  active: true
+  domain: reflection.ai
+- name: Prime Intellect
+  ats: ashby
+  slug: primeintellect
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 25
+  active: true
+  domain: primeintellect.ai
+- name: Nous Research
+  ats: ashby
+  slug: nousresearch
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 8
+  note: the alias slug 'nous-research' serves the same board
+  active: true
+  domain: nousresearch.com
+- name: Black Forest Labs
+  ats: ashby
+  slug: black-forest-labs
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 15
+  note: greenhouse/blackforestlabs also responds, but its roles do not match; using ashby
+  active: true
+  domain: bfl.ai
+- name: Reka AI
+  ats: ashby
+  slug: reka
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 9
+  active: true
+  domain: reka.ai
+- name: Character.AI
+  ats: ashby
+  slug: character
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 13
+  active: true
+  domain: character.ai
+- name: Stability AI
+  ats: greenhouse
+  slug: stabilityai
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 5
+  active: true
+  domain: stability.ai
+- name: Inflection AI
+  ats: greenhouse
+  slug: inflectionai
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 6
+  active: true
+  domain: inflection.ai
+- name: Imbue
+  ats: greenhouse
+  slug: imbue
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 3
+  note: lever/imbue is an empty board, discarded
+  active: true
+  domain: imbue.com
+- name: Liquid AI
+  ats: ashby
+  slug: liquid
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 2
+  note: UNCONFIRMED — the board is titled only 'Liquid'; 2 openings, identity not established
+  active: true
+  domain: liquid.ai
+- name: Safe Superintelligence
+  ats: ashby
+  slug: ssi
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: UNCONFIRMED — titled 'SSI Jobs' but empty, so the company cannot be confirmed
+  active: true
+  domain: ssi.inc
+- name: Magic
+  ats: greenhouse
+  slug: magic
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: UNCONFIRMED — titled 'Magic' but empty; cannot confirm this is magic.dev
+  active: true
+  domain: magic.dev
+- name: Goodfire
+  ats: greenhouse
+  slug: goodfire
+  tier: research-org
+  verified_at: '2026-08-23'
+  job_count: 30
+  active: true
+  domain: goodfire.ai
+- name: METR
+  ats: lever
+  slug: metr
+  tier: research-org
+  verified_at: '2026-08-23'
+  job_count: 4
+  active: true
+  domain: metr.org
+- name: Apollo Research
+  ats: lever
+  slug: apolloresearch
+  tier: research-org
+  verified_at: '2026-08-23'
+  job_count: 11
+  active: true
+  domain: apolloresearch.ai
+- name: Epoch AI
+  ats: lever
+  slug: epoch-ai
+  tier: research-org
+  verified_at: '2026-08-23'
+  job_count: 10
+  active: true
+  domain: epoch.ai
+- name: FAR AI
+  ats: lever
+  slug: far-ai
+  tier: research-org
+  verified_at: '2026-08-23'
+  job_count: 1
+  active: true
+  domain: far.ai
+- name: Palantir
+  ats: lever
+  slug: palantir
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 308
+  active: false
+  exclude_reason: data analytics platform — postings are overwhelmingly FDSE/SWE internships (40 of the 101 title matches in the first smoke test came from here alone)
+  domain: palantir.com
+- name: Waymo
+  ats: greenhouse
+  slug: waymo
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 367
+  active: true
+  domain: waymo.com
+- name: Snowflake
+  ats: ashby
+  slug: snowflake
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 392
+  active: false
+  exclude_reason: data warehouse — internships are mostly SDR and marketing
+  domain: snowflake.com
+- name: Cursor (Anysphere)
+  ats: ashby
+  slug: cursor
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 113
+  active: true
+  domain: cursor.com
+- name: Perplexity
+  ats: ashby
+  slug: perplexity
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 100
+  active: true
+  domain: perplexity.ai
+- name: Sierra
+  ats: ashby
+  slug: sierra
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 193
+  active: true
+  domain: sierra.ai
+- name: Suno
+  ats: ashby
+  slug: suno
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 63
+  active: true
+  domain: suno.com
+- name: ElevenLabs
+  ats: ashby
+  slug: elevenlabs
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 255
+  active: true
+  domain: elevenlabs.io
+- name: Figure AI
+  ats: greenhouse
+  slug: figureai
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 124
+  note: greenhouse/figure is Figure Lending, a fintech — wrong company
+  active: true
+  domain: figure.ai
+- name: Physical Intelligence
+  ats: ashby
+  slug: physicalintelligence
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 33
+  active: true
+  domain: physicalintelligence.company
+- name: World Labs
+  ats: greenhouse
+  slug: worldlabs
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 9
+  active: true
+  domain: worldlabs.ai
+- name: Pika
+  ats: ashby
+  slug: pika
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 10
+  active: true
+  domain: pika.art
+- name: Luma AI
+  ats: ashby
+  slug: lumaai
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 49
+  active: true
+  domain: lumalabs.ai
+- name: Midjourney
+  ats: ashby
+  slug: midjourney
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 17
+  active: true
+  domain: midjourney.com
+- name: Synthesia
+  ats: ashby
+  slug: synthesia
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 59
+  active: true
+  domain: synthesia.io
+- name: Harvey
+  ats: ashby
+  slug: harvey
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 360
+  active: true
+  domain: harvey.ai
+- name: Glean
+  ats: greenhouse
+  slug: gleanwork
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 110
+  active: true
+  domain: glean.com
+- name: Cognition
+  ats: ashby
+  slug: cognition
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 84
+  note: greenhouse/cognitionlabs is empty, discarded
+  active: true
+  domain: cognition.ai
+- name: Poolside
+  ats: ashby
+  slug: poolside
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 15
+  active: true
+  domain: poolside.ai
+- name: Mercor
+  ats: ashby
+  slug: mercor
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 89
+  active: true
+  domain: mercor.com
+- name: Decagon
+  ats: ashby
+  slug: decagon
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 137
+  active: true
+  domain: decagon.ai
+- name: Notion
+  ats: ashby
+  slug: notion
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 128
+  active: false
+  exclude_reason: productivity SaaS — no research organisation
+  domain: notion.com
+- name: Replit
+  ats: ashby
+  slug: replit
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 71
+  active: false
+  exclude_reason: developer tooling — no research organisation
+  domain: replit.com
+- name: LangChain
+  ats: ashby
+  slug: langchain
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 105
+  active: true
+  domain: langchain.com
+- name: Abridge
+  ats: ashby
+  slug: abridge
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 47
+  active: true
+  domain: abridge.com
+- name: OpenEvidence
+  ats: ashby
+  slug: openevidence
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 7
+  active: true
+  domain: openevidence.com
+- name: Cartesia
+  ats: ashby
+  slug: cartesia
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 31
+  active: true
+  domain: cartesia.ai
+- name: Sesame
+  ats: ashby
+  slug: sesame
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 26
+  note: lever/sesame is a healthcare company of the same name — wrong company
+  active: true
+  domain: sesame.com
+- name: Ideogram
+  ats: ashby
+  slug: ideogram
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 3
+  active: true
+  domain: ideogram.ai
+- name: Hume AI
+  ats: greenhouse
+  slug: humeai
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 5
+  active: true
+  domain: hume.ai
+- name: Twelve Labs
+  ats: ashby
+  slug: twelve-labs
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 17
+  active: true
+  domain: twelvelabs.io
+- name: Writer
+  ats: ashby
+  slug: writer
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 50
+  active: true
+  domain: writer.com
+- name: Applied Intuition
+  ats: ashby
+  slug: applied
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 295
+  active: true
+  domain: appliedintuition.com
+- name: Waabi
+  ats: lever
+  slug: waabi
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 70
+  note: already carries '2026 Intern, PhD Research Scientist'
+  active: true
+  domain: waabi.ai
+- name: Wayve
+  ats: greenhouse
+  slug: wayve
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 128
+  note: ashby/wayve mirrors the same board; using greenhouse
+  active: true
+  domain: wayve.ai
+- name: Zoox
+  ats: lever
+  slug: zoox
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 239
+  active: false
+  exclude_reason: excluded by request. Note this sits in the same autonomous-vehicle research category as Waymo, Waabi, Wayve and Nuro, so the exclusion is not fully consistent — flip active back to true
+    to restore it
+  domain: zoox.com
+- name: Nuro
+  ats: greenhouse
+  slug: nuro
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 104
+  active: true
+  domain: nuro.ai
+- name: 1X
+  ats: ashby
+  slug: 1x
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 82
+  active: true
+  domain: 1x.tech
+- name: Agility Robotics
+  ats: greenhouse
+  slug: agilityrobotics
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 64
+  active: true
+  domain: agilityrobotics.com
+- name: Dexterity
+  ats: lever
+  slug: dexterity
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 32
+  active: true
+  domain: dexterity.ai
+- name: Databricks
+  ats: greenhouse
+  slug: databricks
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 821
+  active: true
+  domain: databricks.com
+- name: Scale AI
+  ats: greenhouse
+  slug: scaleai
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 208
+  active: true
+  domain: scale.com
+- name: Together AI
+  ats: greenhouse
+  slug: togetherai
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 64
+  active: true
+  domain: together.ai
+- name: Modal
+  ats: ashby
+  slug: modal
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 31
+  active: true
+  domain: modal.com
+- name: Fireworks AI
+  ats: ashby
+  slug: fireworks
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 64
+  active: true
+  domain: fireworks.ai
+- name: Anyscale
+  ats: ashby
+  slug: anyscale
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 14
+  note: lever/anyscale holds a single 'we moved our careers page' notice, discarded
+  active: true
+  domain: anyscale.com
+- name: Baseten
+  ats: ashby
+  slug: baseten
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 76
+  active: true
+  domain: baseten.co
+- name: LlamaIndex
+  ats: ashby
+  slug: llamaindex
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 15
+  active: true
+  domain: llamaindex.ai
+- name: Pinecone
+  ats: ashby
+  slug: pinecone
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 7
+  active: true
+  domain: pinecone.io
+- name: Weaviate
+  ats: ashby
+  slug: weaviate
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 1
+  active: true
+  domain: weaviate.io
+- name: Chroma
+  ats: ashby
+  slug: trychroma
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 1
+  active: true
+  domain: trychroma.com
+- name: Cerebras
+  ats: ashby
+  slug: cerebras
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 123
+  active: true
+  domain: cerebras.ai
+- name: SambaNova
+  ats: greenhouse
+  slug: sambanovasystems
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 60
+  active: true
+  domain: sambanova.ai
+- name: Etched
+  ats: ashby
+  slug: etched
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 106
+  note: greenhouse/etchedai (25 roles) is also real; using ashby only, to avoid collecting twice
+  active: true
+  domain: etched.com
+- name: Tenstorrent
+  ats: greenhouse
+  slug: tenstorrent
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 138
+  active: true
+  domain: tenstorrent.com
+- name: Lambda
+  ats: ashby
+  slug: lambda
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 79
+  active: true
+  domain: lambda.ai
+- name: CoreWeave
+  ats: greenhouse
+  slug: coreweave
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 276
+  active: true
+  domain: coreweave.com
+- name: Vercel
+  ats: greenhouse
+  slug: vercel
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 83
+  note: ashby/vercel is empty, discarded
+  active: false
+  exclude_reason: web hosting and frontend tooling — no research organisation
+  domain: vercel.com
+- name: Meta (FAIR)
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: own applicant system (metacareers.com)
+  domain: meta.com
+- name: Apple
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: own applicant system (jobs.apple.com)
+  domain: apple.com
+- name: Microsoft / MSR
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: own applicant system (careers.microsoft.com)
+  domain: microsoft.com
+- name: Amazon / AWS AI
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: own applicant system (amazon.jobs)
+  domain: amazon.com
+- name: NVIDIA
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: Workday
+  domain: nvidia.com
+- name: IBM Research
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: own system / Workday
+  domain: ibm.com
+- name: Adobe
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: Workday
+  domain: adobe.com
+- name: Salesforce
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: Workday
+  domain: salesforce.com
+- name: Qualcomm
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: Workday
+  domain: qualcomm.com
+- name: Snap
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 5 slug variants failed
+  domain: snap.com
+- name: Netflix
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 2 slug variants failed
+  domain: netflix.com
+- name: Tesla
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: own applicant system
+  domain: tesla.com
+- name: ByteDance / TikTok
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: own applicant system (jobs.bytedance.com)
+  domain: bytedance.com
+- name: Allen Institute for AI (AI2)
+  ats: greenhouse
+  slug: thealleninstitute
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 23
+  note: the slug is 'thealleninstitute'. Seven guesses — allenai, ai2, alleninstitute and others — all failed; found by grepping the careers page HTML
+  active: true
+  domain: allenai.org
+- name: Mistral AI
+  ats: none
+  slug: null
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: lever/mistral returns an empty list, so the slug is valid but the company cannot be confirmed — this exact pattern produced a false positive before
+  domain: mistral.ai
+- name: Sakana AI
+  ats: none
+  slug: null
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 'no ATS -- runs its own careers page at sakana.ai/careers with 23 open roles on 2026-08-24. Three of them accept interns (member-of-technical-staff, member-of-technical-staff-rsi-lab, applied-research-engineer);
+    the employment type only appears on the individual role page. Tracked via manual.yaml. Two earlier notes here were wrong: they do post publicly, and they do take interns'
+  domain: sakana.ai
+- name: EleutherAI
+  ats: none
+  slug: null
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: non-profit, no public board
+  domain: eleuther.ai
+- name: Transluce
+  ats: none
+  slug: null
+  tier: research-org
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: all three ATS failed
+  domain: transluce.org
+- name: Redwood Research
+  ats: none
+  slug: null
+  tier: research-org
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 2 slug variants failed
+  domain: redwoodresearch.org
+- name: Conjecture
+  ats: none
+  slug: null
+  tier: research-org
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 2 slug variants failed
+  domain: conjecture.dev
+- name: Center for AI Safety
+  ats: none
+  slug: null
+  tier: research-org
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: greenhouse/cais belongs to CAIS, an investments platform — same acronym, wrong company
+  domain: safe.ai
+- name: Hugging Face
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: likely Workable; 4 slug variants failed
+  domain: huggingface.co
+- name: Groq
+  ats: none
+  slug: null
+  tier: infra
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 3 slug variants failed
+  domain: groq.com
+- name: Skild AI
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 4 slug variants failed
+  domain: skild.ai
+- name: Contextual AI
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 4 slug variants failed
+  domain: contextual.ai
+- name: Windsurf (Codeium)
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 4 slug variants failed (following the 2025 split)
+  domain: windsurf.com
+- name: Weights & Biases
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 3 slug variants failed (acquired by CoreWeave)
+  domain: wandb.ai
+- name: Adept AI
+  ats: none
+  slug: null
+  tier: frontier
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 2 slug variants failed (acquired by Amazon)
+  domain: adept.ai
+- name: Covariant
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 2 slug variants failed (acquired by Amazon)
+  domain: covariant.ai
+- name: Runway
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 6 slug variants failed. ashby/runway belongs to cfo.ai — wrong company
+  domain: runwayml.com
+- name: Boston Dynamics
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: failed
+  domain: bostondynamics.com
+- name: Decart
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: 2 slug variants failed
+  domain: decart.ai
+- name: Higgsfield
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: failed
+  domain: higgsfield.ai
+- name: Genesis AI
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-23'
+  job_count: 0
+  note: lever/genesis-ai is an empty board — cannot confirm
+  domain: genesis-ai.company

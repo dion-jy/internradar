@@ -1,0 +1,30 @@
+{
+ "generated_at": "2026-08-24T08:19:55.860972+00:00",
+ "scanned_labs": 76,
+ "scanned_jobs": 7283,
+ "by_kind": {
+  "evergreen": 14,
+  "tracked": 40,
+  "discovery": 90,
+  "blindspot": 125
+ },
+ "total_listings": 269,
+ "matched": 40,
+ "off_board_file": 3,
+ "evergreen": 14,
+ "xposts": 3,
+ "discover": 215,
+ "simplify": {
+  "total": 14531,
+  "active": 1930,
+  "phd": 392,
+  "blindspot": 125,
+  "discovery": 122,
+  "dropped_tracked": 13,
+  "dropped_category": 131,
+  "dropped_excluded": 1,
+  "discovery_after_title_filter": 90
+ },
+ "new": 0,
+ "errors": []
+}

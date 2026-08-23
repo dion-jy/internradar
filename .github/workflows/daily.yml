@@ -1,0 +1,33 @@
+name: daily collect
+
+on:
+  schedule:
+    - cron: "0 1 * * *"     # 01:00 UTC / 10:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pyyaml
+      - run: python collect.py
+      - run: python build_site.py
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "phd-intern-board-bot"
+          git config user.email "actions@github.com"
+          git add -A api data data.js index.html sitemap.xml robots.txt
+          if git diff --staged --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          MSG=$(python -c "import json; d=json.load(open('api/status.json')); print('daily: %d matched, %d new' % (d['matched'], d['new']))")
+          git commit -m "$MSG"
+          git push

@@ -1,0 +1,17 @@
+[
+{"name":"Runway","tier":"startup","slugs":["runwayai","runway-ai","runwayml"]},
+{"name":"Reflection AI","tier":"frontier","slugs":["reflectionai","reflection-ai"]},
+{"name":"Prime Intellect","tier":"frontier","slugs":["primeintellect","prime-intellect"]},
+{"name":"Nous Research","tier":"frontier","slugs":["nousresearch","nous-research"]},
+{"name":"Decart","tier":"startup","slugs":["decart","decartai"]},
+{"name":"1X","tier":"startup","slugs":["1x","1xtech","1x-technologies"]},
+{"name":"Agility Robotics","tier":"startup","slugs":["agilityrobotics","agility-robotics"]},
+{"name":"Boston Dynamics","tier":"startup","slugs":["bostondynamics"]},
+{"name":"Wayve","tier":"startup","slugs":["wayve","wayveai"]},
+{"name":"Nuro","tier":"startup","slugs":["nuro"]},
+{"name":"Zoox","tier":"startup","slugs":["zoox"]},
+{"name":"Dexterity","tier":"startup","slugs":["dexterity","dexterityai"]},
+{"name":"Genesis AI","tier":"startup","slugs":["genesisai","genesis-ai"]},
+{"name":"Higgsfield","tier":"startup","slugs":["higgsfield"]},
+{"name":"Allen Institute for AI (AI2)","tier":"frontier","slugs":["ai2-1","allenaiinstitute","theallerninstitute"]}
+]

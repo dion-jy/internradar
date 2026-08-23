@@ -1,0 +1,69 @@
+# Openings that never reach a job board.
+#
+# For the labs this board structurally cannot see: places that announce an
+# internship in an X post, a mailing list or on their own site without ever
+# filing it on a job board. Sakana AI and AMI Labs are the canonical cases.
+#
+# Nothing here is filtered — an entry is on the board because someone judged it
+# worth adding. Only `company`, `title` and `url` are required.
+#
+# `via` sets the label shown on the card, so a listing says where it came from:
+#   x -> X post   lab-page -> Lab website   email -> Mailing list   other -> Own site
+#
+#   - company: Sakana AI
+#     title: Research Intern, 2027
+#     url: https://x.com/SakanaAILabs/status/1234567890
+#     via: x                # x | email | referral | lab-page | conference | other
+#     tier: frontier        # frontier | research-org | bigtech | startup | infra
+#     posted: 2026-08-20    # when it was announced, not when you added it
+#     location: Tokyo, Japan
+#     phd: true
+#     deadline: 2026-09-30
+#     note: Apply by DM; mentioned in the thread reply.
+#
+# Delete an entry once it closes — there is no automatic expiry.
+
+openings:
+  # Sakana AI runs no ATS at all -- roles live on their own careers page and you
+  # apply by emailing careers@sakana.ai and then submitting a Google Form.
+  # Three of their 23 roles accept interns, and the employment type is only visible
+  # on the individual role page. All three are standing roles with no deadline and
+  # no posting date -- the main one literally says "we are occasionally hiring" --
+  # so they are marked always_open.
+  - company: Sakana AI
+    title: Member of Technical Staff — Internship / Visiting Researcher
+    url: https://sakana.ai/careers/member-of-technical-staff
+    via: lab-page
+    tier: frontier
+    location: Tokyo, Japan
+    always_open: true
+    note: >-
+      Research category, listed as "Internship / Visiting Researcher", English.
+      "We are occasionally hiring researchers who are passionate about novel approaches
+      to develop the next generation of nature-inspired foundation AI models." No degree
+      requirement stated. Apply by emailing careers@sakana.ai naming the role, then submit
+      their Google Form with CV and cover letter in English.
+
+  - company: Sakana AI
+    title: Member of Technical Staff (RSI Lab) — Internship / Visiting Researcher
+    url: https://sakana.ai/careers/member-of-technical-staff-rsi-lab
+    via: lab-page
+    tier: frontier
+    location: Tokyo, Japan
+    always_open: true
+    note: >-
+      Listed as "Full-time / Visiting Researcher / Internship". The Recursive
+      Self-Improvement Lab works on redesigning the AI development process itself with AI.
+      Apply by emailing careers@sakana.ai naming the role, then submit their Google Form.
+
+  - company: Sakana AI
+    title: Applied Research Engineer — Full-time / Contract / Intern
+    url: https://sakana.ai/careers/applied-research-engineer
+    via: lab-page
+    tier: frontier
+    location: Tokyo, Japan
+    always_open: true
+    note: >-
+      Product-side applied research (Sakana Chat, Marlin, Fugu), listed as
+      "Full-time / Contract / Intern". Apply by emailing careers@sakana.ai naming the role,
+      then submit their Google Form.

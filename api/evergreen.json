@@ -1,0 +1,215 @@
+{
+ "generated_at": "2026-08-24T08:19:55.860972+00:00",
+ "count": 11,
+ "jobs": [
+  {
+   "company": "Anthropic",
+   "tier": "frontier",
+   "ats": "greenhouse",
+   "domain": "anthropic.com",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "[Expression of Interest] Research Engineer / Scientist, Alignment - London",
+   "location": "London, UK",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/4610158008",
+   "posted_at": "2025-03-31T14:08:49-04:00",
+   "department": "AI Research & Engineering",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:anthropic:4610158008"
+  },
+  {
+   "company": "Prime Intellect",
+   "tier": "frontier",
+   "ats": "ashby",
+   "domain": "primeintellect.ai",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "Open Application for Unconventional Talent",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/primeintellect/b9343f5d-326d-4b01-b6a7-acf56cffe3ac",
+   "posted_at": "2026-07-08T18:43:13.470+00:00",
+   "department": "Others",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "ashby:primeintellect:b9343f5d-326d-4b01-b6a7-acf56cffe3ac"
+  },
+  {
+   "company": "Reflection AI",
+   "tier": "frontier",
+   "ats": "ashby",
+   "domain": "reflection.ai",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "Don't See Your Role? Apply Here!",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/reflectionai/bb02e922-8df8-4641-9aab-910997f76392",
+   "posted_at": "2025-10-07T01:29:34.348+00:00",
+   "department": "Other",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "ashby:reflectionai:bb02e922-8df8-4641-9aab-910997f76392"
+  },
+  {
+   "company": "Etched",
+   "tier": "infra",
+   "ats": "ashby",
+   "domain": "etched.com",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "General Application",
+   "location": "San Jose",
+   "url": "https://jobs.ashbyhq.com/etched/2021199f-221e-4a8c-aa66-210496cb38da",
+   "posted_at": "2026-06-30T16:13:56.718+00:00",
+   "department": "Other",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "ashby:etched:2021199f-221e-4a8c-aa66-210496cb38da"
+  },
+  {
+   "company": "Epoch AI",
+   "tier": "research-org",
+   "ats": "lever",
+   "domain": "epoch.ai",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "Expression of Interest",
+   "location": "Remote",
+   "url": "https://jobs.lever.co/epoch-ai/137cb0dc-03a6-4747-b9dc-8255194daee2",
+   "posted_at": "2025-10-01T13:01:50.013000+00:00",
+   "department": "",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "lever:epoch-ai:137cb0dc-03a6-4747-b9dc-8255194daee2"
+  },
+  {
+   "company": "Goodfire",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "goodfire.ai",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "General Interest",
+   "location": "San Francisco, CA",
+   "url": "https://job-boards.greenhouse.io/goodfire/jobs/4103718008",
+   "posted_at": "2024-08-14T17:08:54-04:00",
+   "department": "General",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:goodfire:4103718008"
+  },
+  {
+   "company": "METR",
+   "tier": "research-org",
+   "ats": "lever",
+   "domain": "metr.org",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "General Expression of Interest",
+   "location": "Berkeley",
+   "url": "https://jobs.lever.co/metr/f3a6db11-7fd1-48e4-af42-20aad1ded72d",
+   "posted_at": "2023-01-18T21:09:43.365000+00:00",
+   "department": "Potential Future Roles",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "lever:metr:f3a6db11-7fd1-48e4-af42-20aad1ded72d"
+  },
+  {
+   "company": "Cognition",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "cognition.ai",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "General Application - Cognition",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/cognition/4841bda0-057a-4471-801f-70309c3c02d5",
+   "posted_at": "2024-03-10T01:40:17.757+00:00",
+   "department": "General & Administrative",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "ashby:cognition:4841bda0-057a-4471-801f-70309c3c02d5"
+  },
+  {
+   "company": "Hume AI",
+   "tier": "startup",
+   "ats": "greenhouse",
+   "domain": "hume.ai",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "Open Role",
+   "location": "NYC, San Jose, or Remote",
+   "url": "https://job-boards.greenhouse.io/humeai/jobs/4003656008",
+   "posted_at": "2024-02-26T14:13:28-05:00",
+   "department": "Other",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:humeai:4003656008"
+  },
+  {
+   "company": "Luma AI",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "lumalabs.ai",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "Talent Community (General Application)",
+   "location": "Redwood City, CA",
+   "url": "https://jobs.ashbyhq.com/lumaai/54903477-7bc2-43cd-a8a1-0b4ee22fa888",
+   "posted_at": "2026-07-24T21:58:34.425+00:00",
+   "department": "Talent Community",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "ashby:lumaai:54903477-7bc2-43cd-a8a1-0b4ee22fa888"
+  },
+  {
+   "company": "Midjourney",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "midjourney.com",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "General Interest",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/midjourney/2ef177d4-42a0-4756-9c11-0738b9bcbc87",
+   "posted_at": "2026-07-01T23:43:42.495+00:00",
+   "department": "Midjourney Medical",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "ashby:midjourney:2ef177d4-42a0-4756-9c11-0738b9bcbc87"
+  }
+ ]
+}

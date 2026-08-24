@@ -246,12 +246,19 @@ def main():
         results = list(pool.map(fetch_one, labs))
 
     matched, evergreen, errors, scanned = [], [], [], 0
+    # Per-lab tally. Without it a lab that quietly stops returning postings looks
+    # identical to a lab that simply has no internship open right now, and the only
+    # visible symptom is a smaller total that nobody can attribute.
+    by_lab = []
     for lab, jobs, err in results:
         if err:
             errors.append({"lab": lab["name"], "ats": lab["ats"],
                            "slug": lab["slug"], "error": err})
+            by_lab.append({"lab": lab["name"], "ats": lab["ats"], "slug": lab["slug"],
+                           "postings": None, "matched": 0, "evergreen": 0, "error": err})
             continue
         scanned += len(jobs)
+        before_m, before_e = len(matched), len(evergreen)
         for j in jobs:
             if EVERGREEN.search(j["title"]) and not EVERGREEN_BLOCK.search(j["title"]):
                 evergreen.append({
@@ -279,6 +286,17 @@ def main():
                 "phd": bool(PHD.search(j["title"] + " " + j["desc"][:3000])),
                 "job_id": j["job_id"],
             })
+        by_lab.append({"lab": lab["name"], "ats": lab["ats"], "slug": lab["slug"],
+                       "postings": len(jobs), "matched": len(matched) - before_m,
+                       "evergreen": len(evergreen) - before_e, "error": None})
+
+    by_lab.sort(key=lambda r: (-(r["matched"] + r["evergreen"]), -(r["postings"] or 0)))
+    # A lab whose board answered but yielded nothing. Expected for most of them most
+    # of the year, so this is a list to read rather than an alarm to fire -- but a big
+    # lab appearing here for weeks is the signal that its interns are posted elsewhere.
+    silent = [r["lab"] for r in by_lab
+              if r["error"] is None and r["postings"] and not r["matched"] and not r["evergreen"]]
+
     matched.sort(key=lambda x: (x["posted_at"] or "", x["company"]), reverse=True)
     evergreen.sort(key=lambda x: (x["tier"], x["company"]))
 
@@ -307,6 +325,14 @@ def main():
         discover, simplify_stats = [], {"error": "%s: %s" % (type(exc).__name__, exc)}
         errors.append({"lab": "SimplifyJobs", "ats": "simplify",
                        "slug": "-", "error": str(exc)})
+
+    # An archived feed answers 200 forever with a snapshot that never moves, so
+    # surface staleness as loudly as an outright failure.
+    if simplify_stats.get("stale"):
+        errors.append({"lab": "SimplifyJobs", "ats": "simplify", "slug": "-",
+                       "error": "feed looks frozen: newest entry is %s days old (season %s)"
+                                % (simplify_stats.get("newest_entry_age_days"),
+                                   simplify_stats.get("season"))})
 
     # Discovery rows come from companies we know nothing about, so put their titles
     # through the same filter used for tracked labs. Simplify's own AI/ML/Data
@@ -378,7 +404,8 @@ def main():
         "matched": len(matched), "off_board_file": len(manual),
         "evergreen": by_kind.get("evergreen", 0), "xposts": len(xposts),
         "discover": len(discover),
-        "simplify": simplify_stats, "new": len(fresh), "errors": errors})
+        "simplify": simplify_stats, "new": len(fresh),
+        "by_lab": by_lab, "silent_labs": silent, "errors": errors})
     json.dump({"generated_at": NOW, "job_ids": sorted(current)}, open("data/seen.json", "w"))
 
     highs = sum(1 for m in matched if m["confidence"] == "high")
@@ -390,6 +417,8 @@ def main():
     print("off-board: %d openings not on any job board" % len(manual))
     print("x strip: %d posts  %s" % (len(xposts), xstats))
     print("evergreen: %d always-open application channels" % len(evergreen))
+    print("silent: %d of %d tracked labs answered with no research opening"
+          % (len(silent), len(labs)))
     print("simplify: %d blind spot / %d discovery  %s"
           % (sum(1 for d in discover if d["kind"] == "blindspot"),
              sum(1 for d in discover if d["kind"] == "discovery"), simplify_stats))

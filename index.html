@@ -108,7 +108,13 @@
   /* ---- stats --------------------------------------------------------- */
   .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));gap:13px;margin:28px 0 20px}
   .stat{background:var(--surface);border:1px solid var(--border);border-radius:12px;
-        padding:16px 18px;box-shadow:var(--shadow)}
+        padding:16px 18px;box-shadow:var(--shadow);
+        display:block;width:100%;text-align:left;font:inherit;color:inherit;
+        cursor:pointer;transition:border-color .12s,box-shadow .12s,background .12s}
+  .stat:hover{border-color:var(--border-2);box-shadow:var(--shadow-2)}
+  .stat[aria-pressed="true"]{border-color:var(--accent);
+        box-shadow:0 0 0 1px var(--accent) inset, var(--shadow)}
+  .stat .label,.stat .value,.stat .hint{display:block}
   .stat .label{display:flex;align-items:center;gap:8px;color:var(--ink-2);
                font-size:14px;font-weight:500;margin-bottom:7px}
   .stat .value{font-size:30px;font-weight:700;letter-spacing:-.02em;line-height:1.1}
@@ -216,6 +222,19 @@
   }
   .support:hover{background:#ffe533;text-decoration:none}
   .support svg{flex:none}
+  .totop{
+    position:fixed;right:22px;bottom:22px;z-index:20;
+    width:44px;height:44px;border-radius:50%;
+    background:var(--surface);color:var(--ink-2);border:1px solid var(--border-2);
+    box-shadow:var(--shadow-2);cursor:pointer;font-size:18px;line-height:1;
+    display:grid;place-items:center;padding:0;
+    opacity:0;transform:translateY(8px);pointer-events:none;
+    transition:opacity .16s ease,transform .16s ease,color .12s,border-color .12s;
+  }
+  .totop.on{opacity:1;transform:none;pointer-events:auto}
+  .totop:hover{color:var(--accent);border-color:var(--accent)}
+  @media (max-width:640px){ .totop{right:14px;bottom:14px;width:42px;height:42px} }
+  @media (prefers-reduced-motion:reduce){ .totop{transition:none} }
   footer{margin-top:34px;padding-top:20px;border-top:1px solid var(--border);
          color:var(--ink-3);font-size:14px;line-height:1.9}
   footer code{background:var(--surface);border:1px solid var(--border);
@@ -297,36 +316,36 @@ Help shape the future of AI in the physical world.
   </section>
 
   <section class="stats" aria-label="Listings by organisation">
-    <div class="stat lead">
-      <div class="label">Open roles</div>
-      <div class="value" id="kTotal">—</div>
-      <div class="hint" id="kNew">&nbsp;</div>
-    </div>
-    <div class="stat">
-      <div class="label"><span class="swatch" style="background:var(--t-frontier)"></span>Frontier labs</div>
-      <div class="value" id="k-frontier">—</div>
-      <div class="hint">Anthropic, OpenAI, GDM…</div>
-    </div>
-    <div class="stat">
-      <div class="label"><span class="swatch" style="background:var(--t-bigtech)"></span>Big tech</div>
-      <div class="value" id="k-bigtech">—</div>
-      <div class="hint">NVIDIA, Meta, Apple…</div>
-    </div>
-    <div class="stat">
-      <div class="label"><span class="swatch" style="background:var(--t-startup)"></span>Startups</div>
-      <div class="value" id="k-startup">—</div>
-      <div class="hint">Cursor, Sierra, Figure…</div>
-    </div>
-    <div class="stat">
-      <div class="label"><span class="swatch" style="background:var(--t-infra)"></span>Infra &amp; chips</div>
-      <div class="value" id="k-infra">—</div>
-      <div class="hint">Databricks, Cerebras…</div>
-    </div>
-    <div class="stat">
-      <div class="label"><span class="swatch" style="background:var(--t-research-org)"></span>Research orgs</div>
-      <div class="value" id="k-research-org">—</div>
-      <div class="hint">METR, Epoch, Goodfire…</div>
-    </div>
+    <button type="button" class="stat lead" data-tier="" aria-pressed="true">
+      <span class="label">Open roles</span>
+      <span class="value" id="kTotal">—</span>
+      <span class="hint" id="kNew">&nbsp;</span>
+    </button>
+    <button type="button" class="stat" data-tier="frontier" aria-pressed="false">
+      <span class="label"><span class="swatch" style="background:var(--t-frontier)"></span>Frontier labs</span>
+      <span class="value" id="k-frontier">—</span>
+      <span class="hint">Anthropic, OpenAI, GDM…</span>
+    </button>
+    <button type="button" class="stat" data-tier="bigtech" aria-pressed="false">
+      <span class="label"><span class="swatch" style="background:var(--t-bigtech)"></span>Big tech</span>
+      <span class="value" id="k-bigtech">—</span>
+      <span class="hint">NVIDIA, Meta, Apple…</span>
+    </button>
+    <button type="button" class="stat" data-tier="startup" aria-pressed="false">
+      <span class="label"><span class="swatch" style="background:var(--t-startup)"></span>Startups</span>
+      <span class="value" id="k-startup">—</span>
+      <span class="hint">Cursor, Sierra, Figure…</span>
+    </button>
+    <button type="button" class="stat" data-tier="infra" aria-pressed="false">
+      <span class="label"><span class="swatch" style="background:var(--t-infra)"></span>Infra &amp; chips</span>
+      <span class="value" id="k-infra">—</span>
+      <span class="hint">Databricks, Cerebras…</span>
+    </button>
+    <button type="button" class="stat" data-tier="research-org" aria-pressed="false">
+      <span class="label"><span class="swatch" style="background:var(--t-research-org)"></span>Research orgs</span>
+      <span class="value" id="k-research-org">—</span>
+      <span class="hint">METR, Epoch, Goodfire…</span>
+    </button>
   </section>
 
   <p class="caveat">Big-tech listings come from a third-party aggregator and are a
@@ -507,7 +526,7 @@ Help shape the future of AI in the physical world.
 <li class="job"><div class="top"><span class="chip">PhD</span><time class="when" datetime="2026-08-02T22:23:37+00:00">21 days ago</time></div><p class="org"><span class="mono" aria-hidden="true">Y</span>Yotta Labs</p><a class="role" href="https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3/application?embed=true" target="_blank" rel="noopener">Research Engineer Intern - AI Systems</a><div class="foot"><span class="where">Remote in USA, Remote in Canada</span><span class="tier tier-other">Other</span><span class="prov">via aggregator</span></div></li>
 <li class="job"><div class="top"><span class="chip">PhD</span><time class="when" datetime="2026-08-02T01:21:55+00:00">22 days ago</time></div><p class="org"><span class="mono" aria-hidden="true">T</span>Two Sigma</p><a class="role" href="https://twosigma.avature.net/careers/JobDetail/14096" target="_blank" rel="noopener">AI Research Scientist Intern - 2027 Summer</a><div class="foot"><span class="where">NYC</span><span class="tier tier-other">Other</span><span class="prov">via aggregator</span></div></li>
 <li class="job"><div class="top"><span class="chip">PhD</span><time class="when" datetime="2026-08-01T22:13:21+00:00">22 days ago</time></div><p class="org"><span class="mono" aria-hidden="true">P</span>Postman</p><a class="role" href="https://job-boards.greenhouse.io/postman/jobs/7823417003" target="_blank" rel="noopener">AI Engineer Intern</a><div class="foot"><span class="where">Berkeley, CA</span><span class="tier tier-other">Other</span><span class="prov">via aggregator</span></div></li>
-<li class="job"><div class="top"><span class="chip">PhD</span><time class="when" datetime="2026-08-01T10:25:45+00:00">22 days ago</time></div><p class="org"><span class="logo lg-ppl" aria-hidden="true"></span>PPL</p><a class="role" href="https://careers.pplweb.com/jobs/14149?icims=1" target="_blank" rel="noopener">Research &amp; Development PhD Engineer Intern</a><div class="foot"><span class="where">Lexington, KY, Providence, RI, Allentown, PA</span><span class="tier tier-other">Other</span><span class="prov">via aggregator</span></div></li>
+<li class="job"><div class="top"><span class="chip">PhD</span><time class="when" datetime="2026-08-01T10:25:45+00:00">23 days ago</time></div><p class="org"><span class="logo lg-ppl" aria-hidden="true"></span>PPL</p><a class="role" href="https://careers.pplweb.com/jobs/14149?icims=1" target="_blank" rel="noopener">Research &amp; Development PhD Engineer Intern</a><div class="foot"><span class="where">Lexington, KY, Providence, RI, Allentown, PA</span><span class="tier tier-other">Other</span><span class="prov">via aggregator</span></div></li>
 <li class="job"><div class="top"><span class="chip">PhD</span><time class="when" datetime="2026-07-31T22:26:19+00:00">23 days ago</time></div><p class="org"><span class="mono" aria-hidden="true">P</span>Persona AI</p><a class="role" href="https://jobs.ashbyhq.com/persona.ai/ed9a7425-9798-471e-b46a-fefd59570630/application?embed=true" target="_blank" rel="noopener">Machine Learning Intern - Manipulation</a><div class="foot"><span class="where">Houston, TX</span><span class="tier tier-other">Other</span><span class="prov">via aggregator</span></div></li>
 <li class="job"><div class="top"><span class="chip">PhD</span><time class="when" datetime="2026-07-31T22:04:14+00:00">23 days ago</time></div><p class="org"><span class="mono" aria-hidden="true">L</span>Lawrence Livermore National Laboratory (LLNL)</p><a class="role" href="https://jobs.smartrecruiters.com/LLNL/3743990014395066" target="_blank" rel="noopener">Solid State Magnetic Resonance Spectroscopist - Postdoctoral Researcher</a><div class="foot"><span class="where">Livermore, CA</span><span class="tier tier-other">Other</span><span class="prov">via aggregator</span></div></li>
 <li class="job"><div class="top"><span class="chip">PhD</span><time class="when" datetime="2026-07-30T22:12:04+00:00">24 days ago</time></div><p class="org"><span class="logo lg-helsing" aria-hidden="true"></span>Helsing</p><a class="role" href="https://helsing.ai/jobs/4941957101?gh_jid=4941957101" target="_blank" rel="noopener">AI Research Intern - 3D Computer Vision</a><div class="foot"><span class="where">London, UK, Paris, France, Berlin, Germany, Sant Cugat del Vallès, Barcelona, Spain, Munich, Germany</span><span class="tier tier-other">Other</span><span class="prov">via aggregator</span></div></li>
@@ -631,6 +650,8 @@ Help shape the future of AI in the physical world.
   </footer>
 </div>
 
+<button class="totop" id="toTop" type="button" aria-label="Back to top" title="Back to top">↑</button>
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite",
  "name":"PhD Intern Board",
@@ -645,7 +666,7 @@ Help shape the future of AI in the physical world.
 <script src="data.js"></script>
 <script>
 (function(){
-  var ROWS = [], NEW = {}, META = {};
+  var ROWS = [], NEW = {}, META = {}, TILES = null;
   // which companies have a logo rule in the stylesheet
   var LOGOS = {};
   (function(){ var re = /\.(lg-[a-z0-9]+)\{/g, css = document.querySelector("style").textContent, m;
@@ -728,6 +749,24 @@ Help shape the future of AI in the physical world.
       var el = document.getElementById(id);
       el.addEventListener(el.type === "checkbox" ? "change" : "input", draw);
     });
+
+    // The tiles are the fastest way to slice the list, so make them do it.
+    // Clicking the active one clears the filter again.
+    TILES = document.querySelectorAll(".stat[data-tier]");
+    Array.prototype.forEach.call(TILES, function(btn){
+      btn.addEventListener("click", function(){
+        var want = btn.getAttribute("data-tier");
+        var sel = document.getElementById("fTier");
+        sel.value = (want && sel.value === want) ? "" : want;
+        syncTiles();
+        draw();
+        if (sel.value) {
+          var list = document.getElementById("jobs");
+          if (list && list.scrollIntoView) list.scrollIntoView({behavior:"smooth", block:"start"});
+        }
+      });
+    });
+    document.getElementById("fTier").addEventListener("change", syncTiles);
     draw();
   }
   function fill(id, vals, labels){
@@ -737,6 +776,13 @@ Help shape the future of AI in the physical world.
       o.value = v; o.textContent = (labels && labels[v]) || v; f.appendChild(o);
     });
     s.appendChild(f);
+  }
+
+  function syncTiles(){
+    var cur = document.getElementById("fTier").value;
+    Array.prototype.forEach.call(TILES || [], function(btn){
+      btn.setAttribute("aria-pressed", btn.getAttribute("data-tier") === cur ? "true" : "false");
+    });
   }
 
   function draw(){
@@ -825,6 +871,27 @@ Help shape the future of AI in the physical world.
     }).join("");
     document.getElementById("feed").hidden = false;
   }
+
+  // Back-to-top. The list runs to a few hundred cards, so getting out of it by
+  // scrolling is a chore. Appears only once there is something to scroll back up.
+  (function(){
+    var btn = document.getElementById("toTop");
+    if (!btn) return;
+    var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var shown = false, ticking = false;
+    function update(){
+      ticking = false;
+      var want = (window.pageYOffset || 0) > 500;
+      if (want !== shown) { shown = want; btn.classList.toggle("on", want); }
+    }
+    window.addEventListener("scroll", function(){
+      if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
+    }, {passive: true});
+    btn.addEventListener("click", function(){
+      window.scrollTo(reduce ? {top: 0} : {top: 0, behavior: "smooth"});
+    });
+    update();
+  })();
 
   function merge(a, b){ var o = {}, k; for (k in a) o[k] = a[k]; for (k in b) o[k] = b[k]; return o; }
 

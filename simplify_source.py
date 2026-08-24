@@ -25,8 +25,22 @@ import re
 
 import requests
 
-URL = ("https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships"
-       "/dev/.github/scripts/listings.json")
+# The repo name carries the season, so this URL dies on a predictable schedule.
+# Two failure modes, and the quiet one is worse:
+#   * the repo is gone      -> the fetch raises and lands in status.json errors
+#   * the repo is archived  -> HTTP 200 forever, serving a frozen snapshot, with
+#                              nothing anywhere to say the data stopped moving
+# So the season is resolved at run time rather than hardcoded, and freshness is
+# measured from the feed itself.
+URL_TEMPLATE = ("https://raw.githubusercontent.com/SimplifyJobs/%s-Internships"
+                "/dev/.github/scripts/listings.json")
+# Derived from the clock so the rollover needs no code change: the current
+# cycle, the next one, and the previous one as a fallback.
+def seasons(today=None):
+    y = (today or datetime.datetime.now(datetime.timezone.utc)).year
+    return ("Summer%d" % (y + 1), "Summer%d" % (y + 2), "Summer%d" % y)
+STALE_AFTER_DAYS = 21
+
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PhDInternBoard/0.1)"}
 
 # Labs with no public board, where this file is the only way we see them at all.
@@ -105,9 +119,42 @@ def name_keys(s):
     return keys
 
 
+def load_listings():
+    """Return (listings, season, url). Tries each known season and keeps the one
+    with the most live postings, so a new cycle is picked up without a code change
+    and an archived cycle loses to the active one."""
+    best = None
+    tried = []
+    for season in seasons():
+        url = URL_TEMPLATE % season
+        try:
+            r = requests.get(url, headers=UA, timeout=180)
+        except Exception as exc:
+            tried.append("%s: %s" % (season, type(exc).__name__))
+            continue
+        if r.status_code != 200:
+            tried.append("%s: HTTP %d" % (season, r.status_code))
+            continue
+        try:
+            data = r.json()
+        except ValueError:
+            tried.append("%s: not JSON" % season)
+            continue
+        if not isinstance(data, list):
+            tried.append("%s: not a list" % season)
+            continue
+        live = sum(1 for x in data if x.get("active"))
+        tried.append("%s: %d live" % (season, live))
+        if best is None or live > best[0]:
+            best = (live, data, season, url)
+    if best is None:
+        raise RuntimeError("no SimplifyJobs season responded (%s)" % "; ".join(tried))
+    return best[1], best[2], best[3], tried
+
+
 def fetch(labs):
     """Return (records, stats). `labs` is the labs list out of labs.yaml."""
-    listings = requests.get(URL, headers=UA, timeout=180).json()
+    listings, season, url, tried = load_listings()
 
     tracked = set()
     for lab in labs:
@@ -120,8 +167,19 @@ def fetch(labs):
         if lab.get("active") is False:
             excluded |= name_keys(lab["name"])
 
+    # How fresh is the feed? An archived repo keeps answering 200 with a snapshot
+    # that never moves, which no error path would ever catch.
+    newest = max((x.get("date_updated") or 0 for x in listings), default=0)
+    age_days = None
+    if newest:
+        age_days = int((datetime.datetime.now(datetime.timezone.utc)
+                        - datetime.datetime.fromtimestamp(newest, datetime.timezone.utc)).days)
+
     out = []
-    stats = {"total": len(listings), "active": 0, "phd": 0, "blindspot": 0, "discovery": 0,
+    stats = {"season": season, "url": url, "tried": tried,
+             "newest_entry_age_days": age_days,
+             "stale": bool(age_days is not None and age_days > STALE_AFTER_DAYS),
+             "total": len(listings), "active": 0, "phd": 0, "blindspot": 0, "discovery": 0,
              "dropped_tracked": 0, "dropped_category": 0, "dropped_excluded": 0}
 
     for item in listings:

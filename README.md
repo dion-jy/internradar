@@ -23,7 +23,7 @@ which means there is no layout to break and no robots.txt to worry about.
 | Greenhouse | `boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true` | precision |
 | Ashby | `api.ashbyhq.com/posting-api/job-board/{slug}` | precision |
 | Lever | `api.lever.co/v0/postings/{slug}?mode=json` | precision |
-| SimplifyJobs | `raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json` | coverage |
+| SimplifyJobs | `raw.githubusercontent.com/SimplifyJobs/Summer{season}-Internships/dev/.github/scripts/listings.json` | coverage |
 
 Listings are categorised on the site by **kind of organisation** — frontier lab, big tech,
 startup, infra & chips, research org — because that is what a reader actually filters on.

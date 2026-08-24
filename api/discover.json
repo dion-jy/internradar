@@ -1,20 +1,226 @@
 {
- "generated_at": "2026-08-24T08:19:55.860972+00:00",
- "count": 215,
- "blindspot": 125,
+ "generated_at": "2026-08-25T03:20:28.868619+00:00",
+ "count": 220,
+ "blindspot": 130,
  "discovery": 90,
  "stats": {
-  "total": 14531,
-  "active": 1930,
-  "phd": 392,
-  "blindspot": 125,
-  "discovery": 122,
+  "season": "Summer2027",
+  "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
+  "tried": [
+   "Summer2027: 2038 live",
+   "Summer2028: HTTP 404",
+   "Summer2026: 2038 live"
+  ],
+  "newest_entry_age_days": 0,
+  "stale": false,
+  "total": 14671,
+  "active": 2037,
+  "phd": 404,
+  "blindspot": 130,
+  "discovery": 124,
   "dropped_tracked": 13,
-  "dropped_category": 131,
-  "dropped_excluded": 1,
+  "dropped_category": 137,
+  "dropped_excluded": 0,
   "discovery_after_title_filter": 90
  },
  "jobs": [
+  {
+   "company": "Intuitive Surgical",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "Computer Vision Engineer Intern - Fall 2026",
+   "location": "Sunnyvale, CA",
+   "url": "https://jobs.smartrecruiters.com/Intuitive/744000145329669",
+   "posted_at": "2026-08-24T22:05:56+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "degrees": [
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:b1eb0fff-6852-49b0-a60f-334931313442"
+  },
+  {
+   "company": "Kodiak Robotics",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "AI/ML Intern - Artificial Intelligence/Machine Learning",
+   "location": "Mountain View, CA",
+   "url": "https://job-boards.greenhouse.io/kodiak/jobs/4377407009",
+   "posted_at": "2026-08-24T20:35:43+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Winter 2027"
+   ],
+   "domain": "",
+   "job_id": "simplify:21abe7e3-285d-4817-a48a-557228cb2228"
+  },
+  {
+   "company": "Apple",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "GPU Intern",
+   "location": "London, UK, Cambridge, UK, St Albans, UK",
+   "url": "https://jobs.apple.com/en-us/details/200679650",
+   "posted_at": "2026-08-24T20:02:57+00:00",
+   "department": "Hardware",
+   "confidence": "medium",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Winter 2026",
+    "Spring 2027",
+    "Summer 2027"
+   ],
+   "domain": "apple.com",
+   "job_id": "simplify:ba733cd9-7086-4e38-bdec-d13b07b8b1d3"
+  },
+  {
+   "company": "Apple",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "GPU Intern",
+   "location": "London, UK, Cambridge, UK, St Albans, UK",
+   "url": "https://jobs.apple.com/en-us/details/200679652",
+   "posted_at": "2026-08-24T20:02:56+00:00",
+   "department": "Hardware",
+   "confidence": "medium",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Winter 2026",
+    "Spring 2027",
+    "Summer 2027"
+   ],
+   "domain": "apple.com",
+   "job_id": "simplify:68eeb05f-c94a-49b3-950a-0e69b203c009"
+  },
+  {
+   "company": "Google",
+   "tier": "frontier",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Software Engineer Intern",
+   "location": "Palo Alto, CA, Cambridge, MA, Madison, WI, Seattle, WA, Washington, DC, SF, Austin, TX, LA, San Jose, CA, Irvine, CA, South SF, Redwood City, CA, Raleigh, NC, San Bruno, CA, Redmond, WA, Durham, NC, Santa Cruz, CA, Chicago, IL, Goleta, CA, Pittsburgh, PA, Kirkland, WA, Reston, VA, NYC, Bellevue, WA, Sunnyvale, CA, Mountain View, CA, Portland, OR, Boulder, CO, Atlanta, GA, San Diego, CA",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/91436104816698054",
+   "posted_at": "2026-08-24T14:36:05+00:00",
+   "department": "Software",
+   "confidence": "medium",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2026"
+   ],
+   "domain": "deepmind.google",
+   "job_id": "simplify:cd7682b8-7722-4a26-9813-42ece290a387"
+  },
+  {
+   "company": "Google",
+   "tier": "frontier",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Software Developer Intern",
+   "location": "Montreal, QC, Canada, Toronto, ON, Canada, Waterloo, ON, Canada",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/112518690523488966",
+   "posted_at": "2026-08-24T14:36:03+00:00",
+   "department": "Software",
+   "confidence": "medium",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "deepmind.google",
+   "job_id": "simplify:eb72a87e-f9d7-457b-8448-ae0bcdd0872b"
+  },
+  {
+   "company": "Google",
+   "tier": "frontier",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Research Intern - PhD",
+   "location": "Palo Alto, CA, Cambridge, MA, Madison, WI, Seattle, WA, Washington, DC, SF, Austin, TX, LA, San Jose, CA, Irvine, CA, Redwood City, CA, Raleigh, NC, San Bruno, CA, Redmond, WA, Durham, NC, Santa Cruz, CA, Chicago, IL, Goleta, CA, Pittsburgh, PA, Kirkland, WA, NYC, Bellevue, WA, Sunnyvale, CA, Mountain View, CA, Portland, OR, Boulder, CO, Atlanta, GA, San Diego, CA",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710",
+   "posted_at": "2026-08-24T14:35:33+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "deepmind.google",
+   "job_id": "simplify:e3dc5e7f-9828-4121-8b6f-6d45091a92a4"
+  },
   {
    "company": "Capacity",
    "tier": "other",
@@ -1004,6 +1210,34 @@
    "job_id": "simplify:ac5989fe-f0e5-4cd6-a149-b8329eda175c"
   },
   {
+   "company": "General Motors",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "Battery & Sustainability Intern - Battery Research and Development",
+   "location": "Warren, MI",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Fall-2026-PhD-Battery---Sustainability-Intern----Battery-Research-and-Development_JR-202618053",
+   "posted_at": "2026-08-17T00:00:00+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:1d43fc21-2de6-411c-8141-ec33e8fa8fed"
+  },
+  {
    "company": "The Nuclear Company",
    "tier": "other",
    "ats": "simplify",
@@ -1246,35 +1480,6 @@
    "job_id": "simplify:56b68b11-760a-4224-ab26-17e3889e11d1"
   },
   {
-   "company": "Flexion Robotics",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Research Intern",
-   "location": "SF",
-   "url": "https://apply.workable.com/flexion-robotics/j/8FF540773C/apply",
-   "posted_at": "2026-08-08T01:19:01+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
-   ],
-   "phd": true,
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Fall 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:11e5114f-3ac5-4d35-a25a-64c8f7661b81"
-  },
-  {
    "company": "Epic Games",
    "tier": "other",
    "ats": "simplify",
@@ -1368,6 +1573,34 @@
    "job_id": "simplify:31ab487e-bda7-4337-94b7-bda1786f13f2"
   },
   {
+   "company": "Canva",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "PhD Research Scientist Intern - Reinforcement Learning for Diffusion Modelling",
+   "location": "London, UK",
+   "url": "https://jobs.smartrecruiters.com/Canva/6000000001295209",
+   "posted_at": "2026-08-07T09:02:44+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:24e7466f-1151-4ad5-80f0-97bc9df8d2c8"
+  },
+  {
    "company": "ByteDance",
    "tier": "bigtech",
    "ats": "simplify",
@@ -1450,34 +1683,6 @@
    ],
    "domain": "",
    "job_id": "simplify:f0643ec0-8c50-47a7-9ed4-2932c56a1413"
-  },
-  {
-   "company": "Canva",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "PhD Research Scientist Intern - Reinforcement Learning - Images",
-   "location": "London, UK",
-   "url": "https://jobs.smartrecruiters.com/Canva/6000000001292768",
-   "posted_at": "2026-08-06T22:07:15+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
-   ],
-   "phd": true,
-   "degrees": [
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Fall 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:8695d3de-326d-44ff-976a-ba070dbbe750"
   },
   {
    "company": "Canva",
@@ -2952,35 +3157,6 @@
    "job_id": "simplify:b9a81086-50d0-4ea0-bd8e-97fd33f70311"
   },
   {
-   "company": "Field AI",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Robotics Controls Intern - Robot Control Systems",
-   "location": "Irvine, CA",
-   "url": "https://jobs.lever.co/field-ai/8a3b5d4b-f88f-4704-bfdd-74e8dcd30704/apply",
-   "posted_at": "2026-07-28T22:03:02+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Fall 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:7b204e68-ba55-4d70-8e42-c26b1ba77132"
-  },
-  {
    "company": "Bluestaq",
    "tier": "other",
    "ats": "simplify",
@@ -3667,34 +3843,6 @@
    ],
    "domain": "",
    "job_id": "simplify:e1fc4e73-902b-46f8-a226-2051c83aaee7"
-  },
-  {
-   "company": "Citadel Securities",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Machine Learning Researcher PhD Intern",
-   "location": "Miami, FL, NYC",
-   "url": "https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/",
-   "posted_at": "2026-07-01T06:08:53+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
-   ],
-   "phd": true,
-   "degrees": [
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Summer 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:e2a8f8b3-cb1a-4411-871c-916776913b34"
   },
   {
    "company": "Sony",

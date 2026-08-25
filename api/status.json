@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-25T03:20:28.868619+00:00",
+ "generated_at": "2026-08-25T03:30:38.150005+00:00",
  "scanned_labs": 76,
- "scanned_jobs": 7307,
+ "scanned_jobs": 7306,
  "by_kind": {
   "evergreen": 14,
   "tracked": 40,
@@ -12,7 +12,7 @@
  "matched": 40,
  "off_board_file": 3,
  "evergreen": 14,
- "xposts": 3,
+ "xposts": 4,
  "discover": 220,
  "simplify": {
   "season": "Summer2027",
@@ -34,7 +34,7 @@
   "dropped_excluded": 0,
   "discovery_after_title_filter": 90
  },
- "new": 9,
+ "new": 0,
  "by_lab": [
   {
    "lab": "Scale AI",
@@ -319,7 +319,7 @@
    "lab": "ElevenLabs",
    "ats": "ashby",
    "slug": "elevenlabs",
-   "postings": 251,
+   "postings": 250,
    "matched": 0,
    "evergreen": 0,
    "error": null

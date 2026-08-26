@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-26T04:28:37.563231+00:00",
- "count": 44,
+ "generated_at": "2026-08-26T05:38:30.842418+00:00",
+ "count": 49,
  "jobs": [
   {
    "company": "Mercor",
@@ -475,6 +475,28 @@
    ]
   },
   {
+   "company": "Moloco",
+   "tier": "startup",
+   "ats": "greenhouse",
+   "domain": "moloco.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Machine Learning Engineer Intern (3-month internship)",
+   "location": "Seoul, Korea",
+   "url": "https://job-boards.greenhouse.io/moloco/jobs/7635045003",
+   "posted_at": "2026-02-18T05:01:44-05:00",
+   "department": "Ads Quality",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:moloco:7635045003",
+   "regions": [
+    "Asia"
+   ]
+  },
+  {
    "company": "Applied Intuition",
    "tier": "startup",
    "ats": "ashby",
@@ -656,6 +678,29 @@
    ]
   },
   {
+   "company": "Cresta",
+   "tier": "startup",
+   "ats": "greenhouse",
+   "domain": "cresta.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Forward Deployed Engineering Intern (AI Agent)",
+   "location": "Toronto, Canada (Hybrid)",
+   "url": "https://job-boards.greenhouse.io/cresta/jobs/5106468008",
+   "posted_at": "2026-02-02T21:05:19-05:00",
+   "department": "",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:cresta:5106468008",
+   "regions": [
+    "Canada",
+    "Remote"
+   ]
+  },
+  {
    "company": "Perplexity",
    "tier": "startup",
    "ats": "ashby",
@@ -675,6 +720,28 @@
    "job_id": "ashby:perplexity:9246cf02-26fd-4ae8-90c5-639c6e85e9e2",
    "regions": [
     "Europe"
+   ]
+  },
+  {
+   "company": "Cresta",
+   "tier": "startup",
+   "ats": "greenhouse",
+   "domain": "cresta.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "AI Quality Assurance Intern",
+   "location": "Toronto, Ontario",
+   "url": "https://job-boards.greenhouse.io/cresta/jobs/5047247008",
+   "posted_at": "2025-12-24T11:12:13-05:00",
+   "department": "",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:cresta:5047247008",
+   "regions": [
+    "Canada"
    ]
   },
   {
@@ -903,6 +970,28 @@
    ]
   },
   {
+   "company": "Cresta",
+   "tier": "startup",
+   "ats": "greenhouse",
+   "domain": "cresta.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Product Design Intern for AI and Human Agents Platform",
+   "location": "Toronto, Canada ",
+   "url": "https://job-boards.greenhouse.io/cresta/jobs/4476000008",
+   "posted_at": "2025-01-02T10:54:20-05:00",
+   "department": "",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:cresta:4476000008",
+   "regions": [
+    "Canada"
+   ]
+  },
+  {
    "company": "Applied Intuition",
    "tier": "startup",
    "ats": "ashby",
@@ -923,6 +1012,29 @@
    "job_id": "ashby:applied:ce58d9fd-f22b-4336-80b5-ba1e8d764526",
    "regions": [
     "US"
+   ]
+  },
+  {
+   "company": "Cresta",
+   "tier": "startup",
+   "ats": "greenhouse",
+   "domain": "cresta.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Machine Learning Engineering Intern",
+   "location": "Toronto, Canada (Hybrid)",
+   "url": "https://job-boards.greenhouse.io/cresta/jobs/4123863008",
+   "posted_at": "2024-09-10T20:06:59-04:00",
+   "department": "",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:cresta:4123863008",
+   "regions": [
+    "Canada",
+    "Remote"
    ]
   },
   {

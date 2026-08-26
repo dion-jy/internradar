@@ -1,31 +1,31 @@
 {
- "generated_at": "2026-08-26T04:28:37.563231+00:00",
- "scanned_labs": 98,
- "scanned_jobs": 8428,
+ "generated_at": "2026-08-26T05:38:30.842418+00:00",
+ "scanned_labs": 104,
+ "scanned_jobs": 8707,
  "by_kind": {
-  "evergreen": 18,
-  "tracked": 44,
+  "evergreen": 20,
+  "tracked": 49,
   "discovery": 94,
   "blindspot": 142
  },
- "total_listings": 298,
- "matched": 44,
+ "total_listings": 305,
+ "matched": 49,
  "off_board_file": 3,
- "evergreen": 18,
+ "evergreen": 20,
  "xposts": 4,
  "discover": 236,
  "simplify": {
   "season": "Summer2027",
   "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
   "tried": [
-   "Summer2027: 2117 live",
+   "Summer2027: 2114 live",
    "Summer2028: HTTP 404",
-   "Summer2026: 2117 live"
+   "Summer2026: 2114 live"
   ],
   "newest_entry_age_days": 0,
   "stale": false,
   "total": 14797,
-  "active": 2116,
+  "active": 2113,
   "phd": 443,
   "blindspot": 142,
   "discovery": 127,
@@ -65,12 +65,30 @@
    "error": null
   },
   {
+   "lab": "Cresta",
+   "ats": "greenhouse",
+   "slug": "cresta",
+   "postings": 94,
+   "matched": 4,
+   "evergreen": 0,
+   "error": null
+  },
+  {
    "lab": "Allen Institute for AI (AI2)",
    "ats": "greenhouse",
    "slug": "thealleninstitute",
    "postings": 22,
    "matched": 4,
    "evergreen": 0,
+   "error": null
+  },
+  {
+   "lab": "Moloco",
+   "ats": "greenhouse",
+   "slug": "moloco",
+   "postings": 46,
+   "matched": 1,
+   "evergreen": 2,
    "error": null
   },
   {
@@ -131,7 +149,7 @@
    "lab": "Databricks",
    "ats": "greenhouse",
    "slug": "databricks",
-   "postings": 824,
+   "postings": 823,
    "matched": 1,
    "evergreen": 0,
    "error": null
@@ -194,7 +212,7 @@
    "lab": "Faculty",
    "ats": "ashby",
    "slug": "faculty",
-   "postings": 65,
+   "postings": 67,
    "matched": 0,
    "evergreen": 1,
    "error": null
@@ -407,19 +425,19 @@
    "error": null
   },
   {
-   "lab": "Decagon",
-   "ats": "ashby",
-   "slug": "decagon",
+   "lab": "Wayve",
+   "ats": "greenhouse",
+   "slug": "wayve",
    "postings": 136,
    "matched": 0,
    "evergreen": 0,
    "error": null
   },
   {
-   "lab": "Wayve",
-   "ats": "greenhouse",
-   "slug": "wayve",
-   "postings": 136,
+   "lab": "Decagon",
+   "ats": "ashby",
+   "slug": "decagon",
+   "postings": 135,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -524,6 +542,15 @@
    "error": null
   },
   {
+   "lab": "Sarvam AI",
+   "ats": "ashby",
+   "slug": "sarvam",
+   "postings": 64,
+   "matched": 0,
+   "evergreen": 0,
+   "error": null
+  },
+  {
    "lab": "SambaNova",
    "ats": "greenhouse",
    "slug": "sambanovasystems",
@@ -587,6 +614,15 @@
    "error": null
   },
   {
+   "lab": "FuriosaAI",
+   "ats": "greenhouse",
+   "slug": "furiosaai",
+   "postings": 50,
+   "matched": 0,
+   "evergreen": 0,
+   "error": null
+  },
+  {
    "lab": "Abridge",
    "ats": "ashby",
    "slug": "abridge",
@@ -636,6 +672,15 @@
    "ats": "ashby",
    "slug": "dust",
    "postings": 23,
+   "matched": 0,
+   "evergreen": 0,
+   "error": null
+  },
+  {
+   "lab": "HeyGen",
+   "ats": "greenhouse",
+   "slug": "heygen",
+   "postings": 21,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -839,6 +884,15 @@
    "error": null
   },
   {
+   "lab": "Sea AI Lab",
+   "ats": "ashby",
+   "slug": "sail",
+   "postings": 4,
+   "matched": 0,
+   "evergreen": 0,
+   "error": null
+  },
+  {
    "lab": "Imbue",
    "ats": "greenhouse",
    "slug": "imbue",
@@ -930,8 +984,8 @@
   "Sierra",
   "Graphcore",
   "Woven by Toyota",
-  "Decagon",
   "Wayve",
+  "Decagon",
   "Figure AI",
   "Cursor (Anysphere)",
   "Glean",
@@ -943,6 +997,7 @@
   "KRAFTON",
   "Together AI",
   "Fireworks AI",
+  "Sarvam AI",
   "SambaNova",
   "Agility Robotics",
   "DeepL",
@@ -950,12 +1005,14 @@
   "Synthesia",
   "Parloa",
   "Writer",
+  "FuriosaAI",
   "Abridge",
   "Thinking Machines Lab",
   "Dexterity",
   "Cartesia",
   "Sesame",
   "Dust",
+  "HeyGen",
   "Twelve Labs",
   "Nabla",
   "Poolside",
@@ -978,6 +1035,7 @@
   "Owkin",
   "deepset",
   "Stability AI",
+  "Sea AI Lab",
   "Imbue",
   "Ideogram",
   "Liquid AI",

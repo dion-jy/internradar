@@ -151,9 +151,32 @@ def cjk_ratio(text):
 TITLE_MAX_CJK = 0.30
 BODY_MAX_CJK = 0.20
 
+# One ratio over the whole body is not enough, because nearly every posting opens
+# with an English "about the company" blurb and that blurb dilutes what follows.
+# FuriosaAI's research internship scores 0.33 overall, which reads as bilingual, but
+# reading it shows the English is entirely boilerplate: Research Focus, Minimum
+# Qualifications and Preferred Qualifications are Korean, with English surviving only
+# as embedded technical nouns (LLM, PyTorch, post-training). A longer blurb would
+# have pushed that same posting under the threshold. So segments are counted as well:
+# if a third of the sentences are CJK, the parts that decide eligibility are CJK.
+SEGMENT_MAX_CJK_SHARE = 0.30
+SEGMENT_IS_CJK = 0.25
+
+
+def cjk_segment_share(desc):
+    """Share of sentence-length segments that are CJK-dominant. Short fragments are
+    skipped: a stray address or a team name in the original script is not evidence."""
+    segs = [s for s in re.split(r"[.!?\n\u3002\uff01\uff1f]+", desc) if len(s.strip()) >= 25]
+    if not segs:
+        return 0.0
+    return sum(1 for s in segs if cjk_ratio(s) > SEGMENT_IS_CJK) / len(segs)
+
 
 def english_enough(title, desc):
-    return cjk_ratio(title) <= TITLE_MAX_CJK and cjk_ratio(desc[:6000]) <= BODY_MAX_CJK
+    body = desc[:6000]
+    return (cjk_ratio(title) <= TITLE_MAX_CJK
+            and cjk_ratio(body) <= BODY_MAX_CJK
+            and cjk_segment_share(body) <= SEGMENT_MAX_CJK_SHARE)
 
 
 # Region, derived from the location string. Two things the first attempt got wrong
@@ -214,35 +237,6 @@ def regions_of(location):
     if REMOTE.search(loc):
         out.append("Remote")
     return out or ["Other"]
-
-
-
-# The audience is international PhD applicants, so a posting has to be one they can
-# actually read. Judging that by the title alone is not enough and the data says so:
-# LG AI Research posts "Research Internship - Physical AI" with a title that is 100%
-# Latin and a body that is 66% Korean. The requirements, the eligibility and the
-# application instructions all live in the body, so the body is what decides.
-CJK_CHARS = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]")
-LATIN_CHARS = re.compile(r"[A-Za-z]")
-
-
-def cjk_ratio(text):
-    """Share of letters that are CJK. 0.0 for pure English, ~0.6 for a Korean JD."""
-    if not text:
-        return 0.0
-    c = len(CJK_CHARS.findall(text))
-    l = len(LATIN_CHARS.findall(text))
-    return c / (c + l) if (c + l) else 0.0
-
-
-# A Korean or Japanese company name, a city, a team label in the original script --
-# all normal inside an otherwise English posting. A body written in Korean is not.
-TITLE_MAX_CJK = 0.30
-BODY_MAX_CJK = 0.20
-
-
-def english_enough(title, desc):
-    return cjk_ratio(title) <= TITLE_MAX_CJK and cjk_ratio(desc[:6000]) <= BODY_MAX_CJK
 
 
 def classify(title, desc, employment_type, commitment, department):

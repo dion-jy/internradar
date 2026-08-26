@@ -1209,14 +1209,14 @@ labs:
   domain: kakaobrain.com
   note: own applicant system
 - name: Sea AI Lab
-  ats: none
-  slug: null
+  ats: ashby
+  slug: sail
   tier: research-org
   verified_at: '2026-08-26'
-  job_count: 0
-  active: false
+  job_count: 4
+  active: true
   domain: sail.sea.com
-  note: own careers site
+  note: 'Singapore. Board owner reads "Sail Research Jobs"; the earlier sea/seagroup/sea-ai-lab guesses all failed'
 - name: Silo AI
   ats: none
   slug: null
@@ -1253,3 +1253,144 @@ labs:
   active: false
   domain: legora.com
   note: ashby/legora is the right company but carries no research track
+
+# --- Asia, second pass 2026-08-26 ---------------------------------------------
+# Looking specifically for Singapore, Beijing, Tokyo and Korean labs that hire
+# internationally. 61 companies probed across two rounds; the hit rate is low
+# because the ones that hire domestically use domestic systems, and the English
+# gate would drop their postings anyway.
+- name: FuriosaAI
+  ats: greenhouse
+  slug: furiosaai
+  tier: infra
+  verified_at: '2026-08-26'
+  job_count: 50
+  active: true
+  domain: furiosa.ai
+  note: Seoul, AI accelerators; board is in English and carries a research-engineer internship
+- name: Sarvam AI
+  ats: ashby
+  slug: sarvam
+  tier: frontier
+  verified_at: '2026-08-26'
+  job_count: 64
+  active: true
+  domain: sarvam.ai
+  note: Bangalore; Indic-language foundation models
+- name: Moloco
+  ats: greenhouse
+  slug: moloco
+  tier: startup
+  verified_at: '2026-08-26'
+  job_count: 46
+  active: true
+  domain: moloco.com
+  note: Korean-founded, US-headquartered; ML for advertising
+- name: HeyGen
+  ats: greenhouse
+  slug: heygen
+  tier: startup
+  verified_at: '2026-08-26'
+  job_count: 21
+  active: true
+  domain: heygen.com
+- name: Cresta
+  ats: greenhouse
+  slug: cresta
+  tier: startup
+  verified_at: '2026-08-26'
+  job_count: 94
+  active: true
+  domain: cresta.com
+
+# --- probed 2026-08-26, not reachable or out of scope -------------------------
+- name: Rebellions
+  ats: none
+  slug: null
+  tier: infra
+  verified_at: '2026-08-26'
+  job_count: 0
+  active: false
+  domain: rebellions.ai
+  note: greetinghr.com, a Korean ATS with no public JSON API
+- name: Lunit
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-26'
+  job_count: 0
+  active: false
+  domain: lunit.io
+  note: Workable plus BambooHR, neither supported
+- name: SmartNews
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-26'
+  job_count: 0
+  active: false
+  domain: smartnews.com
+  note: Workable
+- name: Coupang
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-26'
+  job_count: 0
+  active: false
+  domain: coupang.com
+  note: greenhouse/coupang is live with 650 roles but Coupang is a retailer, not an AI research org
+- name: Kakao
+  ats: none
+  slug: null
+  tier: bigtech
+  verified_at: '2026-08-26'
+  job_count: 0
+  active: false
+  domain: kakaocorp.com
+  note: greenhouse/kakaoenterprise is an empty board owned by Karrot, not Kakao
+- name: Sapient Intelligence
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-26'
+  job_count: 0
+  active: false
+  domain: sapient.inc
+  note: own careers site, Singapore
+- name: Manus (Butterfly Effect)
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-26'
+  job_count: 0
+  active: false
+  domain: manus.im
+  note: own careers site; blocks datacenter requests
+- name: Chinese frontier labs
+  ats: none
+  slug: null
+  tier: frontier
+  verified_at: '2026-08-26'
+  job_count: 0
+  active: false
+  domain: null
+  note: 'DeepSeek, Moonshot AI, Zhipu/Z.ai, MiniMax, StepFun, 01.AI, SenseTime, Kuaishou, Unitree all run their own Chinese-language systems. None responds to any of the three ATS APIs, and their postings would not pass the English gate either'
+- name: Japanese labs on own systems
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-26'
+  job_count: 0
+  active: false
+  domain: null
+  note: 'Preferred Networks, Preferred Robotics, LayerX, Araya, Matsuo Institute, NTT Research, Megagon Labs, Rakuten, CyberAgent, ELYZA, Rinna, Stockmark: own or Japanese-domestic systems'
+- name: Korean labs on domestic systems
+  ats: none
+  slug: null
+  tier: startup
+  verified_at: '2026-08-26'
+  job_count: 0
+  active: false
+  domain: null
+  note: 'Upstage, Nota AI, Wrtn, Liner, Standigm, Trillion Labs, Motif Technologies, VUNO, Hyperconnect, SK Telecom, Naver Cloud: greetinghr, jobkorea or in-house systems'

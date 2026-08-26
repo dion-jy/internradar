@@ -1,0 +1,1619 @@
+[
+ {
+  "name": "Rebellions",
+  "ats": "greenhouse",
+  "slug": "rebellions",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Rebellions",
+  "ats": "ashby",
+  "slug": "rebellions",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Rebellions",
+  "ats": "lever",
+  "slug": "rebellions",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Rebellions",
+  "ats": "greenhouse",
+  "slug": "rebellionsai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Rebellions",
+  "ats": "ashby",
+  "slug": "rebellionsai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Rebellions",
+  "ats": "lever",
+  "slug": "rebellionsai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "FuriosaAI",
+  "ats": "greenhouse",
+  "slug": "furiosaai",
+  "ok": true,
+  "count": 50
+ },
+ {
+  "name": "FuriosaAI",
+  "ats": "ashby",
+  "slug": "furiosaai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "FuriosaAI",
+  "ats": "lever",
+  "slug": "furiosaai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "FuriosaAI",
+  "ats": "greenhouse",
+  "slug": "furiosa",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "FuriosaAI",
+  "ats": "ashby",
+  "slug": "furiosa",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "FuriosaAI",
+  "ats": "lever",
+  "slug": "furiosa",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Lunit",
+  "ats": "greenhouse",
+  "slug": "lunit",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Lunit",
+  "ats": "ashby",
+  "slug": "lunit",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Lunit",
+  "ats": "lever",
+  "slug": "lunit",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Moloco",
+  "ats": "greenhouse",
+  "slug": "moloco",
+  "ok": true,
+  "count": 46
+ },
+ {
+  "name": "Moloco",
+  "ats": "ashby",
+  "slug": "moloco",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Moloco",
+  "ats": "lever",
+  "slug": "moloco",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Upstage",
+  "ats": "greenhouse",
+  "slug": "upstageai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Upstage",
+  "ats": "ashby",
+  "slug": "upstageai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Upstage",
+  "ats": "lever",
+  "slug": "upstageai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Upstage",
+  "ats": "greenhouse",
+  "slug": "upstage-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Upstage",
+  "ats": "ashby",
+  "slug": "upstage-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Upstage",
+  "ats": "lever",
+  "slug": "upstage-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Upstage",
+  "ats": "greenhouse",
+  "slug": "upstagehq",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Upstage",
+  "ats": "ashby",
+  "slug": "upstagehq",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Upstage",
+  "ats": "lever",
+  "slug": "upstagehq",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Wrtn Technologies",
+  "ats": "greenhouse",
+  "slug": "wrtn",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Wrtn Technologies",
+  "ats": "ashby",
+  "slug": "wrtn",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Wrtn Technologies",
+  "ats": "lever",
+  "slug": "wrtn",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Wrtn Technologies",
+  "ats": "greenhouse",
+  "slug": "wrtntechnologies",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Wrtn Technologies",
+  "ats": "ashby",
+  "slug": "wrtntechnologies",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Wrtn Technologies",
+  "ats": "lever",
+  "slug": "wrtntechnologies",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Nota AI",
+  "ats": "greenhouse",
+  "slug": "nota",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Nota AI",
+  "ats": "ashby",
+  "slug": "nota",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Nota AI",
+  "ats": "lever",
+  "slug": "nota",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Nota AI",
+  "ats": "greenhouse",
+  "slug": "notaai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Nota AI",
+  "ats": "ashby",
+  "slug": "notaai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Nota AI",
+  "ats": "lever",
+  "slug": "notaai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Standigm",
+  "ats": "greenhouse",
+  "slug": "standigm",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Standigm",
+  "ats": "ashby",
+  "slug": "standigm",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Standigm",
+  "ats": "lever",
+  "slug": "standigm",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Hyperconnect",
+  "ats": "greenhouse",
+  "slug": "hyperconnect",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Hyperconnect",
+  "ats": "ashby",
+  "slug": "hyperconnect",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Hyperconnect",
+  "ats": "lever",
+  "slug": "hyperconnect",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Coupang",
+  "ats": "greenhouse",
+  "slug": "coupang",
+  "ok": true,
+  "count": 650
+ },
+ {
+  "name": "Coupang",
+  "ats": "ashby",
+  "slug": "coupang",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Coupang",
+  "ats": "lever",
+  "slug": "coupang",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "VUNO",
+  "ats": "greenhouse",
+  "slug": "vuno",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "VUNO",
+  "ats": "ashby",
+  "slug": "vuno",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "VUNO",
+  "ats": "lever",
+  "slug": "vuno",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Liner",
+  "ats": "greenhouse",
+  "slug": "liner",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Liner",
+  "ats": "ashby",
+  "slug": "liner",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Liner",
+  "ats": "lever",
+  "slug": "liner",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Liner",
+  "ats": "greenhouse",
+  "slug": "getliner",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Liner",
+  "ats": "ashby",
+  "slug": "getliner",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Liner",
+  "ats": "lever",
+  "slug": "getliner",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sapient Intelligence",
+  "ats": "greenhouse",
+  "slug": "sapient",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sapient Intelligence",
+  "ats": "ashby",
+  "slug": "sapient",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sapient Intelligence",
+  "ats": "lever",
+  "slug": "sapient",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sapient Intelligence",
+  "ats": "greenhouse",
+  "slug": "sapientinc",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sapient Intelligence",
+  "ats": "ashby",
+  "slug": "sapientinc",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sapient Intelligence",
+  "ats": "lever",
+  "slug": "sapientinc",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sapient Intelligence",
+  "ats": "greenhouse",
+  "slug": "sapientintelligence",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sapient Intelligence",
+  "ats": "ashby",
+  "slug": "sapientintelligence",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sapient Intelligence",
+  "ats": "lever",
+  "slug": "sapientintelligence",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Manus (Butterfly Effect)",
+  "ats": "greenhouse",
+  "slug": "manus",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Manus (Butterfly Effect)",
+  "ats": "ashby",
+  "slug": "manus",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Manus (Butterfly Effect)",
+  "ats": "lever",
+  "slug": "manus",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Manus (Butterfly Effect)",
+  "ats": "greenhouse",
+  "slug": "manusai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Manus (Butterfly Effect)",
+  "ats": "ashby",
+  "slug": "manusai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Manus (Butterfly Effect)",
+  "ats": "lever",
+  "slug": "manusai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Manus (Butterfly Effect)",
+  "ats": "greenhouse",
+  "slug": "butterflyeffect",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Manus (Butterfly Effect)",
+  "ats": "ashby",
+  "slug": "butterflyeffect",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Manus (Butterfly Effect)",
+  "ats": "lever",
+  "slug": "butterflyeffect",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "HeyGen",
+  "ats": "greenhouse",
+  "slug": "heygen",
+  "ok": true,
+  "count": 21
+ },
+ {
+  "name": "HeyGen",
+  "ats": "ashby",
+  "slug": "heygen",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "HeyGen",
+  "ats": "lever",
+  "slug": "heygen",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sand AI",
+  "ats": "greenhouse",
+  "slug": "sandai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sand AI",
+  "ats": "ashby",
+  "slug": "sandai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sand AI",
+  "ats": "lever",
+  "slug": "sandai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sand AI",
+  "ats": "greenhouse",
+  "slug": "sand-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sand AI",
+  "ats": "ashby",
+  "slug": "sand-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sand AI",
+  "ats": "lever",
+  "slug": "sand-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "MiniMax",
+  "ats": "greenhouse",
+  "slug": "minimax",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "MiniMax",
+  "ats": "ashby",
+  "slug": "minimax",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "MiniMax",
+  "ats": "lever",
+  "slug": "minimax",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "MiniMax",
+  "ats": "greenhouse",
+  "slug": "minimaxi",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "MiniMax",
+  "ats": "ashby",
+  "slug": "minimaxi",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "MiniMax",
+  "ats": "lever",
+  "slug": "minimaxi",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "StepFun",
+  "ats": "greenhouse",
+  "slug": "stepfun",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "StepFun",
+  "ats": "ashby",
+  "slug": "stepfun",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "StepFun",
+  "ats": "lever",
+  "slug": "stepfun",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Z.ai (Zhipu)",
+  "ats": "greenhouse",
+  "slug": "zai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Z.ai (Zhipu)",
+  "ats": "ashby",
+  "slug": "zai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Z.ai (Zhipu)",
+  "ats": "lever",
+  "slug": "zai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Z.ai (Zhipu)",
+  "ats": "greenhouse",
+  "slug": "zhipuai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Z.ai (Zhipu)",
+  "ats": "ashby",
+  "slug": "zhipuai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Z.ai (Zhipu)",
+  "ats": "lever",
+  "slug": "zhipuai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Z.ai (Zhipu)",
+  "ats": "greenhouse",
+  "slug": "z-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Z.ai (Zhipu)",
+  "ats": "ashby",
+  "slug": "z-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Z.ai (Zhipu)",
+  "ats": "lever",
+  "slug": "z-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Shopee",
+  "ats": "greenhouse",
+  "slug": "shopee",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Shopee",
+  "ats": "ashby",
+  "slug": "shopee",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Shopee",
+  "ats": "lever",
+  "slug": "shopee",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Shopee",
+  "ats": "greenhouse",
+  "slug": "sea-shopee",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Shopee",
+  "ats": "ashby",
+  "slug": "sea-shopee",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Shopee",
+  "ats": "lever",
+  "slug": "sea-shopee",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Grab",
+  "ats": "greenhouse",
+  "slug": "grabtaxi",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Grab",
+  "ats": "ashby",
+  "slug": "grabtaxi",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Grab",
+  "ats": "lever",
+  "slug": "grabtaxi",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Grab",
+  "ats": "greenhouse",
+  "slug": "grab-holdings",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Grab",
+  "ats": "ashby",
+  "slug": "grab-holdings",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Grab",
+  "ats": "lever",
+  "slug": "grab-holdings",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Patsnap",
+  "ats": "greenhouse",
+  "slug": "patsnap",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Patsnap",
+  "ats": "ashby",
+  "slug": "patsnap",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Patsnap",
+  "ats": "lever",
+  "slug": "patsnap",
+  "ok": true,
+  "count": 0
+ },
+ {
+  "name": "WIZ.AI",
+  "ats": "greenhouse",
+  "slug": "wizai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "WIZ.AI",
+  "ats": "ashby",
+  "slug": "wizai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "WIZ.AI",
+  "ats": "lever",
+  "slug": "wizai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "WIZ.AI",
+  "ats": "greenhouse",
+  "slug": "wiz-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "WIZ.AI",
+  "ats": "ashby",
+  "slug": "wiz-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "WIZ.AI",
+  "ats": "lever",
+  "slug": "wiz-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "LayerX",
+  "ats": "greenhouse",
+  "slug": "layerx",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "LayerX",
+  "ats": "ashby",
+  "slug": "layerx",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "LayerX",
+  "ats": "lever",
+  "slug": "layerx",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SmartNews",
+  "ats": "greenhouse",
+  "slug": "smartnews",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SmartNews",
+  "ats": "ashby",
+  "slug": "smartnews",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SmartNews",
+  "ats": "lever",
+  "slug": "smartnews",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Mercari",
+  "ats": "greenhouse",
+  "slug": "mercari",
+  "ok": true,
+  "count": 3
+ },
+ {
+  "name": "Mercari",
+  "ats": "ashby",
+  "slug": "mercari",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Mercari",
+  "ats": "lever",
+  "slug": "mercari",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Preferred Robotics",
+  "ats": "greenhouse",
+  "slug": "preferredrobotics",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Preferred Robotics",
+  "ats": "ashby",
+  "slug": "preferredrobotics",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Preferred Robotics",
+  "ats": "lever",
+  "slug": "preferredrobotics",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Matsuo Institute",
+  "ats": "greenhouse",
+  "slug": "matsuo",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Matsuo Institute",
+  "ats": "ashby",
+  "slug": "matsuo",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Matsuo Institute",
+  "ats": "lever",
+  "slug": "matsuo",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Matsuo Institute",
+  "ats": "greenhouse",
+  "slug": "matsuoinstitute",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Matsuo Institute",
+  "ats": "ashby",
+  "slug": "matsuoinstitute",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Matsuo Institute",
+  "ats": "lever",
+  "slug": "matsuoinstitute",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sakana AI",
+  "ats": "greenhouse",
+  "slug": "sakanaai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sakana AI",
+  "ats": "ashby",
+  "slug": "sakanaai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sakana AI",
+  "ats": "lever",
+  "slug": "sakanaai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sakana AI",
+  "ats": "greenhouse",
+  "slug": "sakana-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sakana AI",
+  "ats": "ashby",
+  "slug": "sakana-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sakana AI",
+  "ats": "lever",
+  "slug": "sakana-ai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sakana AI",
+  "ats": "greenhouse",
+  "slug": "sakana",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sakana AI",
+  "ats": "ashby",
+  "slug": "sakana",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sakana AI",
+  "ats": "lever",
+  "slug": "sakana",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Tenstorrent Japan",
+  "ats": "greenhouse",
+  "slug": "tenstorrentjapan",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Tenstorrent Japan",
+  "ats": "ashby",
+  "slug": "tenstorrentjapan",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Tenstorrent Japan",
+  "ats": "lever",
+  "slug": "tenstorrentjapan",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Unitree",
+  "ats": "greenhouse",
+  "slug": "unitree",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Unitree",
+  "ats": "ashby",
+  "slug": "unitree",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Unitree",
+  "ats": "lever",
+  "slug": "unitree",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Unitree",
+  "ats": "greenhouse",
+  "slug": "unitreerobotics",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Unitree",
+  "ats": "ashby",
+  "slug": "unitreerobotics",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Unitree",
+  "ats": "lever",
+  "slug": "unitreerobotics",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Kuaishou",
+  "ats": "greenhouse",
+  "slug": "kuaishou",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Kuaishou",
+  "ats": "ashby",
+  "slug": "kuaishou",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Kuaishou",
+  "ats": "lever",
+  "slug": "kuaishou",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Kuaishou",
+  "ats": "greenhouse",
+  "slug": "kwai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Kuaishou",
+  "ats": "ashby",
+  "slug": "kwai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Kuaishou",
+  "ats": "lever",
+  "slug": "kwai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SenseTime",
+  "ats": "greenhouse",
+  "slug": "sensetime",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SenseTime",
+  "ats": "ashby",
+  "slug": "sensetime",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SenseTime",
+  "ats": "lever",
+  "slug": "sensetime",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SenseTime",
+  "ats": "greenhouse",
+  "slug": "sensetimegroup",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SenseTime",
+  "ats": "ashby",
+  "slug": "sensetimegroup",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SenseTime",
+  "ats": "lever",
+  "slug": "sensetimegroup",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Cresta",
+  "ats": "greenhouse",
+  "slug": "cresta",
+  "ok": true,
+  "count": 94
+ },
+ {
+  "name": "Cresta",
+  "ats": "ashby",
+  "slug": "cresta",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Cresta",
+  "ats": "lever",
+  "slug": "cresta",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sea AI Lab",
+  "ats": "greenhouse",
+  "slug": "sea-group",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sea AI Lab",
+  "ats": "ashby",
+  "slug": "sea-group",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sea AI Lab",
+  "ats": "lever",
+  "slug": "sea-group",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sea AI Lab",
+  "ats": "greenhouse",
+  "slug": "seagroup",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sea AI Lab",
+  "ats": "ashby",
+  "slug": "seagroup",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sea AI Lab",
+  "ats": "lever",
+  "slug": "seagroup",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sea AI Lab",
+  "ats": "greenhouse",
+  "slug": "sail",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Sea AI Lab",
+  "ats": "ashby",
+  "slug": "sail",
+  "ok": true,
+  "count": 4
+ },
+ {
+  "name": "Sea AI Lab",
+  "ats": "lever",
+  "slug": "sail",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Bagel Labs",
+  "ats": "greenhouse",
+  "slug": "bagel",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Bagel Labs",
+  "ats": "ashby",
+  "slug": "bagel",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Bagel Labs",
+  "ats": "lever",
+  "slug": "bagel",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Bagel Labs",
+  "ats": "greenhouse",
+  "slug": "bagellabs",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Bagel Labs",
+  "ats": "ashby",
+  "slug": "bagellabs",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Bagel Labs",
+  "ats": "lever",
+  "slug": "bagellabs",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Trillion Labs",
+  "ats": "greenhouse",
+  "slug": "trillionlabs",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Trillion Labs",
+  "ats": "ashby",
+  "slug": "trillionlabs",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Trillion Labs",
+  "ats": "lever",
+  "slug": "trillionlabs",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Trillion Labs",
+  "ats": "greenhouse",
+  "slug": "trillion",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Trillion Labs",
+  "ats": "ashby",
+  "slug": "trillion",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Trillion Labs",
+  "ats": "lever",
+  "slug": "trillion",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Motif Technologies",
+  "ats": "greenhouse",
+  "slug": "motif",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Motif Technologies",
+  "ats": "ashby",
+  "slug": "motif",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Motif Technologies",
+  "ats": "lever",
+  "slug": "motif",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Motif Technologies",
+  "ats": "greenhouse",
+  "slug": "motiftech",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Motif Technologies",
+  "ats": "ashby",
+  "slug": "motiftech",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Motif Technologies",
+  "ats": "lever",
+  "slug": "motiftech",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Squeezebits",
+  "ats": "greenhouse",
+  "slug": "squeezebits",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Squeezebits",
+  "ats": "ashby",
+  "slug": "squeezebits",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Squeezebits",
+  "ats": "lever",
+  "slug": "squeezebits",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "DeepAuto",
+  "ats": "greenhouse",
+  "slug": "deepauto",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "DeepAuto",
+  "ats": "ashby",
+  "slug": "deepauto",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "DeepAuto",
+  "ats": "lever",
+  "slug": "deepauto",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "DeepAuto",
+  "ats": "greenhouse",
+  "slug": "deepautoai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "DeepAuto",
+  "ats": "ashby",
+  "slug": "deepautoai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "DeepAuto",
+  "ats": "lever",
+  "slug": "deepautoai",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Kakao",
+  "ats": "greenhouse",
+  "slug": "kakaocorp",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Kakao",
+  "ats": "ashby",
+  "slug": "kakaocorp",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Kakao",
+  "ats": "lever",
+  "slug": "kakaocorp",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Kakao",
+  "ats": "greenhouse",
+  "slug": "kakaoenterprise",
+  "ok": true,
+  "count": 0
+ },
+ {
+  "name": "Kakao",
+  "ats": "ashby",
+  "slug": "kakaoenterprise",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Kakao",
+  "ats": "lever",
+  "slug": "kakaoenterprise",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SK Telecom",
+  "ats": "greenhouse",
+  "slug": "sktelecom",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SK Telecom",
+  "ats": "ashby",
+  "slug": "sktelecom",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SK Telecom",
+  "ats": "lever",
+  "slug": "sktelecom",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SK Telecom",
+  "ats": "greenhouse",
+  "slug": "skt",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SK Telecom",
+  "ats": "ashby",
+  "slug": "skt",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "SK Telecom",
+  "ats": "lever",
+  "slug": "skt",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Naver Cloud",
+  "ats": "greenhouse",
+  "slug": "navercloud",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Naver Cloud",
+  "ats": "ashby",
+  "slug": "navercloud",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Naver Cloud",
+  "ats": "lever",
+  "slug": "navercloud",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Naver Cloud",
+  "ats": "greenhouse",
+  "slug": "naver-cloud",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Naver Cloud",
+  "ats": "ashby",
+  "slug": "naver-cloud",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Naver Cloud",
+  "ats": "lever",
+  "slug": "naver-cloud",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Twelve Labs",
+  "ats": "greenhouse",
+  "slug": "twelvelabs",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Twelve Labs",
+  "ats": "ashby",
+  "slug": "twelvelabs",
+  "ok": false,
+  "reason": "http:404"
+ },
+ {
+  "name": "Twelve Labs",
+  "ats": "lever",
+  "slug": "twelvelabs",
+  "ok": false,
+  "reason": "http:404"
+ }
+]

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T04:20:15.642923+00:00",
+ "generated_at": "2026-08-26T04:28:37.563231+00:00",
  "count": 236,
  "blindspot": 142,
  "discovery": 94,
@@ -52,7 +52,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:47844f61-18ee-4be2-a378-45789bdee8d5"
+   "job_id": "simplify:47844f61-18ee-4be2-a378-45789bdee8d5",
+   "regions": [
+    "Canada"
+   ]
   },
   {
    "company": "Bosch Home Comfort",
@@ -80,7 +83,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:4338e55f-78ed-4a37-8c3d-482e13c4cff0"
+   "job_id": "simplify:4338e55f-78ed-4a37-8c3d-482e13c4cff0",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Meridian Partners",
@@ -111,7 +117,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:721b1502-72bd-47a9-91c2-a71011c5fd1c"
+   "job_id": "simplify:721b1502-72bd-47a9-91c2-a71011c5fd1c",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Meridian Partners",
@@ -141,7 +150,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:bc77c289-ab13-4062-adf6-da8e0aa72034"
+   "job_id": "simplify:bc77c289-ab13-4062-adf6-da8e0aa72034",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Intuitive Surgical",
@@ -170,7 +182,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:b1eb0fff-6852-49b0-a60f-334931313442"
+   "job_id": "simplify:b1eb0fff-6852-49b0-a60f-334931313442",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Kodiak Robotics",
@@ -200,7 +215,10 @@
     "Winter 2027"
    ],
    "domain": "",
-   "job_id": "simplify:21abe7e3-285d-4817-a48a-557228cb2228"
+   "job_id": "simplify:21abe7e3-285d-4817-a48a-557228cb2228",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Apple",
@@ -230,7 +248,10 @@
     "Summer 2027"
    ],
    "domain": "apple.com",
-   "job_id": "simplify:ba733cd9-7086-4e38-bdec-d13b07b8b1d3"
+   "job_id": "simplify:ba733cd9-7086-4e38-bdec-d13b07b8b1d3",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Apple",
@@ -260,7 +281,10 @@
     "Summer 2027"
    ],
    "domain": "apple.com",
-   "job_id": "simplify:68eeb05f-c94a-49b3-950a-0e69b203c009"
+   "job_id": "simplify:68eeb05f-c94a-49b3-950a-0e69b203c009",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Google",
@@ -286,7 +310,10 @@
     "Summer 2026"
    ],
    "domain": "deepmind.google",
-   "job_id": "simplify:cd7682b8-7722-4a26-9813-42ece290a387"
+   "job_id": "simplify:cd7682b8-7722-4a26-9813-42ece290a387",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Wex",
@@ -314,7 +341,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:90639373-d769-48b3-8ac2-94d63829c638"
+   "job_id": "simplify:90639373-d769-48b3-8ac2-94d63829c638",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Capacity",
@@ -343,7 +373,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:16d31201-b650-445a-bd1c-acf6b02d80b7"
+   "job_id": "simplify:16d31201-b650-445a-bd1c-acf6b02d80b7",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "AMD",
@@ -372,7 +405,10 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:a554688a-fa61-4d32-8d02-a22d0e78ac6a"
+   "job_id": "simplify:a554688a-fa61-4d32-8d02-a22d0e78ac6a",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Ontario Teachers' Pension Plan",
@@ -402,7 +438,10 @@
     "Winter 2026"
    ],
    "domain": "",
-   "job_id": "simplify:c6d37325-22f7-46a7-ab78-d7c0f970628e"
+   "job_id": "simplify:c6d37325-22f7-46a7-ab78-d7c0f970628e",
+   "regions": [
+    "Canada"
+   ]
   },
   {
    "company": "Ontario Teachers' Pension Plan",
@@ -432,7 +471,10 @@
     "Winter 2026"
    ],
    "domain": "",
-   "job_id": "simplify:2cdf6089-4c84-4731-8216-3c7ace960f00"
+   "job_id": "simplify:2cdf6089-4c84-4731-8216-3c7ace960f00",
+   "regions": [
+    "Canada"
+   ]
   },
   {
    "company": "Zipline",
@@ -462,7 +504,10 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:7c1afd88-0826-4992-92dc-ef6210a2efbc"
+   "job_id": "simplify:7c1afd88-0826-4992-92dc-ef6210a2efbc",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -488,7 +533,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:79ddabd2-cd14-4fd6-8aec-f82858b2190e"
+   "job_id": "simplify:79ddabd2-cd14-4fd6-8aec-f82858b2190e",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -514,7 +562,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:a908b011-3049-4c5c-831e-b0a4e17ddebf"
+   "job_id": "simplify:a908b011-3049-4c5c-831e-b0a4e17ddebf",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Philips",
@@ -543,7 +594,10 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:6a4501ab-5b1a-44c6-87d4-9c4e68e6f5f8"
+   "job_id": "simplify:6a4501ab-5b1a-44c6-87d4-9c4e68e6f5f8",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Microsoft",
@@ -569,7 +623,11 @@
     "Fall 2026"
    ],
    "domain": "microsoft.com",
-   "job_id": "simplify:1b2916de-7e46-4f2e-b790-241b1fd38a82"
+   "job_id": "simplify:1b2916de-7e46-4f2e-b790-241b1fd38a82",
+   "regions": [
+    "UK",
+    "Europe"
+   ]
   },
   {
    "company": "ByteDance",
@@ -595,7 +653,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:19652a32-abb6-4c77-8971-0c6514ed8034"
+   "job_id": "simplify:19652a32-abb6-4c77-8971-0c6514ed8034",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -621,7 +682,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:20db6da0-8e69-4119-8287-080208c765ec"
+   "job_id": "simplify:20db6da0-8e69-4119-8287-080208c765ec",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -647,7 +711,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:4ef3c3eb-baad-42c0-8e30-0a1ff84931c0"
+   "job_id": "simplify:4ef3c3eb-baad-42c0-8e30-0a1ff84931c0",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -673,7 +740,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:31523bd0-3228-448d-b0ce-f99812c17fca"
+   "job_id": "simplify:31523bd0-3228-448d-b0ce-f99812c17fca",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -701,7 +771,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:03f5f454-515c-41f5-b670-e30a0e59a27e"
+   "job_id": "simplify:03f5f454-515c-41f5-b670-e30a0e59a27e",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -729,7 +802,10 @@
     "Fall 2026"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:ea8c5ebd-a6c4-49ff-9dac-f3532c41737a"
+   "job_id": "simplify:ea8c5ebd-a6c4-49ff-9dac-f3532c41737a",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -757,7 +833,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:832f302a-8bc2-45f2-8ada-37a23bf080a7"
+   "job_id": "simplify:832f302a-8bc2-45f2-8ada-37a23bf080a7",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -783,7 +862,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:790a9545-abe4-4bd0-af4b-55b368673465"
+   "job_id": "simplify:790a9545-abe4-4bd0-af4b-55b368673465",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -811,7 +893,10 @@
     "Fall 2026"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:bb48b7b8-29e9-4f8f-8817-54e325180735"
+   "job_id": "simplify:bb48b7b8-29e9-4f8f-8817-54e325180735",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -837,7 +922,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:156eeaae-e8ce-4c0c-a47f-6027e39a664c"
+   "job_id": "simplify:156eeaae-e8ce-4c0c-a47f-6027e39a664c",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -863,7 +951,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:79fa5677-0cf7-4393-b826-2aa0806bbcd9"
+   "job_id": "simplify:79fa5677-0cf7-4393-b826-2aa0806bbcd9",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -891,7 +982,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:26db23e0-d70f-49b8-ab98-f6c54330d92b"
+   "job_id": "simplify:26db23e0-d70f-49b8-ab98-f6c54330d92b",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -919,7 +1013,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:60fd19b0-17cd-4cb7-8cf0-99bd3743c1c9"
+   "job_id": "simplify:60fd19b0-17cd-4cb7-8cf0-99bd3743c1c9",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -947,7 +1044,11 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:be628885-fde3-4b73-bb0a-58e11856e97b"
+   "job_id": "simplify:be628885-fde3-4b73-bb0a-58e11856e97b",
+   "regions": [
+    "Canada",
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -975,7 +1076,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:3affcaac-d7f9-45d1-8139-19defc762e13"
+   "job_id": "simplify:3affcaac-d7f9-45d1-8139-19defc762e13",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -1001,7 +1105,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:99bb5385-4fbf-4456-9493-a5b32eb48953"
+   "job_id": "simplify:99bb5385-4fbf-4456-9493-a5b32eb48953",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -1027,7 +1134,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:194ec80b-618d-4a9c-a170-c88f9e6fb8ca"
+   "job_id": "simplify:194ec80b-618d-4a9c-a170-c88f9e6fb8ca",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -1054,7 +1164,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:c61cdf4f-3d6a-41b3-90d6-c83ad103fffd"
+   "job_id": "simplify:c61cdf4f-3d6a-41b3-90d6-c83ad103fffd",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -1082,7 +1195,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:78faf2f2-9391-4542-b593-468ce69a67b5"
+   "job_id": "simplify:78faf2f2-9391-4542-b593-468ce69a67b5",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NVIDIA",
@@ -1108,7 +1224,10 @@
     "Summer 2027"
    ],
    "domain": "nvidia.com",
-   "job_id": "simplify:d8ff5790-a34b-425f-b812-2e10a1350a70"
+   "job_id": "simplify:d8ff5790-a34b-425f-b812-2e10a1350a70",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Autodesk",
@@ -1138,7 +1257,10 @@
     "Winter 2027"
    ],
    "domain": "",
-   "job_id": "simplify:cab045bf-39b2-4c18-9001-24ab75450b0c"
+   "job_id": "simplify:cab045bf-39b2-4c18-9001-24ab75450b0c",
+   "regions": [
+    "Canada"
+   ]
   },
   {
    "company": "Autodesk",
@@ -1168,7 +1290,10 @@
     "Winter 2027"
    ],
    "domain": "",
-   "job_id": "simplify:73598b4d-3993-4121-856f-56624bff87b9"
+   "job_id": "simplify:73598b4d-3993-4121-856f-56624bff87b9",
+   "regions": [
+    "Canada"
+   ]
   },
   {
    "company": "Google",
@@ -1194,7 +1319,10 @@
     "Summer 2027"
    ],
    "domain": "deepmind.google",
-   "job_id": "simplify:2de78b3a-47c4-4a03-9f0b-683df19e56db"
+   "job_id": "simplify:2de78b3a-47c4-4a03-9f0b-683df19e56db",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "DiDi Global",
@@ -1222,7 +1350,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:04e15531-638a-4578-bc04-9d717f8f01f0"
+   "job_id": "simplify:04e15531-638a-4578-bc04-9d717f8f01f0",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Google",
@@ -1248,7 +1379,10 @@
     "Summer 2027"
    ],
    "domain": "deepmind.google",
-   "job_id": "simplify:7e2511aa-764b-4960-9904-c05775bf9bce"
+   "job_id": "simplify:7e2511aa-764b-4960-9904-c05775bf9bce",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "TikTok",
@@ -1274,7 +1408,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:154ae79b-60c6-40a6-9be2-a48637bb96ff"
+   "job_id": "simplify:154ae79b-60c6-40a6-9be2-a48637bb96ff",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "University of Texas at Austin",
@@ -1302,7 +1439,10 @@
     "N/A"
    ],
    "domain": "",
-   "job_id": "simplify:581f5af8-7fed-4e27-ae5c-5068ec83d4a6"
+   "job_id": "simplify:581f5af8-7fed-4e27-ae5c-5068ec83d4a6",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Thomson Reuters",
@@ -1331,7 +1471,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:ac5989fe-f0e5-4cd6-a149-b8329eda175c"
+   "job_id": "simplify:ac5989fe-f0e5-4cd6-a149-b8329eda175c",
+   "regions": [
+    "Canada"
+   ]
   },
   {
    "company": "General Motors",
@@ -1359,7 +1502,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:1d43fc21-2de6-411c-8141-ec33e8fa8fed"
+   "job_id": "simplify:1d43fc21-2de6-411c-8141-ec33e8fa8fed",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "The Nuclear Company",
@@ -1388,7 +1534,10 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:35dd8e24-1c88-4e4b-8ba3-f9b9be169b31"
+   "job_id": "simplify:35dd8e24-1c88-4e4b-8ba3-f9b9be169b31",
+   "regions": [
+    "Other"
+   ]
   },
   {
    "company": "Microsoft",
@@ -1414,7 +1563,10 @@
     "Fall 2026"
    ],
    "domain": "microsoft.com",
-   "job_id": "simplify:b2b93c28-353f-458c-83fe-cd14c4471ac5"
+   "job_id": "simplify:b2b93c28-353f-458c-83fe-cd14c4471ac5",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Snap",
@@ -1440,7 +1592,10 @@
     "Fall 2026"
    ],
    "domain": "snap.com",
-   "job_id": "simplify:18a8a6d4-4cc6-4e2c-bcc6-db027db69988"
+   "job_id": "simplify:18a8a6d4-4cc6-4e2c-bcc6-db027db69988",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -1466,7 +1621,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:5c3d16dc-fd92-4496-aeb5-c3bead9bdd18"
+   "job_id": "simplify:5c3d16dc-fd92-4496-aeb5-c3bead9bdd18",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -1492,7 +1650,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:70115b81-b4c5-4a64-8a6c-5b644608f906"
+   "job_id": "simplify:70115b81-b4c5-4a64-8a6c-5b644608f906",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -1518,7 +1679,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:fab6a94b-bce1-404c-bb49-443ecf37e5e8"
+   "job_id": "simplify:fab6a94b-bce1-404c-bb49-443ecf37e5e8",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Navy Federal",
@@ -1547,7 +1711,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:2521a871-df84-4798-bdaf-7c07de0b8a64"
+   "job_id": "simplify:2521a871-df84-4798-bdaf-7c07de0b8a64",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -1573,7 +1740,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:37258bf6-9a8c-4245-bc45-0fb8e73fecca"
+   "job_id": "simplify:37258bf6-9a8c-4245-bc45-0fb8e73fecca",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -1599,7 +1769,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:0d1a5d14-2cc4-4c85-a1a6-aa02ecc2b4f8"
+   "job_id": "simplify:0d1a5d14-2cc4-4c85-a1a6-aa02ecc2b4f8",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -1625,7 +1798,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:baeedb05-7415-43b1-a352-ff0efdc23b6b"
+   "job_id": "simplify:baeedb05-7415-43b1-a352-ff0efdc23b6b",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -1652,7 +1828,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:d0e6095d-b7d9-4b98-9b30-5bc4f60fed04"
+   "job_id": "simplify:d0e6095d-b7d9-4b98-9b30-5bc4f60fed04",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Q5",
@@ -1680,7 +1859,10 @@
     "N/A"
    ],
    "domain": "",
-   "job_id": "simplify:56b68b11-760a-4224-ab26-17e3889e11d1"
+   "job_id": "simplify:56b68b11-760a-4224-ab26-17e3889e11d1",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "ByteDance",
@@ -1707,7 +1889,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:f57a89f7-f1c7-44ac-826b-23f1d9a409cf"
+   "job_id": "simplify:f57a89f7-f1c7-44ac-826b-23f1d9a409cf",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Epic Games",
@@ -1737,7 +1922,10 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:8d32ce9d-b2f0-4126-8727-69bbd17e3c2e"
+   "job_id": "simplify:8d32ce9d-b2f0-4126-8727-69bbd17e3c2e",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Epic Games",
@@ -1767,7 +1955,12 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:9d04080d-0ad1-42fe-b047-599eef0c1fd7"
+   "job_id": "simplify:9d04080d-0ad1-42fe-b047-599eef0c1fd7",
+   "regions": [
+    "UK",
+    "Canada",
+    "US"
+   ]
   },
   {
    "company": "Epic Games",
@@ -1800,7 +1993,10 @@
     "Fall 2027"
    ],
    "domain": "",
-   "job_id": "simplify:31ab487e-bda7-4337-94b7-bda1786f13f2"
+   "job_id": "simplify:31ab487e-bda7-4337-94b7-bda1786f13f2",
+   "regions": [
+    "Canada"
+   ]
   },
   {
    "company": "ByteDance",
@@ -1826,7 +2022,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:768f4b89-5b54-45bb-9e39-72e0b86c8110"
+   "job_id": "simplify:768f4b89-5b54-45bb-9e39-72e0b86c8110",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Samsung Research America",
@@ -1854,7 +2053,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:398433b0-f2f4-4367-80dd-7f56b0ee3d6b"
+   "job_id": "simplify:398433b0-f2f4-4367-80dd-7f56b0ee3d6b",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Canva",
@@ -1882,7 +2084,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:8695d3de-326d-44ff-976a-ba070dbbe750"
+   "job_id": "simplify:8695d3de-326d-44ff-976a-ba070dbbe750",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "TikTok",
@@ -1908,7 +2113,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:d22b9a28-466e-4bdc-aa6e-bb61ca96a1e7"
+   "job_id": "simplify:d22b9a28-466e-4bdc-aa6e-bb61ca96a1e7",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Canva",
@@ -1936,7 +2144,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:b42d28f6-494f-4b0a-8e40-29dd669c4846"
+   "job_id": "simplify:b42d28f6-494f-4b0a-8e40-29dd669c4846",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -1962,7 +2173,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:76291290-bef0-475b-8a78-7859ffb4fd99"
+   "job_id": "simplify:76291290-bef0-475b-8a78-7859ffb4fd99",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -1988,7 +2202,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:023ddd9a-be5d-40ae-9e52-080a1b833c8e"
+   "job_id": "simplify:023ddd9a-be5d-40ae-9e52-080a1b833c8e",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2014,7 +2231,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:4af25efe-2dc0-4ef6-bd62-34ad9f646360"
+   "job_id": "simplify:4af25efe-2dc0-4ef6-bd62-34ad9f646360",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2040,7 +2260,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:6f26ea4e-9081-475e-a1fa-ab0a978643f5"
+   "job_id": "simplify:6f26ea4e-9081-475e-a1fa-ab0a978643f5",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2066,7 +2289,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:50940dc5-4b2f-4f49-983e-f589769f3848"
+   "job_id": "simplify:50940dc5-4b2f-4f49-983e-f589769f3848",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2093,7 +2319,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:fe93fbfa-cba0-4f3c-8f20-9cbc4828ef01"
+   "job_id": "simplify:fe93fbfa-cba0-4f3c-8f20-9cbc4828ef01",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2119,7 +2348,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:d9969d97-e4d1-467c-94b9-aeb9a75fda17"
+   "job_id": "simplify:d9969d97-e4d1-467c-94b9-aeb9a75fda17",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2145,7 +2377,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:ee6577e4-306e-47ad-8c9e-bcbbd0b17ab1"
+   "job_id": "simplify:ee6577e4-306e-47ad-8c9e-bcbbd0b17ab1",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2171,7 +2406,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:2c2db121-8cc0-42be-a379-525e93f06a6b"
+   "job_id": "simplify:2c2db121-8cc0-42be-a379-525e93f06a6b",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2197,7 +2435,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:0391c602-59f2-4230-93cc-3619a0a86272"
+   "job_id": "simplify:0391c602-59f2-4230-93cc-3619a0a86272",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Qualcomm",
@@ -2224,7 +2465,10 @@
     "Summer 2026"
    ],
    "domain": "qualcomm.com",
-   "job_id": "simplify:d51738a7-c696-4490-8b3f-37c15f392347"
+   "job_id": "simplify:d51738a7-c696-4490-8b3f-37c15f392347",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2250,7 +2494,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:87667d11-6adc-446a-9b2e-15e0dc0b761b"
+   "job_id": "simplify:87667d11-6adc-446a-9b2e-15e0dc0b761b",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2277,7 +2524,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:1077cb58-5992-4ad8-acb0-7980b9360baa"
+   "job_id": "simplify:1077cb58-5992-4ad8-acb0-7980b9360baa",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2303,7 +2553,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:f2aef99d-5325-4d85-b025-b5d38d673a4a"
+   "job_id": "simplify:f2aef99d-5325-4d85-b025-b5d38d673a4a",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2329,7 +2582,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:a355430e-bb97-47ee-9229-434cec3e3a6c"
+   "job_id": "simplify:a355430e-bb97-47ee-9229-434cec3e3a6c",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2358,7 +2614,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:6c0be2d1-eac9-429a-b900-df719577d679"
+   "job_id": "simplify:6c0be2d1-eac9-429a-b900-df719577d679",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2384,7 +2643,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:f3e5daf4-604e-43d1-9fbc-8dc1c33b4ec5"
+   "job_id": "simplify:f3e5daf4-604e-43d1-9fbc-8dc1c33b4ec5",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2410,7 +2672,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:f51e897f-3776-452b-9c35-46c88e0185ae"
+   "job_id": "simplify:f51e897f-3776-452b-9c35-46c88e0185ae",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "StepStone Group",
@@ -2438,7 +2703,10 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:cef354bd-2b12-4392-972a-2a70f24ca3c6"
+   "job_id": "simplify:cef354bd-2b12-4392-972a-2a70f24ca3c6",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Persona AI",
@@ -2468,7 +2736,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:3d2ef8a9-a5da-4120-9c53-50ceec3023cd"
+   "job_id": "simplify:3d2ef8a9-a5da-4120-9c53-50ceec3023cd",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "NTT DATA AIVista",
@@ -2496,7 +2767,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:a2304215-7eea-4897-b101-88b9172fcae0"
+   "job_id": "simplify:a2304215-7eea-4897-b101-88b9172fcae0",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2523,7 +2797,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:14e4cecc-8df0-4784-b302-5fa8e96fae39"
+   "job_id": "simplify:14e4cecc-8df0-4784-b302-5fa8e96fae39",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2550,7 +2827,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:aa3ae48a-c50e-4ccf-ad24-b0dee7dbdabc"
+   "job_id": "simplify:aa3ae48a-c50e-4ccf-ad24-b0dee7dbdabc",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2576,7 +2856,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:42c0c70a-f3aa-4aab-b737-a65c498589b7"
+   "job_id": "simplify:42c0c70a-f3aa-4aab-b737-a65c498589b7",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2602,7 +2885,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:04b480ff-ebb0-42e4-b8b2-91fc9a145fe2"
+   "job_id": "simplify:04b480ff-ebb0-42e4-b8b2-91fc9a145fe2",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2628,7 +2914,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:09941b8a-df5a-4b38-83d0-d44aca79128c"
+   "job_id": "simplify:09941b8a-df5a-4b38-83d0-d44aca79128c",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2654,7 +2943,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:254d1c36-2e43-4f3a-86fc-ec06b7e8a725"
+   "job_id": "simplify:254d1c36-2e43-4f3a-86fc-ec06b7e8a725",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2680,7 +2972,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:92df8e09-9c84-4019-9087-e8a497375754"
+   "job_id": "simplify:92df8e09-9c84-4019-9087-e8a497375754",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2706,7 +3001,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:b9b419b0-d028-4baf-bd91-fc550d093bae"
+   "job_id": "simplify:b9b419b0-d028-4baf-bd91-fc550d093bae",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2732,7 +3030,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:f85329a1-e142-4cd0-addc-48436e7b29be"
+   "job_id": "simplify:f85329a1-e142-4cd0-addc-48436e7b29be",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2760,7 +3061,10 @@
     "Fall 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:861658aa-eaf0-4389-afce-80050126ac33"
+   "job_id": "simplify:861658aa-eaf0-4389-afce-80050126ac33",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2786,7 +3090,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:7125ebf4-f7ce-4863-8495-30a7f8d59f7d"
+   "job_id": "simplify:7125ebf4-f7ce-4863-8495-30a7f8d59f7d",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -2812,7 +3119,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:e3086785-c94b-4a66-82a8-52a73cc4b994"
+   "job_id": "simplify:e3086785-c94b-4a66-82a8-52a73cc4b994",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2838,7 +3148,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:aa8461e0-479c-42e8-b21c-4489e4881002"
+   "job_id": "simplify:aa8461e0-479c-42e8-b21c-4489e4881002",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2864,7 +3177,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:a0f6cef3-bbc6-4223-9b6a-33ff06368b58"
+   "job_id": "simplify:a0f6cef3-bbc6-4223-9b6a-33ff06368b58",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2890,7 +3206,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:ff726677-73d4-416f-9342-25617fee706e"
+   "job_id": "simplify:ff726677-73d4-416f-9342-25617fee706e",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2916,7 +3235,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:c61645da-785b-4921-a413-a019a2fd8b4e"
+   "job_id": "simplify:c61645da-785b-4921-a413-a019a2fd8b4e",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2942,7 +3264,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:54936466-1738-4f96-99aa-7dca5c1c5fb1"
+   "job_id": "simplify:54936466-1738-4f96-99aa-7dca5c1c5fb1",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2968,7 +3293,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:f5390082-331a-4384-ba8f-6385c2291080"
+   "job_id": "simplify:f5390082-331a-4384-ba8f-6385c2291080",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -2994,7 +3322,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:475c6e64-fc16-434f-a3fc-59634cda73e3"
+   "job_id": "simplify:475c6e64-fc16-434f-a3fc-59634cda73e3",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -3022,7 +3353,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:c03b7a2c-d1b6-4e44-bfc8-e638eeb45dac"
+   "job_id": "simplify:c03b7a2c-d1b6-4e44-bfc8-e638eeb45dac",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -3048,7 +3382,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:7488c664-80c5-4270-8dba-8eeb45c1397a"
+   "job_id": "simplify:7488c664-80c5-4270-8dba-8eeb45c1397a",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -3074,7 +3411,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:df848f9e-ca3e-4ea9-ac5c-e1e9596730ba"
+   "job_id": "simplify:df848f9e-ca3e-4ea9-ac5c-e1e9596730ba",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -3101,7 +3441,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:ac3e3883-21b0-4ad1-8011-bf5060c01aab"
+   "job_id": "simplify:ac3e3883-21b0-4ad1-8011-bf5060c01aab",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -3127,7 +3470,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:0311ac29-d2ee-4cf9-ae1e-28a3abdb428c"
+   "job_id": "simplify:0311ac29-d2ee-4cf9-ae1e-28a3abdb428c",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -3153,7 +3499,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:4e30bd9b-ebf0-4353-86db-38408f6b37c3"
+   "job_id": "simplify:4e30bd9b-ebf0-4353-86db-38408f6b37c3",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -3179,7 +3528,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:b84f454b-25b1-4def-a3c5-0182400b2cc9"
+   "job_id": "simplify:b84f454b-25b1-4def-a3c5-0182400b2cc9",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -3205,7 +3557,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:d7b543a2-bef9-431a-a9cb-81bf06aa067b"
+   "job_id": "simplify:d7b543a2-bef9-431a-a9cb-81bf06aa067b",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -3231,7 +3586,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:ddf32c68-191e-4c33-a7b3-7b2db5f7e5a1"
+   "job_id": "simplify:ddf32c68-191e-4c33-a7b3-7b2db5f7e5a1",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Yotta Labs",
@@ -3261,7 +3619,12 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:48c4cfa3-389b-4a66-abd7-a1d6cb9708a5"
+   "job_id": "simplify:48c4cfa3-389b-4a66-abd7-a1d6cb9708a5",
+   "regions": [
+    "Canada",
+    "US",
+    "Remote"
+   ]
   },
   {
    "company": "Two Sigma",
@@ -3291,7 +3654,10 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:6bb2553b-f9bc-4c0b-ae90-ae4d6dabeeee"
+   "job_id": "simplify:6bb2553b-f9bc-4c0b-ae90-ae4d6dabeeee",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Postman",
@@ -3321,7 +3687,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:cef7eb65-ef35-4d6e-961e-cd3c0afe1058"
+   "job_id": "simplify:cef7eb65-ef35-4d6e-961e-cd3c0afe1058",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "PPL",
@@ -3349,7 +3718,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:87ba0492-0ef9-4598-a85a-3c3824537920"
+   "job_id": "simplify:87ba0492-0ef9-4598-a85a-3c3824537920",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Persona AI",
@@ -3379,7 +3751,10 @@
     "Spring 2027"
    ],
    "domain": "",
-   "job_id": "simplify:24255193-3808-4715-852f-52963f5a98c1"
+   "job_id": "simplify:24255193-3808-4715-852f-52963f5a98c1",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Lawrence Livermore National Laboratory (LLNL)",
@@ -3407,7 +3782,10 @@
     "N/A"
    ],
    "domain": "",
-   "job_id": "simplify:f8b9e37f-3c7e-4e07-b7ca-ac75b69f8c7d"
+   "job_id": "simplify:f8b9e37f-3c7e-4e07-b7ca-ac75b69f8c7d",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Helsing",
@@ -3435,7 +3813,11 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:d8dde7da-b9cd-456f-8810-481073996ee1"
+   "job_id": "simplify:d8dde7da-b9cd-456f-8810-481073996ee1",
+   "regions": [
+    "UK",
+    "Europe"
+   ]
   },
   {
    "company": "TikTok",
@@ -3461,7 +3843,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:6219c04b-bc5c-4d14-90ea-426f117b51c0"
+   "job_id": "simplify:6219c04b-bc5c-4d14-90ea-426f117b51c0",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Tesla",
@@ -3489,7 +3874,10 @@
     "Fall 2026"
    ],
    "domain": "tesla.com",
-   "job_id": "simplify:b9a81086-50d0-4ea0-bd8e-97fd33f70311"
+   "job_id": "simplify:b9a81086-50d0-4ea0-bd8e-97fd33f70311",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Bluestaq",
@@ -3518,7 +3906,10 @@
     "N/A"
    ],
    "domain": "",
-   "job_id": "simplify:57efe4c7-9370-4c4e-9497-aeb4a91462c2"
+   "job_id": "simplify:57efe4c7-9370-4c4e-9497-aeb4a91462c2",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "G-Research",
@@ -3547,7 +3938,10 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:ff38f8af-bafd-4a27-b65d-e65d625efe50"
+   "job_id": "simplify:ff38f8af-bafd-4a27-b65d-e65d625efe50",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Medpace",
@@ -3577,7 +3971,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:78b03927-c204-476c-947a-99cb2714c3ee"
+   "job_id": "simplify:78b03927-c204-476c-947a-99cb2714c3ee",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "GenMD",
@@ -3606,7 +4003,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:25b39cd6-8460-4aa3-be55-52865cb6c034"
+   "job_id": "simplify:25b39cd6-8460-4aa3-be55-52865cb6c034",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Quadrillion",
@@ -3634,7 +4034,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:05ffbfcd-fa0b-4650-baa4-19048fcad9d7"
+   "job_id": "simplify:05ffbfcd-fa0b-4650-baa4-19048fcad9d7",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Georgian Partners Growth",
@@ -3663,7 +4066,10 @@
     "Fall 2027"
    ],
    "domain": "",
-   "job_id": "simplify:e82820b4-2e75-4801-98c5-fd73b5bcc48f"
+   "job_id": "simplify:e82820b4-2e75-4801-98c5-fd73b5bcc48f",
+   "regions": [
+    "Canada"
+   ]
   },
   {
    "company": "NeoCognition",
@@ -3693,7 +4099,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:6c0ab4e5-360b-4ac9-870b-63679e2b79d0"
+   "job_id": "simplify:6c0ab4e5-360b-4ac9-870b-63679e2b79d0",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Vmax AI Corp",
@@ -3721,7 +4130,10 @@
     "N/A"
    ],
    "domain": "",
-   "job_id": "simplify:479c73d2-b816-4d2e-815c-e11f66aaaccc"
+   "job_id": "simplify:479c73d2-b816-4d2e-815c-e11f66aaaccc",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Castleton Commodities International",
@@ -3751,7 +4163,10 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:2c656f83-6247-4e1c-a019-3126608b9e23"
+   "job_id": "simplify:2c656f83-6247-4e1c-a019-3126608b9e23",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Castleton Commodities International",
@@ -3782,7 +4197,10 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:ef340463-f818-4cd0-874c-2b1574493963"
+   "job_id": "simplify:ef340463-f818-4cd0-874c-2b1574493963",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Google",
@@ -3809,7 +4227,10 @@
     "N/A"
    ],
    "domain": "deepmind.google",
-   "job_id": "simplify:817799e0-f2c4-4c4c-8634-508da3e89b72"
+   "job_id": "simplify:817799e0-f2c4-4c4c-8634-508da3e89b72",
+   "regions": [
+    "Canada"
+   ]
   },
   {
    "company": "Google",
@@ -3835,7 +4256,10 @@
     "N/A"
    ],
    "domain": "deepmind.google",
-   "job_id": "simplify:c88b6245-fb2b-4f6c-84c4-c9b786738681"
+   "job_id": "simplify:c88b6245-fb2b-4f6c-84c4-c9b786738681",
+   "regions": [
+    "Canada"
+   ]
   },
   {
    "company": "Google",
@@ -3861,7 +4285,10 @@
     "N/A"
    ],
    "domain": "deepmind.google",
-   "job_id": "simplify:1af2873b-32c5-4dac-9ccb-9af00aa0c9a3"
+   "job_id": "simplify:1af2873b-32c5-4dac-9ccb-9af00aa0c9a3",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Constellation Space",
@@ -3890,7 +4317,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:7387a1fc-9d17-4ccb-9dac-9de2c1006f0a"
+   "job_id": "simplify:7387a1fc-9d17-4ccb-9dac-9de2c1006f0a",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Rivian",
@@ -3920,7 +4350,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:3d06c27f-be5d-4769-a58b-6bf05b60a50a"
+   "job_id": "simplify:3d06c27f-be5d-4769-a58b-6bf05b60a50a",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "DRW",
@@ -3949,7 +4382,10 @@
     "Summer 2028"
    ],
    "domain": "",
-   "job_id": "simplify:3054c494-0389-49b7-bf3a-0da5d0c8dca1"
+   "job_id": "simplify:3054c494-0389-49b7-bf3a-0da5d0c8dca1",
+   "regions": [
+    "Canada"
+   ]
   },
   {
    "company": "Jump Trading",
@@ -3977,7 +4413,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:a7c171b9-3bae-433c-ba6d-a3f97c7b2008"
+   "job_id": "simplify:a7c171b9-3bae-433c-ba6d-a3f97c7b2008",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "TikTok",
@@ -4003,7 +4442,10 @@
     "Fall 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:fec6fb73-1803-46db-9cba-34474df3c382"
+   "job_id": "simplify:fec6fb73-1803-46db-9cba-34474df3c382",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Jane Street",
@@ -4032,7 +4474,10 @@
     "N/A"
    ],
    "domain": "",
-   "job_id": "simplify:7a155542-8f46-4f7b-8366-966fcea9c221"
+   "job_id": "simplify:7a155542-8f46-4f7b-8366-966fcea9c221",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Tencent",
@@ -4062,7 +4507,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:eb14174f-2e4d-4c27-90c6-67df2ddef557"
+   "job_id": "simplify:eb14174f-2e4d-4c27-90c6-67df2ddef557",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Bot Auto",
@@ -4091,7 +4539,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:1294efe4-9bb6-417c-83bc-7da76b87978c"
+   "job_id": "simplify:1294efe4-9bb6-417c-83bc-7da76b87978c",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "JP Morgan Chase",
@@ -4120,7 +4571,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:5971e10c-96c8-4605-9fe5-6b3de66eb784"
+   "job_id": "simplify:5971e10c-96c8-4605-9fe5-6b3de66eb784",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Lila Sciences",
@@ -4148,7 +4602,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:c625bdf8-bb79-49ff-ad24-a9edc7c39f8d"
+   "job_id": "simplify:c625bdf8-bb79-49ff-ad24-a9edc7c39f8d",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "IMC Trading",
@@ -4176,7 +4633,10 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:1d7827d1-14f5-4597-b49c-7b91bb07cb0c"
+   "job_id": "simplify:1d7827d1-14f5-4597-b49c-7b91bb07cb0c",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Seven Research",
@@ -4204,7 +4664,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:e1fc4e73-902b-46f8-a226-2051c83aaee7"
+   "job_id": "simplify:e1fc4e73-902b-46f8-a226-2051c83aaee7",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Citadel Securities",
@@ -4232,7 +4695,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:e2a8f8b3-cb1a-4411-871c-916776913b34"
+   "job_id": "simplify:e2a8f8b3-cb1a-4411-871c-916776913b34",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Ancestry",
@@ -4260,7 +4726,11 @@
     "N/A"
    ],
    "domain": "",
-   "job_id": "simplify:7ff2bfdc-c0f7-4d3b-9cc7-c2eae7f22986"
+   "job_id": "simplify:7ff2bfdc-c0f7-4d3b-9cc7-c2eae7f22986",
+   "regions": [
+    "US",
+    "Remote"
+   ]
   },
   {
    "company": "Netflix",
@@ -4286,7 +4756,10 @@
     "Fall 2026"
    ],
    "domain": "netflix.com",
-   "job_id": "simplify:dee128c9-ea09-43a7-b1c8-6ab36d14287e"
+   "job_id": "simplify:dee128c9-ea09-43a7-b1c8-6ab36d14287e",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Meta",
@@ -4315,7 +4788,10 @@
     "Fall 2026"
    ],
    "domain": "meta.com",
-   "job_id": "simplify:7d40282a-e5d1-4104-ba34-426064c6790a"
+   "job_id": "simplify:7d40282a-e5d1-4104-ba34-426064c6790a",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Meta",
@@ -4340,7 +4816,10 @@
     "Fall 2026"
    ],
    "domain": "meta.com",
-   "job_id": "simplify:92102d77-8574-46bc-b529-80e4985b7bbf"
+   "job_id": "simplify:92102d77-8574-46bc-b529-80e4985b7bbf",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Cotiviti",
@@ -4369,7 +4848,11 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:b099116b-63e4-4ecb-8557-b5c6dffa3d3d"
+   "job_id": "simplify:b099116b-63e4-4ecb-8557-b5c6dffa3d3d",
+   "regions": [
+    "US",
+    "Remote"
+   ]
   },
   {
    "company": "TikTok",
@@ -4395,7 +4878,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:f5c86f4d-394f-4270-9bb3-1a362fbddbcb"
+   "job_id": "simplify:f5c86f4d-394f-4270-9bb3-1a362fbddbcb",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Institute of Foundation Models",
@@ -4424,7 +4910,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:22d00642-f6f4-4b29-8f19-16686852eeb5"
+   "job_id": "simplify:22d00642-f6f4-4b29-8f19-16686852eeb5",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "EPRI",
@@ -4453,7 +4942,10 @@
     "N/A"
    ],
    "domain": "",
-   "job_id": "simplify:a0d7a974-5252-4602-b152-60c7f1945452"
+   "job_id": "simplify:a0d7a974-5252-4602-b152-60c7f1945452",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "XPENG Motors",
@@ -4482,7 +4974,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:80d17130-e8af-42ec-9d13-451a3db46199"
+   "job_id": "simplify:80d17130-e8af-42ec-9d13-451a3db46199",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Rippling",
@@ -4511,7 +5006,10 @@
     "Winter 2027"
    ],
    "domain": "",
-   "job_id": "simplify:0271dfee-afcf-4a95-ad39-156710edc8ce"
+   "job_id": "simplify:0271dfee-afcf-4a95-ad39-156710edc8ce",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Peraton",
@@ -4540,7 +5038,11 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:8ee2c108-7c86-4c94-b7bb-5667b48e3d3a"
+   "job_id": "simplify:8ee2c108-7c86-4c94-b7bb-5667b48e3d3a",
+   "regions": [
+    "US",
+    "Remote"
+   ]
   },
   {
    "company": "ByteDance",
@@ -4566,7 +5068,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:8ec30018-f2c6-45b8-ba34-9afbf20eee7f"
+   "job_id": "simplify:8ec30018-f2c6-45b8-ba34-9afbf20eee7f",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -4592,7 +5097,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:f1526646-4e0f-4501-b158-b8d7eb77bf4e"
+   "job_id": "simplify:f1526646-4e0f-4501-b158-b8d7eb77bf4e",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -4618,7 +5126,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:0686730f-5d35-438b-9745-60e0e744adff"
+   "job_id": "simplify:0686730f-5d35-438b-9745-60e0e744adff",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -4644,7 +5155,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:88789b47-9fb6-403c-bad2-041cccae3d74"
+   "job_id": "simplify:88789b47-9fb6-403c-bad2-041cccae3d74",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -4670,7 +5184,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:ee7765e2-658f-4be4-a4a8-45e6f41a7c4b"
+   "job_id": "simplify:ee7765e2-658f-4be4-a4a8-45e6f41a7c4b",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -4696,7 +5213,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:17c17e13-cd4c-441d-8d4c-0da4520b0c37"
+   "job_id": "simplify:17c17e13-cd4c-441d-8d4c-0da4520b0c37",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -4722,7 +5242,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:2c746302-72dc-4ecf-88fe-0c93ec89ce6e"
+   "job_id": "simplify:2c746302-72dc-4ecf-88fe-0c93ec89ce6e",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -4748,7 +5271,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:de48457d-a67f-404d-998a-651a76fa2e00"
+   "job_id": "simplify:de48457d-a67f-404d-998a-651a76fa2e00",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -4774,7 +5300,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:f96f37aa-90f1-4570-b25c-870dcbcee499"
+   "job_id": "simplify:f96f37aa-90f1-4570-b25c-870dcbcee499",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -4800,7 +5329,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:de5074f8-86bf-493d-b154-08ce9f1f4a9c"
+   "job_id": "simplify:de5074f8-86bf-493d-b154-08ce9f1f4a9c",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -4826,7 +5358,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:72a3e549-a2c0-4365-a2df-1210910b0451"
+   "job_id": "simplify:72a3e549-a2c0-4365-a2df-1210910b0451",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "pony.ai",
@@ -4858,7 +5393,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:40cc0419-8dbb-4ea5-81d6-cb30c72b1032"
+   "job_id": "simplify:40cc0419-8dbb-4ea5-81d6-cb30c72b1032",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Apple",
@@ -4884,7 +5422,10 @@
     "Summer 2026"
    ],
    "domain": "apple.com",
-   "job_id": "simplify:da7a12e5-701f-463f-9b1d-1a62bb743dfa"
+   "job_id": "simplify:da7a12e5-701f-463f-9b1d-1a62bb743dfa",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Apple",
@@ -4910,7 +5451,10 @@
     "Summer 2026"
    ],
    "domain": "apple.com",
-   "job_id": "simplify:621d21ef-e93e-4eb7-a221-17879b967819"
+   "job_id": "simplify:621d21ef-e93e-4eb7-a221-17879b967819",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Apple",
@@ -4936,7 +5480,10 @@
     "Summer 2026"
    ],
    "domain": "apple.com",
-   "job_id": "simplify:6def9049-74e8-421a-8971-f231e638e844"
+   "job_id": "simplify:6def9049-74e8-421a-8971-f231e638e844",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Apple",
@@ -4962,7 +5509,10 @@
     "Summer 2026"
    ],
    "domain": "apple.com",
-   "job_id": "simplify:4c7a8eb9-496a-49b7-aacf-d00ae8653c6e"
+   "job_id": "simplify:4c7a8eb9-496a-49b7-aacf-d00ae8653c6e",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Microsoft",
@@ -4989,7 +5539,10 @@
     "Summer 2026"
    ],
    "domain": "microsoft.com",
-   "job_id": "simplify:5407f428-b513-492f-97d0-d2bd020610b6"
+   "job_id": "simplify:5407f428-b513-492f-97d0-d2bd020610b6",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Lila Sciences",
@@ -5021,7 +5574,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:d3eb0017-4b7c-45b9-bb73-96df9e032168"
+   "job_id": "simplify:d3eb0017-4b7c-45b9-bb73-96df9e032168",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Amazon",
@@ -5051,7 +5607,10 @@
     "Fall 2026"
    ],
    "domain": "amazon.com",
-   "job_id": "simplify:c44d58c3-05e3-470a-9f21-4722f9d8522d"
+   "job_id": "simplify:c44d58c3-05e3-470a-9f21-4722f9d8522d",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Docugami",
@@ -5079,7 +5638,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:e6eb833f-8ff9-4da8-98de-2001135f3e0b"
+   "job_id": "simplify:e6eb833f-8ff9-4da8-98de-2001135f3e0b",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Medpace, Inc.",
@@ -5108,7 +5670,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:ea8ff237-6cb5-424b-917e-9ce08abf23a1"
+   "job_id": "simplify:ea8ff237-6cb5-424b-917e-9ce08abf23a1",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Eluvio",
@@ -5138,7 +5703,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:07de287a-60cf-4318-9941-284ab79b4148"
+   "job_id": "simplify:07de287a-60cf-4318-9941-284ab79b4148",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Meta",
@@ -5167,7 +5735,10 @@
     "Fall 2026"
    ],
    "domain": "meta.com",
-   "job_id": "simplify:41d0ba32-8c09-48c5-917a-2ee8e6af3a8d"
+   "job_id": "simplify:41d0ba32-8c09-48c5-917a-2ee8e6af3a8d",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -5193,7 +5764,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:810e50c9-00ba-458d-bdb0-89ae72adc9f9"
+   "job_id": "simplify:810e50c9-00ba-458d-bdb0-89ae72adc9f9",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Integra FEC",
@@ -5221,7 +5795,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:b9a99f84-c011-4f16-806a-8ad02e98b530"
+   "job_id": "simplify:b9a99f84-c011-4f16-806a-8ad02e98b530",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Integra FEC",
@@ -5249,7 +5826,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:ebb7f560-b3e3-4f57-b812-b0097eeb39bf"
+   "job_id": "simplify:ebb7f560-b3e3-4f57-b812-b0097eeb39bf",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Netflix",
@@ -5275,7 +5855,10 @@
     "Fall 2026"
    ],
    "domain": "netflix.com",
-   "job_id": "simplify:7248f7be-bf62-4a1b-a01b-3e4f27918644"
+   "job_id": "simplify:7248f7be-bf62-4a1b-a01b-3e4f27918644",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -5301,7 +5884,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:74c89fde-4677-4b10-b706-43f45065e8e4"
+   "job_id": "simplify:74c89fde-4677-4b10-b706-43f45065e8e4",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -5327,7 +5913,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:55c29391-7472-4e4d-a26f-2f38c7efc55e"
+   "job_id": "simplify:55c29391-7472-4e4d-a26f-2f38c7efc55e",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -5353,7 +5942,10 @@
     "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:0774f31a-26bd-433d-bc51-3d4bbb820b0d"
+   "job_id": "simplify:0774f31a-26bd-433d-bc51-3d4bbb820b0d",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Amazon",
@@ -5379,7 +5971,10 @@
     "Fall 2026"
    ],
    "domain": "amazon.com",
-   "job_id": "simplify:683c26d5-8306-435d-9738-d85e030935f5"
+   "job_id": "simplify:683c26d5-8306-435d-9738-d85e030935f5",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Amazon",
@@ -5405,7 +6000,10 @@
     "Fall 2026"
    ],
    "domain": "amazon.com",
-   "job_id": "simplify:828fba25-486e-4bd6-9660-ea2f3ee3dd63"
+   "job_id": "simplify:828fba25-486e-4bd6-9660-ea2f3ee3dd63",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Amazon",
@@ -5431,7 +6029,10 @@
     "Fall 2026"
    ],
    "domain": "amazon.com",
-   "job_id": "simplify:d2d779ba-bdb3-4801-889e-f3c0da9be4ee"
+   "job_id": "simplify:d2d779ba-bdb3-4801-889e-f3c0da9be4ee",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Tencent",
@@ -5461,7 +6062,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:5d7f71ac-5019-4377-9a96-d95b20a6befe"
+   "job_id": "simplify:5d7f71ac-5019-4377-9a96-d95b20a6befe",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Cotiviti",
@@ -5489,7 +6093,11 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:1497c112-6957-44c5-8912-4b7a454cc4ff"
+   "job_id": "simplify:1497c112-6957-44c5-8912-4b7a454cc4ff",
+   "regions": [
+    "US",
+    "Remote"
+   ]
   },
   {
    "company": "ByteDance",
@@ -5515,7 +6123,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:de291dac-66b0-4867-84dc-697d2f4f487c"
+   "job_id": "simplify:de291dac-66b0-4867-84dc-697d2f4f487c",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Workato",
@@ -5545,7 +6156,10 @@
     "Spring 2027"
    ],
    "domain": "",
-   "job_id": "simplify:9192d236-f16d-4cf9-8ba9-11e6e202a763"
+   "job_id": "simplify:9192d236-f16d-4cf9-8ba9-11e6e202a763",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Susquehanna International Group (SIG)",
@@ -5573,7 +6187,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:7da3c280-040c-4a6b-bbdc-ccf7e3d9f527"
+   "job_id": "simplify:7da3c280-040c-4a6b-bbdc-ccf7e3d9f527",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -5600,7 +6217,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:d1de5351-a1c6-4497-bcfd-241a21eab0c3"
+   "job_id": "simplify:d1de5351-a1c6-4497-bcfd-241a21eab0c3",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -5626,7 +6246,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:d964cbb0-851e-48b9-97f4-66e970586e9a"
+   "job_id": "simplify:d964cbb0-851e-48b9-97f4-66e970586e9a",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -5652,7 +6275,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:021c42ed-56c5-498d-9c09-5301ad13605f"
+   "job_id": "simplify:021c42ed-56c5-498d-9c09-5301ad13605f",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -5678,7 +6304,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:f3007eae-7ae6-48d3-8e58-2c2ab54559dd"
+   "job_id": "simplify:f3007eae-7ae6-48d3-8e58-2c2ab54559dd",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -5705,7 +6334,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:77ff658e-cabb-48be-9248-a271f5f898ff"
+   "job_id": "simplify:77ff658e-cabb-48be-9248-a271f5f898ff",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -5731,7 +6363,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:12c61451-8c62-417c-b97a-6b13f42bc584"
+   "job_id": "simplify:12c61451-8c62-417c-b97a-6b13f42bc584",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -5758,7 +6393,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:5ee0c221-6808-401f-9d4e-a8e71f60785b"
+   "job_id": "simplify:5ee0c221-6808-401f-9d4e-a8e71f60785b",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -5785,7 +6423,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:38db92f9-6338-4caa-b797-e738cda127b9"
+   "job_id": "simplify:38db92f9-6338-4caa-b797-e738cda127b9",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "ByteDance",
@@ -5811,7 +6452,10 @@
     "N/A"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:079a44ae-b213-4f4c-9088-cc2c48d346b1"
+   "job_id": "simplify:079a44ae-b213-4f4c-9088-cc2c48d346b1",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Gensyn",
@@ -5840,7 +6484,12 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:f77cdfb9-e8db-45de-82ea-2c529cd2f8f8"
+   "job_id": "simplify:f77cdfb9-e8db-45de-82ea-2c529cd2f8f8",
+   "regions": [
+    "UK",
+    "US",
+    "Remote"
+   ]
   },
   {
    "company": "Applied Materials",
@@ -5869,7 +6518,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:5e4572a4-e876-4056-a421-eab41b69f824"
+   "job_id": "simplify:5e4572a4-e876-4056-a421-eab41b69f824",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Nio",
@@ -5898,7 +6550,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:0d4503e1-90d1-4c0f-bd67-bb854a37ac01"
+   "job_id": "simplify:0d4503e1-90d1-4c0f-bd67-bb854a37ac01",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -5929,7 +6584,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:df86468a-0723-4315-bf56-0803134d3889"
+   "job_id": "simplify:df86468a-0723-4315-bf56-0803134d3889",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Meta",
@@ -5958,7 +6616,10 @@
     "Fall 2026"
    ],
    "domain": "meta.com",
-   "job_id": "simplify:49253634-daa9-4f92-89fc-e71ec916eb6b"
+   "job_id": "simplify:49253634-daa9-4f92-89fc-e71ec916eb6b",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Meta",
@@ -5987,7 +6648,10 @@
     "Fall 2026"
    ],
    "domain": "meta.com",
-   "job_id": "simplify:30d1162f-2765-4044-9e44-203f4a85d5a1"
+   "job_id": "simplify:30d1162f-2765-4044-9e44-203f4a85d5a1",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Meta",
@@ -6016,7 +6680,10 @@
     "Fall 2026"
    ],
    "domain": "meta.com",
-   "job_id": "simplify:ce2b8a69-f8a4-41dc-8b62-0a5987028ce6"
+   "job_id": "simplify:ce2b8a69-f8a4-41dc-8b62-0a5987028ce6",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Meta",
@@ -6044,7 +6711,10 @@
     "Fall 2026"
    ],
    "domain": "meta.com",
-   "job_id": "simplify:98cc7fb2-2089-42ab-beb1-25caa21da6e5"
+   "job_id": "simplify:98cc7fb2-2089-42ab-beb1-25caa21da6e5",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Tencent",
@@ -6074,7 +6744,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:f682356d-55da-4f90-987d-77f140cc652d"
+   "job_id": "simplify:f682356d-55da-4f90-987d-77f140cc652d",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Expedia Group",
@@ -6102,7 +6775,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:0065f072-c487-4769-b10d-6993af68f633"
+   "job_id": "simplify:0065f072-c487-4769-b10d-6993af68f633",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Samaya",
@@ -6131,7 +6807,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:88d6275e-f9ce-4322-a25e-8665865b7db3"
+   "job_id": "simplify:88d6275e-f9ce-4322-a25e-8665865b7db3",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "X Development",
@@ -6162,7 +6841,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:7906ae4b-a2bf-420a-a929-2b11f82819e8"
+   "job_id": "simplify:7906ae4b-a2bf-420a-a929-2b11f82819e8",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Thomson Reuters",
@@ -6193,7 +6875,10 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:8f637d0b-eb09-4bfb-8875-fa6166bb6de2"
+   "job_id": "simplify:8f637d0b-eb09-4bfb-8875-fa6166bb6de2",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "ByteDance",
@@ -6219,7 +6904,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:d55233d5-c04b-4722-b48b-b39c50e6b4c9"
+   "job_id": "simplify:d55233d5-c04b-4722-b48b-b39c50e6b4c9",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Amazon",
@@ -6248,7 +6936,10 @@
     "Summer 2026"
    ],
    "domain": "amazon.com",
-   "job_id": "simplify:8cfec360-0de7-4099-97df-66400369c836"
+   "job_id": "simplify:8cfec360-0de7-4099-97df-66400369c836",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Prior Labs",
@@ -6276,7 +6967,11 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:a39a86bb-991c-4915-982e-8a1388db3fd9"
+   "job_id": "simplify:a39a86bb-991c-4915-982e-8a1388db3fd9",
+   "regions": [
+    "Europe",
+    "US"
+   ]
   },
   {
    "company": "onsemi",
@@ -6304,7 +6999,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:24dbcbe0-d481-45c9-b53d-1484768ec672"
+   "job_id": "simplify:24dbcbe0-d481-45c9-b53d-1484768ec672",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "TikTok",
@@ -6330,7 +7028,10 @@
     "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:5be21c8e-1326-4ca1-9b44-d4839ecb5574"
+   "job_id": "simplify:5be21c8e-1326-4ca1-9b44-d4839ecb5574",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Boston Consulting Group",
@@ -6359,7 +7060,10 @@
     "Spring 2026"
    ],
    "domain": "",
-   "job_id": "simplify:aba3cf97-4ffd-4dce-876d-ab3305231512"
+   "job_id": "simplify:aba3cf97-4ffd-4dce-876d-ab3305231512",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Boston Consulting Group",
@@ -6388,7 +7092,10 @@
     "Spring 2026"
    ],
    "domain": "",
-   "job_id": "simplify:128e7ee0-9110-45e1-992d-270f1fa2be3d"
+   "job_id": "simplify:128e7ee0-9110-45e1-992d-270f1fa2be3d",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Citadel",
@@ -6416,7 +7123,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:9a900104-2a94-4f83-8db2-d908f008ed99"
+   "job_id": "simplify:9a900104-2a94-4f83-8db2-d908f008ed99",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Autodesk",
@@ -6445,7 +7155,10 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:244b5d51-7fee-44da-9192-dd642b0387f9"
+   "job_id": "simplify:244b5d51-7fee-44da-9192-dd642b0387f9",
+   "regions": [
+    "Canada"
+   ]
   },
   {
    "company": "Tencent",
@@ -6474,7 +7187,10 @@
     "Spring 2026"
    ],
    "domain": "",
-   "job_id": "simplify:99e99058-6697-4526-a081-398624f49749"
+   "job_id": "simplify:99e99058-6697-4526-a081-398624f49749",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Tencent",
@@ -6503,7 +7219,10 @@
     "Spring 2026"
    ],
    "domain": "",
-   "job_id": "simplify:bdc2d554-4887-4da6-97e5-f379e292b6a8"
+   "job_id": "simplify:bdc2d554-4887-4da6-97e5-f379e292b6a8",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "ByteDance",
@@ -6529,7 +7248,10 @@
     "Spring 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:2f581eb5-e5d9-4bc0-a9b6-54a4ea8ad53d"
+   "job_id": "simplify:2f581eb5-e5d9-4bc0-a9b6-54a4ea8ad53d",
+   "regions": [
+    "US"
+   ]
   }
  ]
 }

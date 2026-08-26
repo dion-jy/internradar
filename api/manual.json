@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T04:20:15.642923+00:00",
+ "generated_at": "2026-08-26T04:28:37.563231+00:00",
  "count": 3,
  "jobs": [
   {
@@ -21,7 +21,10 @@
    ],
    "phd": false,
    "note": "Research category, listed as \"Internship / Visiting Researcher\", English. \"We are occasionally hiring researchers who are passionate about novel approaches to develop the next generation of nature-inspired foundation AI models.\" No degree requirement stated. Apply by emailing careers@sakana.ai naming the role, then submit their Google Form with CV and cover letter in English.",
-   "job_id": "manual:44c6a22d93d3a3cb"
+   "job_id": "manual:44c6a22d93d3a3cb",
+   "regions": [
+    "Asia"
+   ]
   },
   {
    "company": "Sakana AI",
@@ -42,7 +45,10 @@
    ],
    "phd": false,
    "note": "Listed as \"Full-time / Visiting Researcher / Internship\". The Recursive Self-Improvement Lab works on redesigning the AI development process itself with AI. Apply by emailing careers@sakana.ai naming the role, then submit their Google Form.",
-   "job_id": "manual:79175c948fb48e7e"
+   "job_id": "manual:79175c948fb48e7e",
+   "regions": [
+    "Asia"
+   ]
   },
   {
    "company": "Sakana AI",
@@ -63,7 +69,10 @@
    ],
    "phd": false,
    "note": "Product-side applied research (Sakana Chat, Marlin, Fugu), listed as \"Full-time / Contract / Intern\". Apply by emailing careers@sakana.ai naming the role, then submit their Google Form.",
-   "job_id": "manual:8da55e842aa205f7"
+   "job_id": "manual:8da55e842aa205f7",
+   "regions": [
+    "Asia"
+   ]
   }
  ]
 }

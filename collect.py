@@ -63,17 +63,6 @@ PROGRAM_FORM = re.compile(
 # deliberately absent -- \b does not fire between CJK characters -- and that is safe
 # here because these are content words, not the substring trap that "Internal" and
 # "International" spring on the English side.
-STRONG_CJK = re.compile(
-    "연구\\s*인턴|연구인턴|학생\\s*연구원|박사\\s*인턴|리서치\\s*인턴|박사과정\\s*인턴"
-    "|研究\\s*インターン|リサーチ\\s*インターン|学生\\s*研究員|博士\\s*インターン"
-    "|研究\\s*員\\s*インターン", re.U)
-
-INTERN_CJK = re.compile("인턴|인턴십|체험형|インターン|インターンシップ", re.U)
-
-RESEARCH_CJK = re.compile(
-    "연구|연구원|개발|리서치|머신러닝|딥러닝|인공지능|자연어|비전|로봇|음성|언어\\s*모델"
-    "|研究|開発|リサーチ|機械学習|深層学習|人工知能|自然言語|画像認識|音声|ロボット", re.U)
-
 # Non-research roles that carry an intern word. Mirrors the English BLOCK list.
 BLOCK_CJK = re.compile(
     "영업|마케팅|인사|재무|회계|법무|총무|채용|홍보|디자인|번역|통역"
@@ -139,6 +128,123 @@ RESEARCH_ROLE = re.compile(r"""
 """, re.I | re.X)
 
 
+# The audience is international PhD applicants, so a posting has to be one they can
+# actually read. Judging that by the title alone is not enough and the data says so:
+# LG AI Research posts "Research Internship - Physical AI" with a title that is 100%
+# Latin and a body that is 66% Korean. The requirements, the eligibility and the
+# application instructions all live in the body, so the body is what decides.
+CJK_CHARS = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]")
+LATIN_CHARS = re.compile(r"[A-Za-z]")
+
+
+def cjk_ratio(text):
+    """Share of letters that are CJK. 0.0 for pure English, ~0.6 for a Korean JD."""
+    if not text:
+        return 0.0
+    c = len(CJK_CHARS.findall(text))
+    l = len(LATIN_CHARS.findall(text))
+    return c / (c + l) if (c + l) else 0.0
+
+
+# A Korean or Japanese company name, a city, a team label in the original script --
+# all normal inside an otherwise English posting. A body written in Korean is not.
+TITLE_MAX_CJK = 0.30
+BODY_MAX_CJK = 0.20
+
+
+def english_enough(title, desc):
+    return cjk_ratio(title) <= TITLE_MAX_CJK and cjk_ratio(desc[:6000]) <= BODY_MAX_CJK
+
+
+# Region, derived from the location string. Two things the first attempt got wrong
+# and that the data caught immediately:
+#
+#   "Cambridge, MA"        -> UK      because a bare city name is not a country
+#   "Pensacola, FL, Vienna, VA" -> Europe   same reason, Vienna is also in Virginia
+#
+# So ambiguous cities are matched only with their country attached, and anything
+# that stays ambiguous is left to the state-abbreviation rules. The second fix is
+# that a listing gets a *list* of regions, not one: "London, UK, Santa Clara, CA"
+# is genuinely both, and collapsing it to whichever rule ran first hid the role
+# from one of the two filters that should have shown it.
+REGION_RULES = [
+    ("Asia", r"seoul|korea|tokyo|osaka|kyoto|japan|taipei|taiwan|singapore|beijing|"
+             r"shanghai|shenzhen|hangzhou|china|hong kong|bangalore|bengaluru|hyderabad|"
+             r"mumbai|new delhi|india|jakarta|indonesia|manila|philippines|bangkok|"
+             r"thailand|kuala lumpur|malaysia|vietnam|hanoi|tel aviv|israel"),
+    ("UK", r"united kingdom|\buk\b|\bu\.k\.|england|scotland|\bwales\b|"
+           r"\blondon\b|edinburgh|glasgow|manchester|bristol|\boxford\b|"
+           r"cambridge,?\s*(uk|united kingdom|england)"),
+    ("Europe", r"\bfrance\b|germany|deutschland|netherlands|switzerland|\bsweden\b|"
+               r"denmark|norway|finland|ireland|\bspain\b|portugal|\bitaly\b|poland|"
+               r"czech|austria|belgium|greece|romania|hungary|estonia|serbia|croatia|"
+               r"bulgaria|slovakia|slovenia|lithuania|latvia|luxembourg|iceland|"
+               r"\beurope\b|\bemea\b|"
+               r"\bparis\b|\bberlin\b|munich|m\u00fcnchen|hamburg|cologne|frankfurt|"
+               r"stuttgart|freiburg|amsterdam|rotterdam|eindhoven|\bzurich\b|z\u00fcrich|"
+               r"geneva|lausanne|basel|stockholm|gothenburg|copenhagen|\boslo\b|"
+               r"helsinki|\bdublin\b|\bmadrid\b|barcelona|lisbon|\bmilan\b|\bturin\b|"
+               r"warsaw|krakow|\bprague\b|brussels|belgrade|tallinn|vilnius|"
+               r"vienna,?\s*austria|\bwien\b|athens,?\s*greece|rome,?\s*italy"),
+    ("Canada", r"\bcanada\b|toronto|vancouver|montr[e\u00e9]al|ottawa|waterloo|calgary|"
+               r"edmonton|\bquebec|winnipeg|halifax"),
+    ("US", r"united states|\busa\b|\bu\.s\.|\bus\b|california|new york|\bnyc\b|"
+           r"seattle|boston|texas|austin|chicago|denver|atlanta|miami|"
+           r"ann arbor|pittsburgh|philadelphia|baltimore|\bberkeley\b|"
+           r"san francisco|\bsf\b|palo alto|mountain view|sunnyvale|santa clara|"
+           r"san jose|menlo park|cupertino|redmond|bellevue|los angeles|san diego|"
+           r"\bca\b|\bny\b|\bwa\b|\bma\b|\btx\b|\bil\b|\bco\b|\bga\b|\bfl\b|\bmi\b|"
+           r"\bpa\b|\bva\b|\bnc\b|\baz\b|\bor\b|\but\b|\bmn\b|\bwi\b|\boh\b|\bmd\b|"
+           r"\bnj\b|\bct\b|\bmo\b|\btn\b|\bin\b|\bnv\b|\bks\b|\bia\b|\bal\b|\bsc\b"),
+]
+REGION_RULES = [(name, re.compile(pat, re.I)) for name, pat in REGION_RULES]
+REMOTE = re.compile(r"\bremote\b|\banywhere\b|work from home|\bhybrid\b", re.I)
+
+
+def regions_of(location):
+    """Every region a listing is open in, most-specific rule order preserved.
+
+    Returns a list because a multi-site posting belongs in more than one filter.
+    Remote is additive rather than exclusive -- "Remote - London" is both.
+    """
+    loc = (location or "").strip()
+    if not loc:
+        return ["Unspecified"]
+    out = [name for name, pat in REGION_RULES if pat.search(loc)]
+    if REMOTE.search(loc):
+        out.append("Remote")
+    return out or ["Other"]
+
+
+
+# The audience is international PhD applicants, so a posting has to be one they can
+# actually read. Judging that by the title alone is not enough and the data says so:
+# LG AI Research posts "Research Internship - Physical AI" with a title that is 100%
+# Latin and a body that is 66% Korean. The requirements, the eligibility and the
+# application instructions all live in the body, so the body is what decides.
+CJK_CHARS = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]")
+LATIN_CHARS = re.compile(r"[A-Za-z]")
+
+
+def cjk_ratio(text):
+    """Share of letters that are CJK. 0.0 for pure English, ~0.6 for a Korean JD."""
+    if not text:
+        return 0.0
+    c = len(CJK_CHARS.findall(text))
+    l = len(LATIN_CHARS.findall(text))
+    return c / (c + l) if (c + l) else 0.0
+
+
+# A Korean or Japanese company name, a city, a team label in the original script --
+# all normal inside an otherwise English posting. A body written in Korean is not.
+TITLE_MAX_CJK = 0.30
+BODY_MAX_CJK = 0.20
+
+
+def english_enough(title, desc):
+    return cjk_ratio(title) <= TITLE_MAX_CJK and cjk_ratio(desc[:6000]) <= BODY_MAX_CJK
+
+
 def classify(title, desc, employment_type, commitment, department):
     """Return (keep, confidence, reasons).
 
@@ -149,22 +255,24 @@ def classify(title, desc, employment_type, commitment, department):
     reasons = []
     if BLOCK.search(title) or BLOCK_CJK.search(title):
         return False, None, ["blocked"]
+    if not english_enough(title, desc or ""):
+        return False, None, ["not-english"]
 
     structured = (employment_type or "").lower() == "intern" \
         or (commitment or "").lower() in ("intern", "internship")
     if structured:
         reasons.append("ats-intern-flag")
 
-    if STRONG.search(title) or STRONG_CJK.search(title):
+    if STRONG.search(title):
         reasons.append("title-strong")
         return True, "high", reasons
 
-    has_intern = structured or bool(INTERN.search(title)) or bool(INTERN_CJK.search(title)) \
+    has_intern = structured or bool(INTERN.search(title)) \
         or "intern" in (department or "").lower()
     if not has_intern:
         return False, None, reasons
 
-    if RESEARCH.search(title) or RESEARCH_CJK.search(title):
+    if RESEARCH.search(title):
         reasons.append("title-research")
         return True, "high" if structured else "medium", reasons
 
@@ -282,7 +390,8 @@ def main():
         scanned += len(jobs)
         before_m, before_e = len(matched), len(evergreen)
         for j in jobs:
-            if EVERGREEN.search(j["title"]) and not EVERGREEN_BLOCK.search(j["title"]):
+            if EVERGREEN.search(j["title"]) and not EVERGREEN_BLOCK.search(j["title"]) \
+                    and english_enough(j["title"], j.get("desc") or ""):
                 evergreen.append({
                     "company": lab["name"], "tier": lab["tier"], "ats": lab["ats"],
                     "domain": lab.get("domain", ""),
@@ -382,6 +491,10 @@ def main():
     except (FileNotFoundError, KeyError, ValueError):
         previous = set()
     everything = manual + matched + evergreen + discover
+    # Region is attached here rather than in each source, because there are four of
+    # them and patching each one is how one of them ends up without the field.
+    for j in everything:
+        j["regions"] = regions_of(j.get("location"))
     current = {j["job_id"] for j in everything}
     fresh = [j for j in everything if j["job_id"] not in previous]
     first_run = not previous

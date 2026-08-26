@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-26T04:20:15.642923+00:00",
+ "generated_at": "2026-08-26T04:28:37.563231+00:00",
  "scanned_labs": 98,
- "scanned_jobs": 8427,
+ "scanned_jobs": 8428,
  "by_kind": {
   "evergreen": 18,
-  "tracked": 62,
+  "tracked": 44,
   "discovery": 94,
   "blindspot": 142
  },
- "total_listings": 316,
- "matched": 62,
+ "total_listings": 298,
+ "matched": 44,
  "off_board_file": 3,
  "evergreen": 18,
  "xposts": 4,
@@ -35,32 +35,14 @@
   "by_title": 17,
   "discovery_after_title_filter": 94
  },
- "new": 5,
+ "new": 0,
  "by_lab": [
-  {
-   "lab": "LG AI Research",
-   "ats": "greenhouse",
-   "slug": "lgairesearch",
-   "postings": 42,
-   "matched": 13,
-   "evergreen": 0,
-   "error": null
-  },
   {
    "lab": "Scale AI",
    "ats": "greenhouse",
    "slug": "scaleai",
    "postings": 216,
    "matched": 11,
-   "evergreen": 0,
-   "error": null
-  },
-  {
-   "lab": "KRAFTON",
-   "ats": "greenhouse",
-   "slug": "krafton",
-   "postings": 67,
-   "matched": 6,
    "evergreen": 0,
    "error": null
   },
@@ -236,6 +218,15 @@
    "error": null
   },
   {
+   "lab": "LG AI Research",
+   "ats": "greenhouse",
+   "slug": "lgairesearch",
+   "postings": 42,
+   "matched": 1,
+   "evergreen": 0,
+   "error": null
+  },
+  {
    "lab": "Physical Intelligence",
    "ats": "ashby",
    "slug": "physicalintelligence",
@@ -347,7 +338,7 @@
    "lab": "Harvey",
    "ats": "ashby",
    "slug": "harvey",
-   "postings": 361,
+   "postings": 362,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -501,6 +492,15 @@
    "ats": "ashby",
    "slug": "lambda",
    "postings": 78,
+   "matched": 0,
+   "evergreen": 0,
+   "error": null
+  },
+  {
+   "lab": "KRAFTON",
+   "ats": "greenhouse",
+   "slug": "krafton",
+   "postings": 67,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -940,6 +940,7 @@
   "Spotify",
   "Lovable",
   "Lambda",
+  "KRAFTON",
   "Together AI",
   "Fireworks AI",
   "SambaNova",

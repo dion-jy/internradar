@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T04:20:15.642923+00:00",
+ "generated_at": "2026-08-26T04:28:37.563231+00:00",
  "count": 15,
  "jobs": [
   {
@@ -19,7 +19,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "greenhouse:anthropic:4610158008"
+   "job_id": "greenhouse:anthropic:4610158008",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "H Company",
@@ -38,7 +41,11 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "ashby:hcompany:dd1fdec1-2943-456e-ac9a-517d19a58fd6"
+   "job_id": "ashby:hcompany:dd1fdec1-2943-456e-ac9a-517d19a58fd6",
+   "regions": [
+    "Europe",
+    "Remote"
+   ]
   },
   {
    "company": "Prime Intellect",
@@ -57,7 +64,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "ashby:primeintellect:b9343f5d-326d-4b01-b6a7-acf56cffe3ac"
+   "job_id": "ashby:primeintellect:b9343f5d-326d-4b01-b6a7-acf56cffe3ac",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Reflection AI",
@@ -76,7 +86,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "ashby:reflectionai:bb02e922-8df8-4641-9aab-910997f76392"
+   "job_id": "ashby:reflectionai:bb02e922-8df8-4641-9aab-910997f76392",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Etched",
@@ -95,7 +108,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "ashby:etched:2021199f-221e-4a8c-aa66-210496cb38da"
+   "job_id": "ashby:etched:2021199f-221e-4a8c-aa66-210496cb38da",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Epoch AI",
@@ -114,7 +130,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "lever:epoch-ai:137cb0dc-03a6-4747-b9dc-8255194daee2"
+   "job_id": "lever:epoch-ai:137cb0dc-03a6-4747-b9dc-8255194daee2",
+   "regions": [
+    "Remote"
+   ]
   },
   {
    "company": "Goodfire",
@@ -133,7 +152,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "greenhouse:goodfire:4103718008"
+   "job_id": "greenhouse:goodfire:4103718008",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Isomorphic Labs",
@@ -152,7 +174,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "greenhouse:isomorphiclabs:4336321004"
+   "job_id": "greenhouse:isomorphiclabs:4336321004",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "METR",
@@ -171,7 +196,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "lever:metr:f3a6db11-7fd1-48e4-af42-20aad1ded72d"
+   "job_id": "lever:metr:f3a6db11-7fd1-48e4-af42-20aad1ded72d",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Cognition",
@@ -190,7 +218,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "ashby:cognition:4841bda0-057a-4471-801f-70309c3c02d5"
+   "job_id": "ashby:cognition:4841bda0-057a-4471-801f-70309c3c02d5",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Corti",
@@ -209,7 +240,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "ashby:corti:51db89f4-91e5-4f71-acf6-d2c743c61e17"
+   "job_id": "ashby:corti:51db89f4-91e5-4f71-acf6-d2c743c61e17",
+   "regions": [
+    "Europe"
+   ]
   },
   {
    "company": "Faculty",
@@ -228,7 +262,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "ashby:faculty:cdcb1dd3-5d82-488e-86f9-db2faa708620"
+   "job_id": "ashby:faculty:cdcb1dd3-5d82-488e-86f9-db2faa708620",
+   "regions": [
+    "UK"
+   ]
   },
   {
    "company": "Hume AI",
@@ -247,7 +284,11 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "greenhouse:humeai:4003656008"
+   "job_id": "greenhouse:humeai:4003656008",
+   "regions": [
+    "US",
+    "Remote"
+   ]
   },
   {
    "company": "Luma AI",
@@ -266,7 +307,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "ashby:lumaai:54903477-7bc2-43cd-a8a1-0b4ee22fa888"
+   "job_id": "ashby:lumaai:54903477-7bc2-43cd-a8a1-0b4ee22fa888",
+   "regions": [
+    "US"
+   ]
   },
   {
    "company": "Midjourney",
@@ -285,7 +329,10 @@
     "always-open"
    ],
    "phd": false,
-   "job_id": "ashby:midjourney:2ef177d4-42a0-4756-9c11-0738b9bcbc87"
+   "job_id": "ashby:midjourney:2ef177d4-42a0-4756-9c11-0738b9bcbc87",
+   "regions": [
+    "US"
+   ]
   }
  ]
 }

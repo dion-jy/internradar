@@ -85,6 +85,20 @@ ALIAS = {
 }
 
 
+def STRONG():
+    """collect.py's research-role pattern. Imported lazily because collect imports
+    this module, so a module-level import back into it would be circular. Sharing
+    the pattern rather than copying it is deliberate: a second copy is how the tier
+    field ended up disagreeing with labs.yaml."""
+    import collect
+    return collect.STRONG
+
+
+def BLOCK():
+    import collect
+    return collect.BLOCK
+
+
 def catalogue_entry(keys, labs):
     """The labs.yaml row for a company, matched by name or alias."""
     for k in keys:
@@ -180,18 +194,35 @@ def fetch(labs):
              "newest_entry_age_days": age_days,
              "stale": bool(age_days is not None and age_days > STALE_AFTER_DAYS),
              "total": len(listings), "active": 0, "phd": 0, "blindspot": 0, "discovery": 0,
-             "dropped_tracked": 0, "dropped_category": 0, "dropped_excluded": 0}
+             "dropped_tracked": 0, "dropped_category": 0, "dropped_excluded": 0,
+             "by_title": 0}
 
     for item in listings:
         if not (item.get("active") and item.get("is_visible")):
             continue
         stats["active"] += 1
-        if "PhD" not in (item.get("degrees") or []):
-            continue
-        stats["phd"] += 1
 
         keys = name_keys(item.get("company_name"))
         entry = catalogue_entry(keys, labs)
+
+        # The degrees field is the gate, because a title alone cannot carry 2000
+        # active postings. But the field is optional and frequently just absent:
+        # Meta's "Research Scientist Intern - State Estimation for Dexterous
+        # Manipulation" and "Anthropic Fellows Program" both arrive with degrees
+        # empty. So a title that already names a research position -- judged by the
+        # same STRONG pattern the ATS path uses, not a second copy of it -- is
+        # accepted instead, and only for a company already in labs.yaml. Both halves
+        # are needed: drop STRONG and the gate is gone, drop the catalogue check and
+        # the opening floods in university research-assistant and quant-desk
+        # postings, which carry no degree label either.
+        title = item.get("title") or ""
+        by_degree = "PhD" in (item.get("degrees") or [])
+        by_title = bool(entry) and bool(STRONG().search(title)) and not BLOCK().search(title)
+        if not (by_degree or by_title):
+            continue
+        stats["phd"] += 1
+        if not by_degree:
+            stats["by_title"] += 1
         if keys & excluded:
             stats["dropped_excluded"] += 1
             continue
@@ -220,7 +251,8 @@ def fetch(labs):
                 posted, datetime.timezone.utc).isoformat() if posted else None,
             "department": category or "",
             "confidence": "high" if category == "AI/ML/Data" else "medium",
-            "match": ["simplify-degrees-phd"], "phd": True,
+            "match": ["simplify-degrees-phd"] if by_degree else ["simplify-research-title"],
+            "phd": by_degree,
             "degrees": item.get("degrees"), "sponsorship": item.get("sponsorship"),
             "terms": item.get("terms"),
             "domain": (entry or {}).get("domain") or "",

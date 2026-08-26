@@ -1,380 +1,408 @@
 {
- "generated_at": "2026-08-26T02:22:38.699621+00:00",
+ "generated_at": "2026-08-26T02:39:52.031369+00:00",
  "first_run": false,
- "count": 13,
+ "count": 15,
  "jobs": [
   {
-   "company": "Autodesk",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "AI Research Intern - Multiple Teams",
-   "location": "Toronto, ON, Canada",
-   "url": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Toronto-ON-CAN/PhD-Intern---AI-Researcher-for-CAD--B-Rep--Generation_25WD92254-1",
-   "posted_at": "2026-08-25T18:23:07+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
-   ],
-   "phd": true,
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Summer 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:47844f61-18ee-4be2-a378-45789bdee8d5"
-  },
-  {
-   "company": "Bosch Home Comfort",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "AI Security Research Intern",
-   "location": "Pittsburgh, PA",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000145507908",
-   "posted_at": "2026-08-25T14:12:00+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
-   ],
-   "phd": true,
-   "degrees": [
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Fall 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:4338e55f-78ed-4a37-8c3d-482e13c4cff0"
-  },
-  {
-   "company": "Meridian Partners",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Data Scientist Co-op",
-   "location": "Cambridge, MA, Arlington County, Arlington, VA",
-   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967886003",
-   "posted_at": "2026-08-25T06:19:43+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "Bachelor's",
-    "Master's",
-    "PhD",
-    "Bachelor's"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Fall 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:721b1502-72bd-47a9-91c2-a71011c5fd1c"
-  },
-  {
-   "company": "Meridian Partners",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Machine Learning Engineer Co-op",
-   "location": "Cambridge, MA, Seattle, WA, Arlington County, Arlington, VA",
-   "url": "https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968308003",
-   "posted_at": "2026-08-25T06:19:43+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "Bachelor's",
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Fall 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:bc77c289-ab13-4062-adf6-da8e0aa72034"
-  },
-  {
-   "company": "Wex",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Artificial Intelligence Intern - AI/ML/NLP Engineer",
-   "location": "Boston, MA, Seattle, WA, SF, Dallas, TX, Chicago, IL, Portland, ME",
-   "url": "https://wexinc.wd5.myworkdayjobs.com/en-US/WEXInc/job/US---Remote/PhD-Intern--AI-ML-NLP-Engineer_R22834",
-   "posted_at": "2026-08-24T00:00:00+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Fall 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:90639373-d769-48b3-8ac2-94d63829c638"
-  },
-  {
-   "company": "AMD",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Research Engineering Intern/Co-op - AMD Research",
-   "location": "Secaucus, NJ, Austin, TX, Longmont, CO, Fishkill, NY, Fort Collins, CO, Boxborough, MA",
-   "url": "https://careers.amd.com/jobs/90926?icims=1",
-   "posted_at": "2026-08-21T06:22:18+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Winter 2027",
-    "Summer 2027"
-   ],
-   "domain": "",
-   "job_id": "simplify:a554688a-fa61-4d32-8d02-a22d0e78ac6a"
-  },
-  {
-   "company": "Microsoft",
+   "company": "ByteDance",
    "tier": "bigtech",
    "ats": "simplify",
    "source": "simplify",
    "kind": "blindspot",
-   "title": "Optoelectronics Device Engineer Intern",
-   "location": "Cambridge, UK",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556962583",
-   "posted_at": "2026-08-14T22:09:44+00:00",
-   "department": "Hardware",
+   "title": "Student Researcher - AI Foundation Model Infrastructure - Seed",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7673274910202988805/detail",
+   "posted_at": "2026-08-13T06:17:10+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:70115b81-b4c5-4a64-8a6c-5b644608f906"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Data Lake Infrastructure & Data Analytics Research Engineer Intern - Applied Machine Learning Ark",
+   "location": "Seattle, WA",
+   "url": "https://jobs.bytedance.com/en/position/7672394389001816325/detail",
+   "posted_at": "2026-08-11T17:18:54+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:d0e6095d-b7d9-4b98-9b30-5bc4f60fed04"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Data Lake Infrastructure and Data Analytics Research Engineer Intern - Applied Machine Learning Ark",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7671109787509213445/detail",
+   "posted_at": "2026-08-10T18:59:48+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:f57a89f7-f1c7-44ac-826b-23f1d9a409cf"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Student Researcher Intern - AI Foundation Models Infrastructure - Seed Infra",
+   "location": "Seattle, WA",
+   "url": "https://jobs.bytedance.com/en/position/7670330161462364421/detail",
+   "posted_at": "2026-08-05T09:14:42+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:fe93fbfa-cba0-4f3c-8f20-9cbc4828ef01"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Student Researcher - Compiler - Seed Infra",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7670316084662339845/detail",
+   "posted_at": "2026-08-05T01:15:05+00:00",
+   "department": "Software",
    "confidence": "medium",
    "match": [
-    "simplify-degrees-phd"
+    "simplify-research-title"
    ],
-   "phd": true,
+   "phd": false,
    "degrees": [
-    "PhD"
+    "Bachelor's",
+    "Master's"
    ],
    "sponsorship": "Other",
    "terms": [
-    "Fall 2026"
+    "N/A"
    ],
-   "domain": "microsoft.com",
-   "job_id": "simplify:b2b93c28-353f-458c-83fe-cd14c4471ac5"
+   "domain": "bytedance.com",
+   "job_id": "simplify:1077cb58-5992-4ad8-acb0-7980b9360baa"
   },
   {
-   "company": "Samsung Research America",
-   "tier": "other",
+   "company": "TikTok",
+   "tier": "bigtech",
    "ats": "simplify",
    "source": "simplify",
-   "kind": "discovery",
-   "title": "Digital Health Algorithms Intern",
-   "location": "Mountain View, CA",
-   "url": "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8678880002",
-   "posted_at": "2026-08-06T22:08:00+00:00",
+   "kind": "blindspot",
+   "title": "Research Engineer Intern - Monetization Technology - Business Integrity",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668202602270951733",
+   "posted_at": "2026-08-03T14:20:14+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
+    "simplify-research-title"
    ],
-   "phd": true,
+   "phd": false,
    "degrees": [
-    "PhD"
+    "Bachelor's",
+    "Master's"
    ],
    "sponsorship": "Other",
    "terms": [
-    "Fall 2026"
+    "Summer 2027"
    ],
-   "domain": "",
-   "job_id": "simplify:398433b0-f2f4-4367-80dd-7f56b0ee3d6b"
+   "domain": "bytedance.com",
+   "job_id": "simplify:14e4cecc-8df0-4784-b302-5fa8e96fae39"
   },
   {
-   "company": "Canva",
-   "tier": "other",
+   "company": "TikTok",
+   "tier": "bigtech",
    "ats": "simplify",
    "source": "simplify",
-   "kind": "discovery",
-   "title": "PhD Research Scientist Intern - Reinforcement Learning - Images",
-   "location": "London, UK",
-   "url": "https://jobs.smartrecruiters.com/Canva/6000000001292768",
-   "posted_at": "2026-08-06T22:07:15+00:00",
+   "kind": "blindspot",
+   "title": "Research Scientist Intern - Monetization Technology - Business Integrity",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668202600147552517",
+   "posted_at": "2026-08-03T14:20:13+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
+    "simplify-research-title"
    ],
-   "phd": true,
+   "phd": false,
    "degrees": [
-    "PhD"
+    "Bachelor's",
+    "Master's"
    ],
    "sponsorship": "Other",
    "terms": [
-    "Fall 2026"
+    "Summer 2027"
    ],
-   "domain": "",
-   "job_id": "simplify:8695d3de-326d-44ff-976a-ba070dbbe750"
+   "domain": "bytedance.com",
+   "job_id": "simplify:aa3ae48a-c50e-4ccf-ad24-b0dee7dbdabc"
   },
   {
-   "company": "Canva",
-   "tier": "other",
+   "company": "TikTok",
+   "tier": "bigtech",
    "ats": "simplify",
    "source": "simplify",
-   "kind": "discovery",
-   "title": "PhD Research Scientist Intern - Generative AI",
-   "location": "SF",
-   "url": "https://jobs.smartrecruiters.com/Canva/6000000001289897",
-   "posted_at": "2026-08-06T06:07:06+00:00",
+   "kind": "blindspot",
+   "title": "Research Engineer Intern - Agentic Systems & AI Infrastructure - Generalized Architecture",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7667934792727906565",
+   "posted_at": "2026-08-03T06:15:03+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
+    "simplify-research-title"
    ],
-   "phd": true,
+   "phd": false,
    "degrees": [
-    "PhD"
+    "Bachelor's",
+    "Master's"
    ],
    "sponsorship": "Other",
    "terms": [
-    "Fall 2026"
+    "Summer 2027"
    ],
-   "domain": "",
-   "job_id": "simplify:b42d28f6-494f-4b0a-8e40-29dd669c4846"
+   "domain": "bytedance.com",
+   "job_id": "simplify:ac3e3883-21b0-4ad1-8011-bf5060c01aab"
   },
   {
-   "company": "Citadel Securities",
-   "tier": "other",
+   "company": "Mistral AI",
+   "tier": "frontier",
    "ats": "simplify",
    "source": "simplify",
    "kind": "discovery",
-   "title": "Machine Learning Researcher PhD Intern",
-   "location": "Miami, FL, NYC",
-   "url": "https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/",
-   "posted_at": "2026-07-01T06:08:53+00:00",
+   "title": "Applied Scientist / Research Engineer Intern",
+   "location": "London, UK, Paris, France",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/de46ba8b-00cb-4618-83df-66e15a78434e/application?embed=true",
+   "posted_at": "2026-07-21T01:18:39+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "simplify-degrees-phd",
+    "simplify-research-title",
     "ats-intern-flag",
     "title-strong"
    ],
-   "phd": true,
-   "degrees": [
-    "PhD"
-   ],
+   "phd": false,
+   "degrees": [],
    "sponsorship": "Other",
    "terms": [
-    "Summer 2026"
+    "Fall 2026"
    ],
-   "domain": "",
-   "job_id": "simplify:e2a8f8b3-cb1a-4411-871c-916776913b34"
+   "domain": "mistral.ai",
+   "job_id": "simplify:aecef2e9-da18-4866-9323-61bd88a7681b"
   },
   {
-   "company": "X Development",
-   "tier": "other",
+   "company": "Google",
+   "tier": "frontier",
    "ats": "simplify",
    "source": "simplify",
-   "kind": "discovery",
-   "title": "2026 PhD Residency - Earth Scientist AI Resident - Early Stage Project",
-   "location": "Mountain View, CA",
-   "url": "https://x.company/careers/8425736002?gh_jid=8425736002",
-   "posted_at": "2026-02-20T02:34:47+00:00",
+   "kind": "blindspot",
+   "title": "Student Researcher",
+   "location": "Toronto, ON, Canada, Kitchener, ON, Canada",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/113855697199735494",
+   "posted_at": "2026-07-20T23:58:10+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
+    "simplify-research-title"
    ],
-   "phd": true,
+   "phd": false,
    "degrees": [
-    "PhD"
+    "Bachelor's",
+    "Master's"
    ],
    "sponsorship": "Other",
    "terms": [
-    "Winter 2026",
-    "Spring 2026",
+    "N/A"
+   ],
+   "domain": "deepmind.google",
+   "job_id": "simplify:817799e0-f2c4-4c4c-8634-508da3e89b72"
+  },
+  {
+   "company": "Meta",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Research Scientist Intern - State Estimation for Dexterous Manipulation",
+   "location": "Redmond, WA",
+   "url": "https://www.metacareers.com/jobs/2774289902955470",
+   "posted_at": "2026-06-16T19:41:47+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [],
+   "sponsorship": "Other",
+   "terms": [
     "Summer 2026",
     "Fall 2026"
    ],
-   "domain": "",
-   "job_id": "simplify:7906ae4b-a2bf-420a-a929-2b11f82819e8"
+   "domain": "meta.com",
+   "job_id": "simplify:92102d77-8574-46bc-b529-80e4985b7bbf"
   },
   {
-   "company": "Autodesk",
-   "tier": "other",
+   "company": "ByteDance",
+   "tier": "bigtech",
    "ats": "simplify",
    "source": "simplify",
-   "kind": "discovery",
-   "title": "PhD Intern - AI Researcher for CAD - B-Rep",
-   "location": "Toronto, ON, Canada",
-   "url": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Toronto-ON-CAN/PhD-Intern---AI-Researcher-for-CAD--B-Rep--Generation_25WD92254",
-   "posted_at": "2026-01-21T01:00:42+00:00",
+   "kind": "blindspot",
+   "title": "Student Researcher - Vision Foundation Model",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7623544831999346997/detail",
+   "posted_at": "2026-04-01T06:09:07+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
+    "simplify-research-title"
    ],
-   "phd": true,
+   "phd": false,
    "degrees": [
-    "Master's",
-    "PhD"
+    "Bachelor's",
+    "Master's"
    ],
    "sponsorship": "Other",
    "terms": [
-    "Summer 2026"
+    "N/A"
    ],
-   "domain": "",
-   "job_id": "simplify:244b5d51-7fee-44da-9192-dd642b0387f9"
+   "domain": "bytedance.com",
+   "job_id": "simplify:d1de5351-a1c6-4497-bcfd-241a21eab0c3"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Student Researcher - AI Foundation Model Infrastructure",
+   "location": "Seattle, WA",
+   "url": "https://jobs.bytedance.com/en/position/7623552947364317445/detail",
+   "posted_at": "2026-04-01T06:09:03+00:00",
+   "department": "Software",
+   "confidence": "medium",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:77ff658e-cabb-48be-9248-a271f5f898ff"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Student Researcher - Speech Foundation Model",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7623551375612627253/detail",
+   "posted_at": "2026-04-01T06:09:03+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:5ee0c221-6808-401f-9d4e-a8e71f60785b"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Student Researcher",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7623548747208739077/detail",
+   "posted_at": "2026-04-01T06:09:03+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:38db92f9-6338-4caa-b797-e738cda127b9"
   }
  ]
 }

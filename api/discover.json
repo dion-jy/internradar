@@ -1,27 +1,28 @@
 {
- "generated_at": "2026-08-26T02:22:38.699621+00:00",
- "count": 224,
- "blindspot": 128,
- "discovery": 96,
+ "generated_at": "2026-08-26T02:39:52.031369+00:00",
+ "count": 239,
+ "blindspot": 142,
+ "discovery": 97,
  "stats": {
   "season": "Summer2027",
   "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
   "tried": [
-   "Summer2027: 2121 live",
+   "Summer2027: 2120 live",
    "Summer2028: HTTP 404",
-   "Summer2026: 2121 live"
+   "Summer2026: 2120 live"
   ],
   "newest_entry_age_days": 0,
   "stale": false,
   "total": 14797,
-  "active": 2120,
-  "phd": 426,
-  "blindspot": 128,
-  "discovery": 129,
-  "dropped_tracked": 13,
+  "active": 2119,
+  "phd": 443,
+  "blindspot": 142,
+  "discovery": 130,
+  "dropped_tracked": 15,
   "dropped_category": 156,
   "dropped_excluded": 0,
-  "discovery_after_title_filter": 96
+  "by_title": 17,
+  "discovery_after_title_filter": 97
  },
  "jobs": [
   {
@@ -1475,6 +1476,32 @@
    "kind": "blindspot",
    "title": "Student Researcher - AI Foundation Model Infrastructure - Seed",
    "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7673274910202988805/detail",
+   "posted_at": "2026-08-13T06:17:10+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:70115b81-b4c5-4a64-8a6c-5b644608f906"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Student Researcher - AI Foundation Model Infrastructure - Seed",
+   "location": "San Jose, CA",
    "url": "https://jobs.bytedance.com/en/position/7673274430383032629/detail",
    "posted_at": "2026-08-13T06:17:05+00:00",
    "department": "AI/ML/Data",
@@ -1601,6 +1628,33 @@
    "job_id": "simplify:baeedb05-7415-43b1-a352-ff0efdc23b6b"
   },
   {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Data Lake Infrastructure & Data Analytics Research Engineer Intern - Applied Machine Learning Ark",
+   "location": "Seattle, WA",
+   "url": "https://jobs.bytedance.com/en/position/7672394389001816325/detail",
+   "posted_at": "2026-08-11T17:18:54+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:d0e6095d-b7d9-4b98-9b30-5bc4f60fed04"
+  },
+  {
    "company": "Q5",
    "tier": "other",
    "ats": "simplify",
@@ -1627,6 +1681,33 @@
    ],
    "domain": "",
    "job_id": "simplify:56b68b11-760a-4224-ab26-17e3889e11d1"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Data Lake Infrastructure and Data Analytics Research Engineer Intern - Applied Machine Learning Ark",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7671109787509213445/detail",
+   "posted_at": "2026-08-10T18:59:48+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:f57a89f7-f1c7-44ac-826b-23f1d9a409cf"
   },
   {
    "company": "Epic Games",
@@ -1993,6 +2074,33 @@
    "ats": "simplify",
    "source": "simplify",
    "kind": "blindspot",
+   "title": "Student Researcher Intern - AI Foundation Models Infrastructure - Seed Infra",
+   "location": "Seattle, WA",
+   "url": "https://jobs.bytedance.com/en/position/7670330161462364421/detail",
+   "posted_at": "2026-08-05T09:14:42+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:fe93fbfa-cba0-4f3c-8f20-9cbc4828ef01"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
    "title": "Student Researcher - Multiple Teams",
    "location": "San Jose, CA",
    "url": "https://jobs.bytedance.com/en/position/7670323135220959493/detail",
@@ -2143,6 +2251,33 @@
    ],
    "domain": "bytedance.com",
    "job_id": "simplify:87667d11-6adc-446a-9b2e-15e0dc0b761b"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Student Researcher - Compiler - Seed Infra",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7670316084662339845/detail",
+   "posted_at": "2026-08-05T01:15:05+00:00",
+   "department": "Software",
+   "confidence": "medium",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:1077cb58-5992-4ad8-acb0-7980b9360baa"
   },
   {
    "company": "ByteDance",
@@ -2362,6 +2497,60 @@
    ],
    "domain": "",
    "job_id": "simplify:a2304215-7eea-4897-b101-88b9172fcae0"
+  },
+  {
+   "company": "TikTok",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Research Engineer Intern - Monetization Technology - Business Integrity",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668202602270951733",
+   "posted_at": "2026-08-03T14:20:14+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:14e4cecc-8df0-4784-b302-5fa8e96fae39"
+  },
+  {
+   "company": "TikTok",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Research Scientist Intern - Monetization Technology - Business Integrity",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7668202600147552517",
+   "posted_at": "2026-08-03T14:20:13+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:aa3ae48a-c50e-4ccf-ad24-b0dee7dbdabc"
   },
   {
    "company": "TikTok",
@@ -2893,6 +3082,33 @@
    "ats": "simplify",
    "source": "simplify",
    "kind": "blindspot",
+   "title": "Research Engineer Intern - Agentic Systems & AI Infrastructure - Generalized Architecture",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7667934792727906565",
+   "posted_at": "2026-08-03T06:15:03+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:ac3e3883-21b0-4ad1-8011-bf5060c01aab"
+  },
+  {
+   "company": "TikTok",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
    "title": "Research Scientist Intern - Neural Graphics and World Models",
    "location": "San Jose, CA",
    "url": "https://lifeattiktok.com/search/7667935738840090933",
@@ -3364,6 +3580,32 @@
    "job_id": "simplify:78b03927-c204-476c-947a-99cb2714c3ee"
   },
   {
+   "company": "Mistral AI",
+   "tier": "frontier",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "Applied Scientist / Research Engineer Intern",
+   "location": "London, UK, Paris, France",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/de46ba8b-00cb-4618-83df-66e15a78434e/application?embed=true",
+   "posted_at": "2026-07-21T01:18:39+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title",
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": false,
+   "degrees": [],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "mistral.ai",
+   "job_id": "simplify:aecef2e9-da18-4866-9323-61bd88a7681b"
+  },
+  {
    "company": "GenMD",
    "tier": "other",
    "ats": "simplify",
@@ -3567,6 +3809,33 @@
    ],
    "domain": "",
    "job_id": "simplify:ef340463-f818-4cd0-874c-2b1574493963"
+  },
+  {
+   "company": "Google",
+   "tier": "frontier",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Student Researcher",
+   "location": "Toronto, ON, Canada, Kitchener, ON, Canada",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/113855697199735494",
+   "posted_at": "2026-07-20T23:58:10+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "deepmind.google",
+   "job_id": "simplify:817799e0-f2c4-4c4c-8634-508da3e89b72"
   },
   {
    "company": "Google",
@@ -4102,6 +4371,31 @@
    ],
    "domain": "meta.com",
    "job_id": "simplify:7d40282a-e5d1-4104-ba34-426064c6790a"
+  },
+  {
+   "company": "Meta",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Research Scientist Intern - State Estimation for Dexterous Manipulation",
+   "location": "Redmond, WA",
+   "url": "https://www.metacareers.com/jobs/2774289902955470",
+   "posted_at": "2026-06-16T19:41:47+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2026",
+    "Fall 2026"
+   ],
+   "domain": "meta.com",
+   "job_id": "simplify:92102d77-8574-46bc-b529-80e4985b7bbf"
   },
   {
    "company": "Cotiviti",
@@ -5342,6 +5636,33 @@
    "ats": "simplify",
    "source": "simplify",
    "kind": "blindspot",
+   "title": "Student Researcher - Vision Foundation Model",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7623544831999346997/detail",
+   "posted_at": "2026-04-01T06:09:07+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:d1de5351-a1c6-4497-bcfd-241a21eab0c3"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
    "title": "Student Researcher - Multimodal Interaction and World Model",
    "location": "San Jose, CA",
    "url": "https://jobs.bytedance.com/en/position/7623547506849679621/detail",
@@ -5420,6 +5741,33 @@
    "ats": "simplify",
    "source": "simplify",
    "kind": "blindspot",
+   "title": "Student Researcher - AI Foundation Model Infrastructure",
+   "location": "Seattle, WA",
+   "url": "https://jobs.bytedance.com/en/position/7623552947364317445/detail",
+   "posted_at": "2026-04-01T06:09:03+00:00",
+   "department": "Software",
+   "confidence": "medium",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:77ff658e-cabb-48be-9248-a271f5f898ff"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
    "title": "Student Researcher - Vision Foundation Model",
    "location": "San Jose, CA",
    "url": "https://jobs.bytedance.com/en/position/7623543230203939077/detail",
@@ -5439,6 +5787,60 @@
    ],
    "domain": "bytedance.com",
    "job_id": "simplify:12c61451-8c62-417c-b97a-6b13f42bc584"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Student Researcher - Speech Foundation Model",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7623551375612627253/detail",
+   "posted_at": "2026-04-01T06:09:03+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:5ee0c221-6808-401f-9d4e-a8e71f60785b"
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Student Researcher",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7623548747208739077/detail",
+   "posted_at": "2026-04-01T06:09:03+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-research-title"
+   ],
+   "phd": false,
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:38db92f9-6338-4caa-b797-e738cda127b9"
   },
   {
    "company": "ByteDance",

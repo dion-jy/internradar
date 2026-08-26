@@ -1,40 +1,41 @@
 {
- "generated_at": "2026-08-26T02:22:38.699621+00:00",
+ "generated_at": "2026-08-26T02:39:52.031369+00:00",
  "scanned_labs": 76,
- "scanned_jobs": 7318,
+ "scanned_jobs": 7317,
  "by_kind": {
   "evergreen": 14,
   "tracked": 40,
-  "discovery": 96,
-  "blindspot": 128
+  "discovery": 97,
+  "blindspot": 142
  },
- "total_listings": 278,
+ "total_listings": 293,
  "matched": 40,
  "off_board_file": 3,
  "evergreen": 14,
  "xposts": 4,
- "discover": 224,
+ "discover": 239,
  "simplify": {
   "season": "Summer2027",
   "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
   "tried": [
-   "Summer2027: 2121 live",
+   "Summer2027: 2120 live",
    "Summer2028: HTTP 404",
-   "Summer2026: 2121 live"
+   "Summer2026: 2120 live"
   ],
   "newest_entry_age_days": 0,
   "stale": false,
   "total": 14797,
-  "active": 2120,
-  "phd": 426,
-  "blindspot": 128,
-  "discovery": 129,
-  "dropped_tracked": 13,
+  "active": 2119,
+  "phd": 443,
+  "blindspot": 142,
+  "discovery": 130,
+  "dropped_tracked": 15,
   "dropped_category": 156,
   "dropped_excluded": 0,
-  "discovery_after_title_filter": 96
+  "by_title": 17,
+  "discovery_after_title_filter": 97
  },
- "new": 13,
+ "new": 15,
  "by_lab": [
   {
    "lab": "Scale AI",
@@ -274,7 +275,7 @@
    "lab": "OpenAI",
    "ats": "ashby",
    "slug": "openai",
-   "postings": 751,
+   "postings": 750,
    "matched": 0,
    "evergreen": 0,
    "error": null

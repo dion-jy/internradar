@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T03:30:38.150005+00:00",
+ "generated_at": "2026-08-26T02:22:38.699621+00:00",
  "count": 40,
  "jobs": [
   {
@@ -163,7 +163,7 @@
    "source": "ats",
    "kind": "tracked",
    "title": "CPU Verification Fellow, RISC-V High-Performance Processor",
-   "location": "Santa Clara, California, United States",
+   "location": "Austin, Texas, United States; Santa Clara, California, United States",
    "url": "https://job-boards.greenhouse.io/tenstorrent/jobs/5148052007",
    "posted_at": "2026-05-28T13:30:11-04:00",
    "department": "Architecture: Design Verification",

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-26T02:39:52.031369+00:00",
- "count": 40,
+ "generated_at": "2026-08-26T04:20:15.642923+00:00",
+ "count": 62,
  "jobs": [
   {
    "company": "Mercor",
@@ -20,6 +20,63 @@
    ],
    "phd": false,
    "job_id": "ashby:mercor:a0a98be0-d856-4129-b500-c0a3e412ef01"
+  },
+  {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Internship - Physical AI",
+   "location": "Gangseo-gu, Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4725958005",
+   "posted_at": "2026-08-20T03:28:23-04:00",
+   "department": "Physical Intelligence Lab",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4725958005"
+  },
+  {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Data Engineer Internship - Physical AI",
+   "location": "Gangseo-gu, Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4725957005",
+   "posted_at": "2026-08-20T03:17:49-04:00",
+   "department": "Physical Intelligence Lab",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4725957005"
+  },
+  {
+   "company": "KRAFTON",
+   "tier": "bigtech",
+   "ats": "greenhouse",
+   "domain": "krafton.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "[Game Research & Insights Dept.] Jr. 시선 데이터 분석 연구원 (경력무관 / 인턴)",
+   "location": "Seoul; Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/krafton/jobs/8729078002",
+   "posted_at": "2026-08-18T23:30:16-04:00",
+   "department": "Data",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:krafton:8729078002"
   },
   {
    "company": "Modal",
@@ -58,6 +115,25 @@
    ],
    "phd": false,
    "job_id": "greenhouse:thealleninstitute:8090222"
+  },
+  {
+   "company": "KRAFTON",
+   "tier": "bigtech",
+   "ats": "greenhouse",
+   "domain": "krafton.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "[AI Research Div.] Foundation Model Evaluation Engineer - 독자 AI 파운데이션 모델 (2년 이상 / 인턴)",
+   "location": "Seoul",
+   "url": "https://job-boards.greenhouse.io/krafton/jobs/8632414002",
+   "posted_at": "2026-07-14T04:04:06-04:00",
+   "department": "Data",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:krafton:8632414002"
   },
   {
    "company": "Pika",
@@ -116,6 +192,84 @@
    ],
    "phd": false,
    "job_id": "ashby:baseten:58d7d8e6-86ee-43a1-baec-3dddcb661d51"
+  },
+  {
+   "company": "Mistral AI",
+   "tier": "frontier",
+   "ats": "ashby",
+   "domain": "mistral.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Applied Scientist / Research Engineer (Internship)",
+   "location": "Paris",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/de46ba8b-00cb-4618-83df-66e15a78434e",
+   "posted_at": "2026-07-03T16:37:30.355+00:00",
+   "department": "Solutions",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "ashby:mistral.ai:de46ba8b-00cb-4618-83df-66e15a78434e"
+  },
+  {
+   "company": "Mistral AI",
+   "tier": "frontier",
+   "ats": "ashby",
+   "domain": "mistral.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Applied AI, Forward Deployed Machine Learning Engineer - (Internship)",
+   "location": "Paris",
+   "url": "https://jobs.ashbyhq.com/mistral.ai/fcdb8407-20b9-4179-81b6-f2ca2c79a39b",
+   "posted_at": "2026-07-03T16:35:54.944+00:00",
+   "department": "Solutions",
+   "confidence": "high",
+   "match": [
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "ashby:mistral.ai:fcdb8407-20b9-4179-81b6-f2ca2c79a39b"
+  },
+  {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research/Engineering Internship-Reinforcement Learning",
+   "location": "Gangseo-gu, Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4708922005",
+   "posted_at": "2026-06-24T05:20:48-04:00",
+   "department": "Physical Intelligence Lab",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4708922005"
+  },
+  {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "[Residency/Postdoc] Research Scientist - Scientific Foundation Model",
+   "location": "Gangseo-gu, Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4708027005",
+   "posted_at": "2026-06-22T04:52:20-04:00",
+   "department": "Materials Intelligence Lab",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4708027005"
   },
   {
    "company": "1X",
@@ -193,6 +347,25 @@
    ],
    "phd": false,
    "job_id": "ashby:cohere:36d1f52f-8270-4652-adf5-5303a0ff341b"
+  },
+  {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Internship - Robot Foundation Model",
+   "location": "Gangseo-gu, Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4693138005",
+   "posted_at": "2026-05-07T03:21:32-04:00",
+   "department": "Physical Intelligence Lab",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4693138005"
   },
   {
    "company": "Cohere",
@@ -503,6 +676,63 @@
    "job_id": "greenhouse:scaleai:4660340005"
   },
   {
+   "company": "KRAFTON",
+   "tier": "bigtech",
+   "ats": "greenhouse",
+   "domain": "krafton.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "[AI Research Div.] Research Engineer - Vision Language Action Game Agent (2년 이상 / 인턴)",
+   "location": "Seoul",
+   "url": "https://job-boards.greenhouse.io/krafton/jobs/8417764002",
+   "posted_at": "2026-02-10T21:35:58-05:00",
+   "department": "Data",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:krafton:8417764002"
+  },
+  {
+   "company": "H Company",
+   "tier": "frontier",
+   "ats": "ashby",
+   "domain": "hcompany.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Scientist Intern (PhD) - Model Team - London",
+   "location": "Hybrid London",
+   "url": "https://jobs.ashbyhq.com/hcompany/856b1025-791f-46ed-9ea0-a88bb2f32ce5",
+   "posted_at": "2026-02-03T16:23:38.744+00:00",
+   "department": "RESEARCH",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": true,
+   "job_id": "ashby:hcompany:856b1025-791f-46ed-9ea0-a88bb2f32ce5"
+  },
+  {
+   "company": "KRAFTON",
+   "tier": "bigtech",
+   "ats": "greenhouse",
+   "domain": "krafton.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "[AI Research Div.] Research Scientist Intern - 독자 AI 파운데이션 모델 (2년 이상 / 인턴)",
+   "location": "Seoul",
+   "url": "https://job-boards.greenhouse.io/krafton/jobs/8401231002",
+   "posted_at": "2026-02-02T20:16:59-05:00",
+   "department": "Data",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:krafton:8401231002"
+  },
+  {
    "company": "Perplexity",
    "tier": "startup",
    "ats": "ashby",
@@ -562,6 +792,25 @@
    "job_id": "lever:waabi:62700386-b9db-4c78-aec3-5ef59cbe841e"
   },
   {
+   "company": "KRAFTON",
+   "tier": "bigtech",
+   "ats": "greenhouse",
+   "domain": "krafton.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "[AI Research Div.] Postdoctoral Researcher - LLMs (계약직)",
+   "location": "Seoul",
+   "url": "https://job-boards.greenhouse.io/krafton/jobs/8339620002",
+   "posted_at": "2025-12-14T23:12:12-05:00",
+   "department": "Data",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:krafton:8339620002"
+  },
+  {
    "company": "Anthropic",
    "tier": "frontier",
    "ats": "greenhouse",
@@ -579,6 +828,25 @@
    ],
    "phd": false,
    "job_id": "greenhouse:anthropic:5023394008"
+  },
+  {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Research Scientist Internship(Agentic AI)",
+   "location": "Gangseo-gu, Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4638356005",
+   "posted_at": "2025-12-10T03:23:18-05:00",
+   "department": "Data Intelligence Lab",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4638356005"
   },
   {
    "company": "Etched",
@@ -677,6 +945,63 @@
    "job_id": "greenhouse:scaleai:4620719005"
   },
   {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Protein Design Research Engineer Internship",
+   "location": "Gangseo-gu, Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4603031005",
+   "posted_at": "2025-08-29T03:46:19-04:00",
+   "department": "Bio Intelligence Lab",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4603031005"
+  },
+  {
+   "company": "KRAFTON",
+   "tier": "bigtech",
+   "ats": "greenhouse",
+   "domain": "krafton.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "[AI Research Div.] AI Companion Team Internship (2년 이상 / 인턴)",
+   "location": "Seoul",
+   "url": "https://job-boards.greenhouse.io/krafton/jobs/8125444002",
+   "posted_at": "2025-08-19T21:34:02-04:00",
+   "department": "Data",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:krafton:8125444002"
+  },
+  {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "독자AI파운데이션 모델 개발 Internship (World Best LLM)",
+   "location": "Gangseo-gu, Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4593631005",
+   "posted_at": "2025-08-05T04:02:33-04:00",
+   "department": "EXAONE Lab",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4593631005"
+  },
+  {
    "company": "Scale AI",
    "tier": "infra",
    "ats": "greenhouse",
@@ -694,6 +1019,25 @@
    ],
    "phd": false,
    "job_id": "greenhouse:scaleai:4591782005"
+  },
+  {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Software Engineer Internship (Business Intelligence AI)",
+   "location": "Gangseo-gu, Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4591478005",
+   "posted_at": "2025-07-30T04:59:00-04:00",
+   "department": "Data Intelligence Lab",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4591478005"
   },
   {
    "company": "Scale AI",
@@ -772,6 +1116,82 @@
    ],
    "phd": true,
    "job_id": "greenhouse:databricks:7011263002"
+  },
+  {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Large Language Model 연구 및 개발 Internship",
+   "location": "Gangseo-gu, Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4180455005",
+   "posted_at": "2023-01-06T01:45:47-05:00",
+   "department": "EXAONE Lab",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4180455005"
+  },
+  {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "AI Scientist/Engineer Intern (LG AI Research Center, Ann Arbor)",
+   "location": "Ann Arbor, Michigan, United States",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4130830005",
+   "posted_at": "2022-11-08T19:09:40-05:00",
+   "department": "Advanced Agent Lab",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4130830005"
+  },
+  {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "NLP 연구인턴",
+   "location": "Gangseo-gu, Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4083477005",
+   "posted_at": "2022-08-25T06:59:56-04:00",
+   "department": "Language Lab",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4083477005"
+  },
+  {
+   "company": "LG AI Research",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "lgresearch.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "NLP 개발인턴",
+   "location": "Gangseo-gu, Seoul, South Korea",
+   "url": "https://job-boards.greenhouse.io/lgairesearch/jobs/4024293005",
+   "posted_at": "2022-05-31T01:46:36-04:00",
+   "department": "Language Lab",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:lgairesearch:4024293005"
   }
  ]
 }

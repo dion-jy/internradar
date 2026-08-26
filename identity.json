@@ -1,0 +1,41 @@
+[
+ {
+  "name": "Mistral AI",
+  "ats": "ashby",
+  "slug": "mistral.ai",
+  "ok": true,
+  "count": 166,
+  "label": "Mistral Jobs",
+  "titles": [
+   "AI Deployment Strategist - USA",
+   "AI Scientist - Agentic Engineering",
+   "Software Engineer, New Grad"
+  ]
+ },
+ {
+  "name": "deepset",
+  "ats": "ashby",
+  "slug": "deepsetai",
+  "ok": true,
+  "count": 5,
+  "label": "deepset Jobs",
+  "titles": [
+   "Value Engineer",
+   "Growth Marketing Lead",
+   "Product Engineering Tech Lead"
+  ]
+ },
+ {
+  "name": "Sana",
+  "ats": "ashby",
+  "slug": "sana-roles",
+  "ok": true,
+  "count": 31,
+  "label": "Sana Jobs",
+  "titles": [
+   "GTM Associate",
+   "GTM Manager (Account Executive)",
+   "Design Engineer"
+  ]
+ }
+]

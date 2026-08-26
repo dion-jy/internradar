@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-26T02:39:52.031369+00:00",
- "count": 11,
+ "generated_at": "2026-08-26T04:20:15.642923+00:00",
+ "count": 15,
  "jobs": [
   {
    "company": "Anthropic",
@@ -20,6 +20,25 @@
    ],
    "phd": false,
    "job_id": "greenhouse:anthropic:4610158008"
+  },
+  {
+   "company": "H Company",
+   "tier": "frontier",
+   "ats": "ashby",
+   "domain": "hcompany.ai",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "Spontaneous Application",
+   "location": "Hybrid Paris",
+   "url": "https://jobs.ashbyhq.com/hcompany/dd1fdec1-2943-456e-ac9a-517d19a58fd6",
+   "posted_at": "2025-09-22T12:08:12.252+00:00",
+   "department": "TBD",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "ashby:hcompany:dd1fdec1-2943-456e-ac9a-517d19a58fd6"
   },
   {
    "company": "Prime Intellect",
@@ -117,6 +136,25 @@
    "job_id": "greenhouse:goodfire:4103718008"
   },
   {
+   "company": "Isomorphic Labs",
+   "tier": "research-org",
+   "ats": "greenhouse",
+   "domain": "isomorphiclabs.com",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "General Application - Register Your Interest",
+   "location": "London",
+   "url": "https://job-boards.greenhouse.io/isomorphiclabs/jobs/4336321004",
+   "posted_at": "2022-02-08T04:44:19-05:00",
+   "department": "",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "greenhouse:isomorphiclabs:4336321004"
+  },
+  {
    "company": "METR",
    "tier": "research-org",
    "ats": "lever",
@@ -153,6 +191,44 @@
    ],
    "phd": false,
    "job_id": "ashby:cognition:4841bda0-057a-4471-801f-70309c3c02d5"
+  },
+  {
+   "company": "Corti",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "corti.ai",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "Join Corti's Talent Community",
+   "location": "Copenhagen, Denmark",
+   "url": "https://jobs.ashbyhq.com/corti/51db89f4-91e5-4f71-acf6-d2c743c61e17",
+   "posted_at": "2024-09-16T20:15:25.404+00:00",
+   "department": "Talent Community ",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "ashby:corti:51db89f4-91e5-4f71-acf6-d2c743c61e17"
+  },
+  {
+   "company": "Faculty",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "faculty.ai",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "Technical Talent Pool",
+   "location": "UK - London",
+   "url": "https://jobs.ashbyhq.com/faculty/cdcb1dd3-5d82-488e-86f9-db2faa708620",
+   "posted_at": "2026-07-09T10:46:58.967+00:00",
+   "department": "Talent Pool",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "ashby:faculty:cdcb1dd3-5d82-488e-86f9-db2faa708620"
   },
   {
    "company": "Hume AI",

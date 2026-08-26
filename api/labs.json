@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-26T02:39:52.031369+00:00",
- "active": 76,
- "excluded": 6,
- "unresolved": 33,
+ "generated_at": "2026-08-26T04:20:15.642923+00:00",
+ "active": 98,
+ "excluded": 19,
+ "unresolved": 45,
  "labs": [
   {
    "name": "Anthropic",
@@ -978,13 +978,14 @@
   },
   {
    "name": "Mistral AI",
-   "ats": "none",
-   "slug": null,
+   "ats": "ashby",
+   "slug": "mistral.ai",
    "tier": "frontier",
-   "verified_at": "2026-08-23",
-   "job_count": 0,
-   "note": "lever/mistral returns an empty list, so the slug is valid but the company cannot be confirmed — this exact pattern produced a false positive before",
-   "domain": "mistral.ai"
+   "verified_at": "2026-08-26",
+   "job_count": 166,
+   "active": true,
+   "domain": "mistral.ai",
+   "note": "the slug carries the dot: mistral, mistralai and mistral-ai all fail. Found by reading mistral.ai/careers for its board URL rather than guessing again. lever/mistral is a different, empty board"
   },
   {
    "name": "Sakana AI",
@@ -1053,7 +1054,7 @@
    "tier": "startup",
    "verified_at": "2026-08-23",
    "job_count": 0,
-   "note": "likely Workable; 4 slug variants failed",
+   "note": "Workable (apply.workable.com/huggingface), confirmed 2026-08-26; not a supported ATS",
    "domain": "huggingface.co"
   },
   {
@@ -1175,6 +1176,364 @@
    "job_count": 0,
    "note": "lever/genesis-ai is an empty board — cannot confirm",
    "domain": "genesis-ai.company"
+  },
+  {
+   "name": "Graphcore",
+   "ats": "greenhouse",
+   "slug": "graphcore",
+   "tier": "infra",
+   "verified_at": "2026-08-26",
+   "job_count": 198,
+   "active": true,
+   "domain": "graphcore.ai"
+  },
+  {
+   "name": "Isomorphic Labs",
+   "ats": "greenhouse",
+   "slug": "isomorphiclabs",
+   "tier": "research-org",
+   "verified_at": "2026-08-26",
+   "job_count": 27,
+   "active": true,
+   "domain": "isomorphiclabs.com"
+  },
+  {
+   "name": "H Company",
+   "ats": "ashby",
+   "slug": "hcompany",
+   "tier": "frontier",
+   "verified_at": "2026-08-26",
+   "job_count": 22,
+   "active": true,
+   "domain": "hcompany.ai"
+  },
+  {
+   "name": "Aleph Alpha",
+   "ats": "ashby",
+   "slug": "alephalpha",
+   "tier": "frontier",
+   "verified_at": "2026-08-26",
+   "job_count": 1,
+   "active": true,
+   "domain": "aleph-alpha.com"
+  },
+  {
+   "name": "DeepL",
+   "ats": "ashby",
+   "slug": "deepl",
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 60,
+   "active": true,
+   "domain": "deepl.com"
+  },
+  {
+   "name": "PolyAI",
+   "ats": "greenhouse",
+   "slug": "polyai",
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 14,
+   "active": true,
+   "domain": "poly.ai"
+  },
+  {
+   "name": "Faculty",
+   "ats": "ashby",
+   "slug": "faculty",
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 65,
+   "active": true,
+   "domain": "faculty.ai"
+  },
+  {
+   "name": "Owkin",
+   "ats": "ashby",
+   "slug": "owkin",
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 5,
+   "active": true,
+   "domain": "owkin.com"
+  },
+  {
+   "name": "Photoroom",
+   "ats": "ashby",
+   "slug": "photoroom",
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 15,
+   "active": true,
+   "domain": "photoroom.com"
+  },
+  {
+   "name": "Dust",
+   "ats": "ashby",
+   "slug": "dust",
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 23,
+   "active": true,
+   "domain": "dust.tt"
+  },
+  {
+   "name": "Nabla",
+   "ats": "ashby",
+   "slug": "nabla",
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 17,
+   "active": true,
+   "domain": "nabla.com"
+  },
+  {
+   "name": "Cradle",
+   "ats": "ashby",
+   "slug": "cradlebio",
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 7,
+   "active": true,
+   "domain": "cradle.bio"
+  },
+  {
+   "name": "Corti",
+   "ats": "ashby",
+   "slug": "corti",
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 5,
+   "active": true,
+   "domain": "corti.ai"
+  },
+  {
+   "name": "Parloa",
+   "ats": "greenhouse",
+   "slug": "parloa",
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 51,
+   "active": true,
+   "domain": "parloa.com",
+   "note": "ashby/parloa is the same company but an empty board; greenhouse is the live one"
+  },
+  {
+   "name": "Lovable",
+   "ats": "ashby",
+   "slug": "lovable",
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 79,
+   "active": true,
+   "domain": "lovable.dev",
+   "note": "greenhouse/lovable is a different company entirely, posting in Italian"
+  },
+  {
+   "name": "deepset",
+   "ats": "ashby",
+   "slug": "deepsetai",
+   "tier": "infra",
+   "verified_at": "2026-08-26",
+   "job_count": 5,
+   "active": true,
+   "domain": "deepset.ai"
+  },
+  {
+   "name": "Langfuse",
+   "ats": "ashby",
+   "slug": "langfuse",
+   "tier": "infra",
+   "verified_at": "2026-08-26",
+   "job_count": 6,
+   "active": true,
+   "domain": "langfuse.com"
+  },
+  {
+   "name": "Spotify",
+   "ats": "lever",
+   "slug": "spotify",
+   "tier": "bigtech",
+   "verified_at": "2026-08-26",
+   "job_count": 89,
+   "active": true,
+   "domain": "spotify.com"
+  },
+  {
+   "name": "LG AI Research",
+   "ats": "greenhouse",
+   "slug": "lgairesearch",
+   "tier": "research-org",
+   "verified_at": "2026-08-26",
+   "job_count": 42,
+   "active": true,
+   "domain": "lgresearch.ai",
+   "note": "board is largely Korean-language"
+  },
+  {
+   "name": "KRAFTON",
+   "ats": "greenhouse",
+   "slug": "krafton",
+   "tier": "bigtech",
+   "verified_at": "2026-08-26",
+   "job_count": 67,
+   "active": true,
+   "domain": "krafton.com",
+   "note": "AI Frontier Division; board is largely Korean-language"
+  },
+  {
+   "name": "Woven by Toyota",
+   "ats": "lever",
+   "slug": "woven-by-toyota",
+   "tier": "bigtech",
+   "verified_at": "2026-08-26",
+   "job_count": 145,
+   "active": true,
+   "domain": "woven.toyota",
+   "note": "Tokyo; board mixes Japanese and English titles"
+  },
+  {
+   "name": "Sony AI",
+   "ats": "none",
+   "slug": null,
+   "tier": "bigtech",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "ai.sony",
+   "note": "Workday (sonyglobalcareers / sonyjapancareers)"
+  },
+  {
+   "name": "Preferred Networks",
+   "ats": "none",
+   "slug": null,
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "preferred.jp",
+   "note": "own careers site, listings rendered client-side"
+  },
+  {
+   "name": "NAVER / NAVER Labs",
+   "ats": "none",
+   "slug": null,
+   "tier": "bigtech",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "naver.com",
+   "note": "own applicant system; NAVER Labs Europe likewise"
+  },
+  {
+   "name": "Turing (Japan)",
+   "ats": "none",
+   "slug": null,
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "tur.ing",
+   "note": "greenhouse/turing and ashby/turing are Turing Enterprises Inc, a US talent marketplace"
+  },
+  {
+   "name": "Moonshot AI",
+   "ats": "none",
+   "slug": null,
+   "tier": "frontier",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "moonshot.cn",
+   "note": "greenhouse/moonshot and ashby/moonshot are unrelated companies"
+  },
+  {
+   "name": "Upstage",
+   "ats": "none",
+   "slug": null,
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "upstage.ai",
+   "note": "own applicant system"
+  },
+  {
+   "name": "Samsung Research",
+   "ats": "none",
+   "slug": null,
+   "tier": "bigtech",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "research.samsung.com",
+   "note": "own applicant system"
+  },
+  {
+   "name": "Kakao Brain",
+   "ats": "none",
+   "slug": null,
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "kakaobrain.com",
+   "note": "own applicant system"
+  },
+  {
+   "name": "Sea AI Lab",
+   "ats": "none",
+   "slug": null,
+   "tier": "research-org",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "sail.sea.com",
+   "note": "own careers site"
+  },
+  {
+   "name": "Silo AI",
+   "ats": "none",
+   "slug": null,
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "silo.ai",
+   "note": "acquired by AMD; own careers site"
+  },
+  {
+   "name": "InstaDeep",
+   "ats": "none",
+   "slug": null,
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "instadeep.com",
+   "note": "own careers site"
+  },
+  {
+   "name": "Kyutai",
+   "ats": "none",
+   "slug": null,
+   "tier": "research-org",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "kyutai.org",
+   "note": "nonprofit lab with no job board; hires by direct contact"
+  },
+  {
+   "name": "Legora",
+   "ats": "none",
+   "slug": null,
+   "tier": "startup",
+   "verified_at": "2026-08-26",
+   "job_count": 0,
+   "active": false,
+   "domain": "legora.com",
+   "note": "ashby/legora is the right company but carries no research track"
   }
  ]
 }

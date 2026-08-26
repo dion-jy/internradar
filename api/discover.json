@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-08-26T02:39:52.031369+00:00",
- "count": 239,
+ "generated_at": "2026-08-26T04:20:15.642923+00:00",
+ "count": 236,
  "blindspot": 142,
- "discovery": 97,
+ "discovery": 94,
  "stats": {
   "season": "Summer2027",
   "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
   "tried": [
-   "Summer2027: 2120 live",
+   "Summer2027: 2117 live",
    "Summer2028: HTTP 404",
-   "Summer2026: 2120 live"
+   "Summer2026: 2117 live"
   ],
   "newest_entry_age_days": 0,
   "stale": false,
   "total": 14797,
-  "active": 2119,
+  "active": 2116,
   "phd": 443,
   "blindspot": 142,
-  "discovery": 130,
-  "dropped_tracked": 15,
+  "discovery": 127,
+  "dropped_tracked": 17,
   "dropped_category": 156,
-  "dropped_excluded": 0,
+  "dropped_excluded": 1,
   "by_title": 17,
-  "discovery_after_title_filter": 97
+  "discovery_after_title_filter": 94
  },
  "jobs": [
   {
@@ -3580,32 +3580,6 @@
    "job_id": "simplify:78b03927-c204-476c-947a-99cb2714c3ee"
   },
   {
-   "company": "Mistral AI",
-   "tier": "frontier",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Applied Scientist / Research Engineer Intern",
-   "location": "London, UK, Paris, France",
-   "url": "https://jobs.ashbyhq.com/mistral.ai/de46ba8b-00cb-4618-83df-66e15a78434e/application?embed=true",
-   "posted_at": "2026-07-21T01:18:39+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-research-title",
-    "ats-intern-flag",
-    "title-strong"
-   ],
-   "phd": false,
-   "degrees": [],
-   "sponsorship": "Other",
-   "terms": [
-    "Fall 2026"
-   ],
-   "domain": "mistral.ai",
-   "job_id": "simplify:aecef2e9-da18-4866-9323-61bd88a7681b"
-  },
-  {
    "company": "GenMD",
    "tier": "other",
    "ats": "simplify",
@@ -4259,35 +4233,6 @@
    ],
    "domain": "",
    "job_id": "simplify:e2a8f8b3-cb1a-4411-871c-916776913b34"
-  },
-  {
-   "company": "Sony",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Research on Generative and Protective AI for Content Creation Intern",
-   "location": "NYC",
-   "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335",
-   "posted_at": "2026-06-30T22:06:11+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Summer 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:fd11d261-e3de-44d6-b3fa-d08465e79bbd"
   },
   {
    "company": "Ancestry",
@@ -6187,34 +6132,6 @@
    ],
    "domain": "",
    "job_id": "simplify:88d6275e-f9ce-4322-a25e-8665865b7db3"
-  },
-  {
-   "company": "HCompany",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Research Scientist Intern - Model Team",
-   "location": "London, UK",
-   "url": "https://jobs.ashbyhq.com/hcompany/856b1025-791f-46ed-9ea0-a88bb2f32ce5/application",
-   "posted_at": "2026-02-24T15:18:13+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
-   ],
-   "phd": true,
-   "degrees": [
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Summer 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:8d025ab1-dd40-4fc6-b039-ad07e208b45b"
   },
   {
    "company": "X Development",

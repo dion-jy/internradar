@@ -57,6 +57,28 @@ STRONG = re.compile(r"""
 PROGRAM_FORM = re.compile(
     r"\b(fellow|fellows|fellowship|fellowships|residency|resident|scholar|scholarship)\b", re.I)
 
+# Korean and Japanese titles. Added 2026-08-26 with the Seoul and Tokyo boards:
+# LG AI Research posts "NLP 연구인턴" and "NLP 개발인턴" with no English anywhere in
+# the title, and the English-only patterns dropped both. Word boundaries are
+# deliberately absent -- \b does not fire between CJK characters -- and that is safe
+# here because these are content words, not the substring trap that "Internal" and
+# "International" spring on the English side.
+STRONG_CJK = re.compile(
+    "연구\\s*인턴|연구인턴|학생\\s*연구원|박사\\s*인턴|리서치\\s*인턴|박사과정\\s*인턴"
+    "|研究\\s*インターン|リサーチ\\s*インターン|学生\\s*研究員|博士\\s*インターン"
+    "|研究\\s*員\\s*インターン", re.U)
+
+INTERN_CJK = re.compile("인턴|인턴십|체험형|インターン|インターンシップ", re.U)
+
+RESEARCH_CJK = re.compile(
+    "연구|연구원|개발|리서치|머신러닝|딥러닝|인공지능|자연어|비전|로봇|음성|언어\\s*모델"
+    "|研究|開発|リサーチ|機械学習|深層学習|人工知能|自然言語|画像認識|音声|ロボット", re.U)
+
+# Non-research roles that carry an intern word. Mirrors the English BLOCK list.
+BLOCK_CJK = re.compile(
+    "영업|마케팅|인사|재무|회계|법무|총무|채용|홍보|디자인|번역|통역"
+    "|営業|マーケティング|人事|経理|法務|採用|広報|翻訳", re.U)
+
 # Word-boundary matching is mandatory here. A substring search for "intern" also
 # matches "Internal Controls", "International Tax" and "Internal Communications".
 INTERN = re.compile(
@@ -125,7 +147,7 @@ def classify(title, desc, employment_type, commitment, department):
     regex over the title. Greenhouse has no equivalent field.
     """
     reasons = []
-    if BLOCK.search(title):
+    if BLOCK.search(title) or BLOCK_CJK.search(title):
         return False, None, ["blocked"]
 
     structured = (employment_type or "").lower() == "intern" \
@@ -133,16 +155,16 @@ def classify(title, desc, employment_type, commitment, department):
     if structured:
         reasons.append("ats-intern-flag")
 
-    if STRONG.search(title):
+    if STRONG.search(title) or STRONG_CJK.search(title):
         reasons.append("title-strong")
         return True, "high", reasons
 
-    has_intern = structured or bool(INTERN.search(title)) \
+    has_intern = structured or bool(INTERN.search(title)) or bool(INTERN_CJK.search(title)) \
         or "intern" in (department or "").lower()
     if not has_intern:
         return False, None, reasons
 
-    if RESEARCH.search(title):
+    if RESEARCH.search(title) or RESEARCH_CJK.search(title):
         reasons.append("title-research")
         return True, "high" if structured else "medium", reasons
 

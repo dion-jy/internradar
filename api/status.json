@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-26T05:38:30.842418+00:00",
+ "generated_at": "2026-08-26T08:06:10.882651+00:00",
  "scanned_labs": 104,
- "scanned_jobs": 8707,
+ "scanned_jobs": 8705,
  "by_kind": {
   "evergreen": 20,
   "tracked": 49,
@@ -12,20 +12,20 @@
  "matched": 49,
  "off_board_file": 3,
  "evergreen": 20,
- "xposts": 4,
+ "xposts": 5,
  "discover": 236,
  "simplify": {
   "season": "Summer2027",
   "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
   "tried": [
-   "Summer2027: 2114 live",
+   "Summer2027: 2112 live",
    "Summer2028: HTTP 404",
-   "Summer2026: 2114 live"
+   "Summer2026: 2112 live"
   ],
   "newest_entry_age_days": 0,
   "stale": false,
-  "total": 14797,
-  "active": 2113,
+  "total": 14763,
+  "active": 2111,
   "phd": 443,
   "blindspot": 142,
   "discovery": 127,
@@ -473,7 +473,7 @@
    "lab": "Cerebras",
    "ats": "ashby",
    "slug": "cerebras",
-   "postings": 114,
+   "postings": 113,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -491,7 +491,7 @@
    "lab": "Spotify",
    "ats": "lever",
    "slug": "spotify",
-   "postings": 89,
+   "postings": 88,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -704,6 +704,15 @@
    "error": null
   },
   {
+   "lab": "Black Forest Labs",
+   "ats": "ashby",
+   "slug": "black-forest-labs",
+   "postings": 15,
+   "matched": 0,
+   "evergreen": 0,
+   "error": null
+  },
+  {
    "lab": "Poolside",
    "ats": "ashby",
    "slug": "poolside",
@@ -726,15 +735,6 @@
    "ats": "ashby",
    "slug": "photoroom",
    "postings": 15,
-   "matched": 0,
-   "evergreen": 0,
-   "error": null
-  },
-  {
-   "lab": "Black Forest Labs",
-   "ats": "ashby",
-   "slug": "black-forest-labs",
-   "postings": 14,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -830,18 +830,18 @@
    "error": null
   },
   {
-   "lab": "Cradle",
-   "ats": "ashby",
-   "slug": "cradlebio",
-   "postings": 7,
+   "lab": "Inflection AI",
+   "ats": "greenhouse",
+   "slug": "inflectionai",
+   "postings": 6,
    "matched": 0,
    "evergreen": 0,
    "error": null
   },
   {
-   "lab": "Inflection AI",
-   "ats": "greenhouse",
-   "slug": "inflectionai",
+   "lab": "Cradle",
+   "ats": "ashby",
+   "slug": "cradlebio",
    "postings": 6,
    "matched": 0,
    "evergreen": 0,
@@ -1015,10 +1015,10 @@
   "HeyGen",
   "Twelve Labs",
   "Nabla",
+  "Black Forest Labs",
   "Poolside",
   "LlamaIndex",
   "Photoroom",
-  "Black Forest Labs",
   "Anyscale",
   "PolyAI",
   "Character.AI",
@@ -1029,8 +1029,8 @@
   "Apollo Research",
   "OpenEvidence",
   "Pinecone",
-  "Cradle",
   "Inflection AI",
+  "Cradle",
   "Langfuse",
   "Owkin",
   "deepset",

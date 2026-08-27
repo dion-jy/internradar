@@ -1,30 +1,152 @@
 {
- "generated_at": "2026-08-26T08:06:10.882651+00:00",
- "count": 236,
- "blindspot": 142,
+ "generated_at": "2026-08-27T02:13:29.331798+00:00",
+ "count": 238,
+ "blindspot": 144,
  "discovery": 94,
  "stats": {
   "season": "Summer2027",
   "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
   "tried": [
-   "Summer2027: 2112 live",
+   "Summer2027: 2180 live",
    "Summer2028: HTTP 404",
-   "Summer2026: 2112 live"
+   "Summer2026: 2180 live"
   ],
   "newest_entry_age_days": 0,
   "stale": false,
-  "total": 14763,
-  "active": 2111,
-  "phd": 443,
-  "blindspot": 142,
-  "discovery": 127,
+  "total": 14832,
+  "active": 2179,
+  "phd": 444,
+  "blindspot": 144,
+  "discovery": 124,
   "dropped_tracked": 17,
-  "dropped_category": 156,
-  "dropped_excluded": 1,
-  "by_title": 17,
+  "dropped_category": 159,
+  "dropped_excluded": 0,
+  "by_title": 16,
   "discovery_after_title_filter": 94
  },
  "jobs": [
+  {
+   "company": "Netflix",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Machine Learning Scientist Intern - AI",
+   "location": "Los Gatos, CA",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317916733",
+   "posted_at": "2026-08-26T21:41:40+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Winter 2027"
+   ],
+   "domain": "netflix.com",
+   "job_id": "simplify:17482259-9e95-4558-adef-daf45ff85e78",
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "Netflix",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Machine Learning/AI Infrastructure Engineering Intern - AI Platform",
+   "location": "Los Gatos, CA",
+   "url": "https://explore.jobs.netflix.net/careers/job/790317917022",
+   "posted_at": "2026-08-26T21:41:40+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Winter 2027"
+   ],
+   "domain": "netflix.com",
+   "job_id": "simplify:5a9ddf5e-7efd-444f-9eb2-f4e5c80da75c",
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "GrayMatter Robotics",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "AI Research Intern - Foundation Models",
+   "location": "LA, Carson, CA",
+   "url": "https://jobs.ashbyhq.com/graymatter-robotics/dea0f08d-ebf5-4e55-b9cb-e6302014f429/application?embed=true",
+   "posted_at": "2026-08-26T08:57:09+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:27a6ad01-fe1e-43d5-b073-0910ba54f479",
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "Chemours",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "Generative AI and Data Science Intern - AI & Data Science",
+   "location": "Wilmington, DE",
+   "url": "https://chemours.wd103.myworkdayjobs.com/Chemours/job/US---Remote/AI---Data-Science-Intern_JR15013",
+   "posted_at": "2026-08-26T00:00:00+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:1d3a3cb1-5384-4ce2-848b-1b8a5a69d356",
+   "regions": [
+    "Other"
+   ]
+  },
   {
    "company": "Autodesk",
    "tier": "other",
@@ -1477,37 +1599,6 @@
    ]
   },
   {
-   "company": "General Motors",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Battery & Sustainability Intern - Battery Research and Development",
-   "location": "Warren, MI",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Fall-2026-PhD-Battery---Sustainability-Intern----Battery-Research-and-Development_JR-202618053",
-   "posted_at": "2026-08-17T00:00:00+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Summer 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:1d43fc21-2de6-411c-8141-ec33e8fa8fed",
-   "regions": [
-    "US"
-   ]
-  },
-  {
    "company": "The Nuclear Company",
    "tier": "other",
    "ats": "simplify",
@@ -1831,37 +1922,6 @@
    "job_id": "simplify:d0e6095d-b7d9-4b98-9b30-5bc4f60fed04",
    "regions": [
     "US"
-   ]
-  },
-  {
-   "company": "Q5",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Research Analyst - Analytics Hub",
-   "location": "London, UK",
-   "url": "https://apply.workable.com/q5-partners/j/3D4D022AC0/apply",
-   "posted_at": "2026-08-11T01:32:02+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "N/A"
-   ],
-   "domain": "",
-   "job_id": "simplify:56b68b11-760a-4224-ab26-17e3889e11d1",
-   "regions": [
-    "UK"
    ]
   },
   {
@@ -4701,6 +4761,38 @@
    ]
   },
   {
+   "company": "Sony",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "Research on Generative and Protective AI for Content Creation Intern",
+   "location": "NYC",
+   "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335",
+   "posted_at": "2026-06-30T22:06:11+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "degrees": [
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:fd11d261-e3de-44d6-b3fa-d08465e79bbd",
+   "regions": [
+    "US"
+   ]
+  },
+  {
    "company": "Ancestry",
    "tier": "other",
    "ats": "simplify",
@@ -5009,39 +5101,6 @@
    "job_id": "simplify:0271dfee-afcf-4a95-ad39-156710edc8ce",
    "regions": [
     "US"
-   ]
-  },
-  {
-   "company": "Peraton",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Generative AI Engineer Intern",
-   "location": "Remote in USA",
-   "url": "https://careers-peraton.icims.com/jobs/167460/job?mobile=true&needsRedirect=false",
-   "posted_at": "2026-06-05T22:08:15+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Summer 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:8ee2c108-7c86-4c94-b7bb-5667b48e3d3a",
-   "regions": [
-    "US",
-    "Remote"
    ]
   },
   {

@@ -25,6 +25,9 @@ import simplify_source
 import x_source
 
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PhDInternBoard/0.1; +https://github.com/dion-jy/phd-intern-board)"}
+WD_HEADERS = {"Content-Type": "application/json", "Accept": "application/json",
+              "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                            "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
 TIMEOUT = 40
 NOW = datetime.now(timezone.utc).isoformat()
 
@@ -352,7 +355,101 @@ def fetch_lever(lab):
     return out
 
 
-FETCH = {"greenhouse": fetch_greenhouse, "ashby": fetch_ashby, "lever": fetch_lever}
+# --- Workday -------------------------------------------------------------------
+# The fourth reader, and the one that reaches Asia. NVIDIA, Sony, Samsung, Adobe and
+# Salesforce were all recorded ats:none because they are not on Greenhouse, Ashby or
+# Lever -- but Workday exposes an undocumented JSON endpoint behind its careers UI,
+# and it carries what the aggregator does not. NVIDIA's Taipei research internship
+# and Sony's Tokyo "Research Intern for Deep Generative Models" appear here and
+# nowhere else in this pipeline.
+#
+# Two things make it awkward compared to the other three. There is no whole-board
+# endpoint worth paging -- NVIDIA alone returns 2000 postings -- so the board is
+# queried by search term instead, and the terms are the budget. And the listing
+# response carries no description, so judging a posting needs a second request per
+# posting; that is why titles are filtered before any detail is fetched.
+WORKDAY_TERMS = ["research intern", "phd intern", "student researcher",
+                 "research residency", "research fellowship",
+                 "machine learning intern", "deep learning intern", "ai research"]
+WORKDAY_PAGE = 20          # the endpoint silently returns nothing for a larger limit
+WORKDAY_MAX_PAGES = 10     # per term
+WORKDAY_MAX_DETAIL = 150   # per lab, so one huge board cannot stall the whole run
+
+# Cheap gate applied to the listing title, before spending a request on the detail.
+WORKDAY_TITLE = re.compile(
+    r"\b(intern|interns|internship|internships|co-?op|residency|resident|fellow|"
+    r"fellowship|student|phd|ph\.d|postdoc|post-?doctoral)\b", re.I)
+
+
+def _workday_list(base, term):
+    out, offset = [], 0
+    for _ in range(WORKDAY_MAX_PAGES):
+        r = requests.post(base + "/jobs", headers=WD_HEADERS, timeout=TIMEOUT,
+                          json={"appliedFacets": {}, "limit": WORKDAY_PAGE,
+                                "offset": offset, "searchText": term})
+        if r.status_code != 200:
+            raise ValueError("http %d on '%s'" % (r.status_code, term))
+        posts = r.json().get("jobPostings")
+        if not isinstance(posts, list):
+            raise ValueError("bad shape: %s" % str(r.json())[:80])
+        if not posts:
+            break
+        out.extend(posts)
+        offset += WORKDAY_PAGE
+    return out
+
+
+
+def _workday_date(value):
+    s = (value or "").strip()
+    if not s:
+        return None
+    return s + "T00:00:00+00:00" if len(s) == 10 else s
+
+
+def _workday_detail(base, lab, path):
+    r = requests.get(base + path, headers=WD_HEADERS, timeout=TIMEOUT)
+    if r.status_code != 200:
+        return None
+    info = r.json().get("jobPostingInfo") or {}
+    if not info.get("title"):
+        return None
+    return {
+        "job_id": "workday:%s:%s" % (lab["slug"], info.get("jobReqId") or path),
+        "title": (info.get("title") or "").strip(),
+        "location": info.get("location") or "",
+        "url": info.get("externalUrl") or "",
+        # Workday gives a bare date ("2026-08-19") where the other three give a full
+        # timestamp with an offset. Normalising here keeps every consumer -- the site's
+        # relative dates, the sitemap lastmod, the "new since yesterday" diff -- from
+        # having to know which reader a listing came from.
+        "posted_at": _workday_date(info.get("startDate")),
+        "desc": strip_html(info.get("jobDescription", ""))[:6000],
+        "department": "",
+        "employment_type": None,
+        "commitment": None,
+    }
+
+
+def fetch_workday(lab):
+    host, tenant, site = lab["slug"].split("/", 2)
+    base = "https://%s/wday/cxs/%s/%s" % (host, tenant, site)
+
+    seen = {}
+    for term in WORKDAY_TERMS:
+        for p in _workday_list(base, term):
+            if p.get("externalPath"):
+                seen[p["externalPath"]] = p
+
+    paths = [p for p, item in seen.items() if WORKDAY_TITLE.search(item.get("title") or "")]
+    paths = paths[:WORKDAY_MAX_DETAIL]
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        rows = list(pool.map(lambda p: _workday_detail(base, lab, p), paths))
+    return [r for r in rows if r]
+
+
+FETCH = {"greenhouse": fetch_greenhouse, "ashby": fetch_ashby,
+         "lever": fetch_lever, "workday": fetch_workday}
 
 
 def fetch_one(lab):

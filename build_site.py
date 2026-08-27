@@ -56,6 +56,8 @@ def posted_ago(iso):
         then = datetime.fromisoformat(str(iso).replace("Z", "+00:00"))
     except ValueError:
         return ""
+    if then.tzinfo is None:          # a reader that emitted a bare date
+        then = then.replace(tzinfo=timezone.utc)
     days = (datetime.now(timezone.utc) - then).days
     if days <= 0:
         return "today"

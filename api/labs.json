@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-26T08:06:10.882651+00:00",
- "active": 104,
- "excluded": 28,
- "unresolved": 54,
+ "generated_at": "2026-08-27T02:13:29.331798+00:00",
+ "active": 109,
+ "excluded": 27,
+ "unresolved": 50,
  "labs": [
   {
    "name": "Anthropic",
@@ -877,13 +877,14 @@
   },
   {
    "name": "NVIDIA",
-   "ats": "none",
-   "slug": null,
+   "ats": "workday",
+   "slug": "nvidia.wd5.myworkdayjobs.com/nvidia/NVIDIAExternalCareerSite",
    "tier": "bigtech",
-   "verified_at": "2026-08-23",
-   "job_count": 0,
-   "note": "Workday",
-   "domain": "nvidia.com"
+   "verified_at": "2026-08-27",
+   "job_count": 964,
+   "active": true,
+   "domain": "nvidia.com",
+   "note": "Workday. job_count is the count for searchText \"intern\", not the whole board. Carries the Taipei and Shanghai internships the aggregator never sees"
   },
   {
    "name": "IBM Research",
@@ -897,23 +898,24 @@
   },
   {
    "name": "Adobe",
-   "ats": "none",
-   "slug": null,
+   "ats": "workday",
+   "slug": "adobe.wd5.myworkdayjobs.com/adobe/external_experienced",
    "tier": "bigtech",
-   "verified_at": "2026-08-23",
-   "job_count": 0,
-   "note": "Workday",
+   "verified_at": "2026-08-27",
+   "job_count": 291,
+   "active": true,
    "domain": "adobe.com"
   },
   {
    "name": "Salesforce",
    "ats": "none",
-   "slug": null,
+   "slug": "salesforce.wd12.myworkdayjobs.com/salesforce/External_Career_Site",
    "tier": "bigtech",
-   "verified_at": "2026-08-23",
+   "verified_at": "2026-08-27",
    "job_count": 0,
-   "note": "Workday",
-   "domain": "salesforce.com"
+   "active": false,
+   "domain": "salesforce.com",
+   "note": "Workday board confirmed working, but 788 of its intern hits are sales roles and reading it costs ~230 requests a run for a yield near zero. Slug kept so enabling it is one field change"
   },
   {
    "name": "Qualcomm",
@@ -1393,15 +1395,25 @@
    "note": "Tokyo; board mixes Japanese and English titles"
   },
   {
-   "name": "Sony AI",
-   "ats": "none",
-   "slug": null,
+   "name": "Sony AI (Japan)",
+   "ats": "workday",
+   "slug": "sonyglobal.wd1.myworkdayjobs.com/sonyglobal/SonyJapanCareers",
    "tier": "bigtech",
-   "verified_at": "2026-08-26",
-   "job_count": 0,
-   "active": false,
+   "verified_at": "2026-08-27",
+   "job_count": 11,
+   "active": true,
    "domain": "ai.sony",
-   "note": "Workday (sonyglobalcareers / sonyjapancareers)"
+   "note": "nine Tokyo research internships, all in English -- the densest Asia source on the board"
+  },
+  {
+   "name": "Sony (global)",
+   "ats": "workday",
+   "slug": "sonyglobal.wd1.myworkdayjobs.com/sonyglobal/SonyGlobalCareers",
+   "tier": "bigtech",
+   "verified_at": "2026-08-27",
+   "job_count": 64,
+   "active": true,
+   "domain": "sony.com"
   },
   {
    "name": "Preferred Networks",
@@ -1460,14 +1472,14 @@
   },
   {
    "name": "Samsung Research",
-   "ats": "none",
-   "slug": null,
+   "ats": "workday",
+   "slug": "sec.wd3.myworkdayjobs.com/sec/Samsung_Careers",
    "tier": "bigtech",
-   "verified_at": "2026-08-26",
-   "job_count": 0,
-   "active": false,
+   "verified_at": "2026-08-27",
+   "job_count": 270,
+   "active": true,
    "domain": "research.samsung.com",
-   "note": "own applicant system"
+   "note": "Workday tenant \"sec\"; the earlier note saying \"own applicant system\" was wrong"
   },
   {
    "name": "Kakao Brain",

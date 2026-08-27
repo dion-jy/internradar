@@ -20,6 +20,9 @@ from concurrent.futures import ThreadPoolExecutor
 import requests
 
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PhDInternBoard/0.1)"}
+WD_HEADERS = {"Content-Type": "application/json", "Accept": "application/json",
+              "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                            "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
 TIMEOUT = 20
 
 
@@ -77,7 +80,36 @@ def probe_lever(slug):
     return {"ok": True, "count": len(body)}
 
 
-PROBES = {"greenhouse": probe_greenhouse, "ashby": probe_ashby, "lever": probe_lever}
+def probe_workday(slug):
+    """Workday, unlike the other three, is addressed by three parts rather than one:
+    slug is "host/tenant/site". The endpoint is a POST and answers 422 when the
+    tenant or site is wrong, which is a clean signal -- unlike Lever, there is no
+    success-shaped failure body to guard against. total is the count for the search
+    term, not the board, so it is reported as such."""
+    try:
+        host, tenant, site = slug.split("/", 2)
+    except ValueError:
+        return {"ok": False, "reason": "slug must be host/tenant/site"}
+    url = "https://%s/wday/cxs/%s/%s/jobs" % (host, tenant, site)
+    try:
+        r = requests.post(url, headers=WD_HEADERS, timeout=TIMEOUT,
+                          json={"appliedFacets": {}, "limit": 5, "offset": 0,
+                                "searchText": "intern"})
+    except Exception as exc:
+        return {"ok": False, "reason": "exc:%s" % type(exc).__name__}
+    if r.status_code != 200:
+        return {"ok": False, "reason": "http:%d" % r.status_code}
+    try:
+        body = r.json()
+    except ValueError:
+        return {"ok": False, "reason": "nonjson"}
+    if not isinstance(body, dict) or not isinstance(body.get("jobPostings"), list):
+        return {"ok": False, "reason": "shape:%s" % str(body)[:60]}
+    return {"ok": True, "count": body.get("total", 0)}
+
+
+PROBES = {"greenhouse": probe_greenhouse, "ashby": probe_ashby,
+          "lever": probe_lever, "workday": probe_workday}
 
 
 def run(task):
@@ -92,6 +124,8 @@ def main(path):
         for c in candidates
         for slug in c["slugs"]
         for ats in c.get("ats", ["greenhouse", "ashby", "lever"])
+        # workday is never probed by default: its slug is a three-part address that
+        # has to be read off the careers page, not guessed like the other three.
     ]
     print("# %d probes over %d companies" % (len(tasks), len(candidates)), file=sys.stderr)
 

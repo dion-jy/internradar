@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-27T02:13:29.331798+00:00",
+ "generated_at": "2026-08-27T10:51:28.286692+00:00",
  "active": 109,
  "excluded": 27,
  "unresolved": 50,
@@ -1659,12 +1659,12 @@
    "name": "Sapient Intelligence",
    "ats": "none",
    "slug": null,
-   "tier": "startup",
-   "verified_at": "2026-08-26",
+   "tier": "frontier",
+   "verified_at": "2026-08-27",
    "job_count": 0,
    "active": false,
    "domain": "sapient.inc",
-   "note": "own careers site, Singapore"
+   "note": "Singapore HQ, hiring into Singapore, Beijing and Palo Alto, but every open role is Senior or Technical Staff -- no intern, PhD or student position exists to collect. Own careers site, applications by email to careers@sapient.inc. Worth re-checking rather than re-probing: the board would carry them the moment a student role opens"
   },
   {
    "name": "Manus (Butterfly Effect)",

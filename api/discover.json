@@ -1,30 +1,62 @@
 {
- "generated_at": "2026-08-27T10:51:28.286692+00:00",
- "count": 238,
+ "generated_at": "2026-08-28T12:27:08.677440+00:00",
+ "count": 236,
  "blindspot": 144,
- "discovery": 94,
+ "discovery": 92,
  "stats": {
   "season": "Summer2027",
   "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
   "tried": [
-   "Summer2027: 2179 live",
+   "Summer2027: 2230 live",
    "Summer2028: HTTP 404",
-   "Summer2026: 2179 live"
+   "Summer2026: 2230 live"
   ],
   "newest_entry_age_days": 0,
   "stale": false,
-  "total": 14835,
-  "active": 2178,
-  "phd": 448,
+  "total": 14905,
+  "active": 2229,
+  "phd": 449,
   "blindspot": 144,
-  "discovery": 124,
+  "discovery": 122,
   "dropped_tracked": 17,
-  "dropped_category": 163,
+  "dropped_category": 166,
   "dropped_excluded": 0,
   "by_title": 16,
-  "discovery_after_title_filter": 94
+  "discovery_after_title_filter": 92
  },
  "jobs": [
+  {
+   "company": "Bland AI",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "Machine Learning Research Intern - Audio",
+   "location": "SF",
+   "url": "https://jobs.ashbyhq.com/bland/bd8743ff-9e18-4f79-9c9a-288f384921f3/application?embed=true",
+   "posted_at": "2026-08-27T23:36:21+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": true,
+   "degrees": [
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:bdbf71c5-d680-4923-90cf-5550fdf3679d",
+   "regions": [
+    "US"
+   ]
+  },
   {
    "company": "Netflix",
    "tier": "bigtech",
@@ -145,69 +177,6 @@
    "job_id": "simplify:1d3a3cb1-5384-4ce2-848b-1b8a5a69d356",
    "regions": [
     "Other"
-   ]
-  },
-  {
-   "company": "Autodesk",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "AI Research Intern - Multiple Teams",
-   "location": "Toronto, ON, Canada",
-   "url": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Toronto-ON-CAN/PhD-Intern---AI-Researcher-for-CAD--B-Rep--Generation_25WD92254-1",
-   "posted_at": "2026-08-25T18:23:07+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
-   ],
-   "phd": true,
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Summer 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:47844f61-18ee-4be2-a378-45789bdee8d5",
-   "regions": [
-    "Canada"
-   ]
-  },
-  {
-   "company": "Bosch Home Comfort",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "AI Security Research Intern",
-   "location": "Pittsburgh, PA",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000145507908",
-   "posted_at": "2026-08-25T14:12:00+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
-   ],
-   "phd": true,
-   "degrees": [
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Fall 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:4338e55f-78ed-4a37-8c3d-482e13c4cff0",
-   "regions": [
-    "US"
    ]
   },
   {
@@ -438,6 +407,35 @@
    ]
   },
   {
+   "company": "Google",
+   "tier": "frontier",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Research Intern - PhD",
+   "location": "Palo Alto, CA, Cambridge, MA, Madison, WI, Seattle, WA, Washington, DC, SF, Austin, TX, LA, San Jose, CA, Irvine, CA, Redwood City, CA, Raleigh, NC, San Bruno, CA, Redmond, WA, Durham, NC, Santa Cruz, CA, Chicago, IL, Goleta, CA, Pittsburgh, PA, Kirkland, WA, NYC, Bellevue, WA, Sunnyvale, CA, Mountain View, CA, Portland, OR, Boulder, CO, Atlanta, GA, San Diego, CA",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710",
+   "posted_at": "2026-08-24T14:35:33+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "deepmind.google",
+   "job_id": "simplify:e3dc5e7f-9828-4121-8b6f-6d45091a92a4",
+   "regions": [
+    "US"
+   ]
+  },
+  {
    "company": "Wex",
    "tier": "other",
    "ats": "simplify",
@@ -530,39 +528,6 @@
    "job_id": "simplify:a554688a-fa61-4d32-8d02-a22d0e78ac6a",
    "regions": [
     "US"
-   ]
-  },
-  {
-   "company": "Ontario Teachers' Pension Plan",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Capital Markets Intern - Quantitative Strategies and Research",
-   "location": "Toronto, ON, Canada",
-   "url": "https://otppb.wd3.myworkdayjobs.com/OntarioTeachers_Careers/job/Toronto-Canada/Intern---Capital-Markets--Quantitative-Strategies-and-Research--January-2027---4-months-_7167",
-   "posted_at": "2026-08-21T00:00:00+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "Bachelor's",
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Winter 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:c6d37325-22f7-46a7-ab78-d7c0f970628e",
-   "regions": [
-    "Canada"
    ]
   },
   {
@@ -1137,38 +1102,6 @@
    "domain": "nvidia.com",
    "job_id": "simplify:60fd19b0-17cd-4cb7-8cf0-99bd3743c1c9",
    "regions": [
-    "US"
-   ]
-  },
-  {
-   "company": "NVIDIA",
-   "tier": "bigtech",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "blindspot",
-   "title": "Software Engineering Intern",
-   "location": "Canada, Santa Clara, CA",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
-   "posted_at": "2026-08-19T00:00:00+00:00",
-   "department": "Software",
-   "confidence": "medium",
-   "match": [
-    "simplify-degrees-phd"
-   ],
-   "phd": true,
-   "degrees": [
-    "Bachelor's",
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Summer 2027"
-   ],
-   "domain": "nvidia.com",
-   "job_id": "simplify:be628885-fde3-4b73-bb0a-58e11856e97b",
-   "regions": [
-    "Canada",
     "US"
    ]
   },
@@ -4479,6 +4412,39 @@
    ]
   },
   {
+   "company": "Cotiviti",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "AI Engineer Intern",
+   "location": "Remote in USA",
+   "url": "https://careers-cotiviti.icims.com/jobs/19531/job?mobile=true&needsRedirect=false",
+   "posted_at": "2026-07-09T22:08:19+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "degrees": [
+    "Bachelor's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:1cf14ab5-bc9d-4842-9fb3-7f423c965a86",
+   "regions": [
+    "US",
+    "Remote"
+   ]
+  },
+  {
    "company": "TikTok",
    "tier": "bigtech",
    "ats": "simplify",
@@ -4971,6 +4937,39 @@
    ],
    "domain": "bytedance.com",
    "job_id": "simplify:f5c86f4d-394f-4270-9bb3-1a362fbddbcb",
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "Tencent",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "Multimodal Algorithm Researcher Intern - Omni-Modal",
+   "location": "Palo Alto, CA",
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-intern-Omni-Modal---_R106650-2",
+   "posted_at": "2026-06-13T14:37:25+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:275b40b6-35f1-4ef6-9c1b-741a35b72c1f",
    "regions": [
     "US"
    ]
@@ -7098,38 +7097,6 @@
    "ats": "simplify",
    "source": "simplify",
    "kind": "discovery",
-   "title": "AI Engineer Intern - BCG X",
-   "location": "London, UK",
-   "url": "https://careers.bcg.com/global/en/job/56635",
-   "posted_at": "2026-01-24T15:19:08+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Spring 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:aba3cf97-4ffd-4dce-876d-ab3305231512",
-   "regions": [
-    "UK"
-   ]
-  },
-  {
-   "company": "Boston Consulting Group",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
    "title": "Data Scientist Intern",
    "location": "London, UK",
    "url": "https://careers.bcg.com/global/en/job/56634",
@@ -7185,38 +7152,6 @@
    "job_id": "simplify:9a900104-2a94-4f83-8db2-d908f008ed99",
    "regions": [
     "US"
-   ]
-  },
-  {
-   "company": "Autodesk",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "PhD Intern - AI Researcher for CAD - B-Rep",
-   "location": "Toronto, ON, Canada",
-   "url": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Toronto-ON-CAN/PhD-Intern---AI-Researcher-for-CAD--B-Rep--Generation_25WD92254",
-   "posted_at": "2026-01-21T01:00:42+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
-   ],
-   "phd": true,
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Summer 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:244b5d51-7fee-44da-9192-dd642b0387f9",
-   "regions": [
-    "Canada"
    ]
   },
   {

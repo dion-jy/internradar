@@ -1,7 +1,29 @@
 {
- "generated_at": "2026-08-28T12:27:08.677440+00:00",
- "count": 86,
+ "generated_at": "2026-08-29T07:36:53.880880+00:00",
+ "count": 87,
  "jobs": [
+  {
+   "company": "Waymo",
+   "tier": "bigtech",
+   "ats": "greenhouse",
+   "domain": "waymo.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "2027 Summer Intern, MS/PhD, Quantitative UX Researcher, Growth/International Expansion",
+   "location": "San Francisco",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8163364",
+   "posted_at": "2026-08-28T15:26:29-04:00",
+   "department": "Pipeline (N/A)",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": true,
+   "job_id": "greenhouse:waymo:8163364",
+   "regions": [
+    "US"
+   ]
+  },
   {
    "company": "NVIDIA",
    "tier": "bigtech",

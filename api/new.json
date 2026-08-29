@@ -1,8 +1,30 @@
 {
- "generated_at": "2026-08-28T12:27:08.677440+00:00",
+ "generated_at": "2026-08-29T07:36:53.880880+00:00",
  "first_run": false,
- "count": 4,
+ "count": 8,
  "jobs": [
+  {
+   "company": "Waymo",
+   "tier": "bigtech",
+   "ats": "greenhouse",
+   "domain": "waymo.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "2027 Summer Intern, MS/PhD, Quantitative UX Researcher, Growth/International Expansion",
+   "location": "San Francisco",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8163364",
+   "posted_at": "2026-08-28T15:26:29-04:00",
+   "department": "Pipeline (N/A)",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": true,
+   "job_id": "greenhouse:waymo:8163364",
+   "regions": [
+    "US"
+   ]
+  },
   {
    "company": "Bland AI",
    "tier": "other",
@@ -11,8 +33,8 @@
    "kind": "discovery",
    "title": "Machine Learning Research Intern - Audio",
    "location": "SF",
-   "url": "https://jobs.ashbyhq.com/bland/bd8743ff-9e18-4f79-9c9a-288f384921f3/application?embed=true",
-   "posted_at": "2026-08-27T23:36:21+00:00",
+   "url": "https://jobs.ashbyhq.com/bland/c8a5c0de-935d-4f76-bc7d-237cbfb2cf55/application?embed=true",
+   "posted_at": "2026-08-29T00:37:56+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
@@ -30,89 +52,57 @@
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:bdbf71c5-d680-4923-90cf-5550fdf3679d",
+   "job_id": "simplify:25daa740-61f1-4b2b-b16f-ef6798135d16",
    "regions": [
     "US"
    ]
   },
   {
-   "company": "Google",
-   "tier": "frontier",
+   "company": "Vertiv",
+   "tier": "other",
    "ats": "simplify",
    "source": "simplify",
-   "kind": "blindspot",
-   "title": "Research Intern - PhD",
-   "location": "Palo Alto, CA, Cambridge, MA, Madison, WI, Seattle, WA, Washington, DC, SF, Austin, TX, LA, San Jose, CA, Irvine, CA, Redwood City, CA, Raleigh, NC, San Bruno, CA, Redmond, WA, Durham, NC, Santa Cruz, CA, Chicago, IL, Goleta, CA, Pittsburgh, PA, Kirkland, WA, NYC, Bellevue, WA, Sunnyvale, CA, Mountain View, CA, Portland, OR, Boulder, CO, Atlanta, GA, San Diego, CA",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710",
-   "posted_at": "2026-08-24T14:35:33+00:00",
+   "kind": "discovery",
+   "title": "Service Technology Research Intern - Summer 2027",
+   "location": "Westerville, OH",
+   "url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20270351",
+   "posted_at": "2026-08-28T21:27:42+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "simplify-degrees-phd"
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-strong"
    ],
    "phd": true,
    "degrees": [
+    "Master's",
     "PhD"
    ],
    "sponsorship": "Other",
    "terms": [
     "Summer 2027"
    ],
-   "domain": "deepmind.google",
-   "job_id": "simplify:e3dc5e7f-9828-4121-8b6f-6d45091a92a4",
+   "domain": "",
+   "job_id": "simplify:e56eca03-b173-46e6-8a0b-5f5eaa9df1f7",
    "regions": [
     "US"
    ]
   },
   {
-   "company": "Cotiviti",
-   "tier": "other",
+   "company": "Apple",
+   "tier": "bigtech",
    "ats": "simplify",
    "source": "simplify",
-   "kind": "discovery",
-   "title": "AI Engineer Intern",
-   "location": "Remote in USA",
-   "url": "https://careers-cotiviti.icims.com/jobs/19531/job?mobile=true&needsRedirect=false",
-   "posted_at": "2026-07-09T22:08:19+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
+   "kind": "blindspot",
+   "title": "Camera Hardware Engineering Intern",
+   "location": "Cupertino, CA",
+   "url": "https://jobs.apple.com/en-us/details/200680200",
+   "posted_at": "2026-08-28T20:58:35+00:00",
+   "department": "Hardware",
+   "confidence": "medium",
    "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "Bachelor's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Summer 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:1cf14ab5-bc9d-4842-9fb3-7f423c965a86",
-   "regions": [
-    "US",
-    "Remote"
-   ]
-  },
-  {
-   "company": "Tencent",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "Multimodal Algorithm Researcher Intern - Omni-Modal",
-   "location": "Palo Alto, CA",
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-intern-Omni-Modal---_R106650-2",
-   "posted_at": "2026-06-13T14:37:25+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
+    "simplify-degrees-phd"
    ],
    "phd": true,
    "degrees": [
@@ -122,12 +112,138 @@
    ],
    "sponsorship": "Other",
    "terms": [
+    "N/A"
+   ],
+   "domain": "apple.com",
+   "job_id": "simplify:afe892b4-c1f7-4900-a870-e2defcbe7c3e",
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "NVIDIA",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Software Engineering Intern",
+   "location": "Canada, Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+   "posted_at": "2026-08-19T00:00:00+00:00",
+   "department": "Software",
+   "confidence": "medium",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "nvidia.com",
+   "job_id": "simplify:be628885-fde3-4b73-bb0a-58e11856e97b",
+   "regions": [
+    "Canada",
+    "US"
+   ]
+  },
+  {
+   "company": "Canva",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "PhD Research Scientist Intern",
+   "location": "SF",
+   "url": "https://jobs.smartrecruiters.com/Canva/6000000001291655",
+   "posted_at": "2026-08-06T09:02:21+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
     "Fall 2026"
    ],
    "domain": "",
-   "job_id": "simplify:275b40b6-35f1-4ef6-9c1b-741a35b72c1f",
+   "job_id": "simplify:40fce4fe-2ffc-4371-9b54-174b5b8f649b",
    "regions": [
     "US"
+   ]
+  },
+  {
+   "company": "Lawrence Berkeley National Laboratory",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "DuraMat Degradation Analysis Postdoctoral Fellow - Energy Technologies and Systems",
+   "location": "Berkeley, CA",
+   "url": "https://lbl.taleo.net/careersection/5/jobdetail.ftl?job=107137",
+   "posted_at": "2026-07-18T01:10:13+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "N/A"
+   ],
+   "domain": "",
+   "job_id": "simplify:5fc15f21-5b6d-4848-a043-3dceb4bd4592",
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "Boston Consulting Group",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "AI Engineer Intern - BCG X",
+   "location": "London, UK",
+   "url": "https://careers.bcg.com/global/en/job/56635",
+   "posted_at": "2026-01-24T15:19:08+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "degrees": [
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Spring 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:aba3cf97-4ffd-4dce-876d-ab3305231512",
+   "regions": [
+    "UK"
    ]
   }
  ]

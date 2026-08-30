@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-08-29T07:36:53.880880+00:00",
- "count": 240,
- "blindspot": 146,
- "discovery": 94,
+ "generated_at": "2026-08-30T06:10:27.071112+00:00",
+ "count": 237,
+ "blindspot": 144,
+ "discovery": 93,
  "stats": {
   "season": "Summer2027",
   "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
   "tried": [
-   "Summer2027: 2257 live",
+   "Summer2027: 2251 live",
    "Summer2028: HTTP 404",
-   "Summer2026: 2257 live"
+   "Summer2026: 2251 live"
   ],
   "newest_entry_age_days": 0,
   "stale": false,
-  "total": 14915,
-  "active": 2256,
-  "phd": 452,
-  "blindspot": 146,
-  "discovery": 126,
+  "total": 14918,
+  "active": 2250,
+  "phd": 445,
+  "blindspot": 144,
+  "discovery": 124,
   "dropped_tracked": 16,
-  "dropped_category": 164,
+  "dropped_category": 161,
   "dropped_excluded": 0,
   "by_title": 16,
-  "discovery_after_title_filter": 94
+  "discovery_after_title_filter": 93
  },
  "jobs": [
   {
@@ -433,35 +433,6 @@
    ],
    "domain": "deepmind.google",
    "job_id": "simplify:cd7682b8-7722-4a26-9813-42ece290a387",
-   "regions": [
-    "US"
-   ]
-  },
-  {
-   "company": "Google",
-   "tier": "frontier",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "blindspot",
-   "title": "Research Intern - PhD",
-   "location": "Palo Alto, CA, Cambridge, MA, Madison, WI, Seattle, WA, Washington, DC, SF, Austin, TX, LA, San Jose, CA, Irvine, CA, Redwood City, CA, Raleigh, NC, San Bruno, CA, Redmond, WA, Durham, NC, Santa Cruz, CA, Chicago, IL, Goleta, CA, Pittsburgh, PA, Kirkland, WA, NYC, Bellevue, WA, Sunnyvale, CA, Mountain View, CA, Portland, OR, Boulder, CO, Atlanta, GA, San Diego, CA",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710",
-   "posted_at": "2026-08-24T14:35:33+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd"
-   ],
-   "phd": true,
-   "degrees": [
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Summer 2027"
-   ],
-   "domain": "deepmind.google",
-   "job_id": "simplify:e3dc5e7f-9828-4121-8b6f-6d45091a92a4",
    "regions": [
     "US"
    ]
@@ -4347,37 +4318,6 @@
    ]
   },
   {
-   "company": "Lawrence Berkeley National Laboratory",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "DuraMat Degradation Analysis Postdoctoral Fellow - Energy Technologies and Systems",
-   "location": "Berkeley, CA",
-   "url": "https://lbl.taleo.net/careersection/5/jobdetail.ftl?job=107137",
-   "posted_at": "2026-07-18T01:10:13+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-strong"
-   ],
-   "phd": true,
-   "degrees": [
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "N/A"
-   ],
-   "domain": "",
-   "job_id": "simplify:5fc15f21-5b6d-4848-a043-3dceb4bd4592",
-   "regions": [
-    "US"
-   ]
-  },
-  {
    "company": "Constellation Space",
    "tier": "other",
    "ats": "simplify",
@@ -5662,36 +5602,6 @@
    ],
    "domain": "apple.com",
    "job_id": "simplify:4c7a8eb9-496a-49b7-aacf-d00ae8653c6e",
-   "regions": [
-    "US"
-   ]
-  },
-  {
-   "company": "Microsoft",
-   "tier": "bigtech",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "blindspot",
-   "title": "Research Intern - Self-Improving AI",
-   "location": "Cambridge, MA, NYC",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556867858",
-   "posted_at": "2026-05-19T09:03:45+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd"
-   ],
-   "phd": true,
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Summer 2026"
-   ],
-   "domain": "microsoft.com",
-   "job_id": "simplify:5407f428-b513-492f-97d0-d2bd020610b6",
    "regions": [
     "US"
    ]

@@ -1,41 +1,41 @@
 {
- "generated_at": "2026-08-30T06:10:27.071112+00:00",
+ "generated_at": "2026-08-30T16:54:29.726153+00:00",
  "scanned_labs": 109,
- "scanned_jobs": 8859,
+ "scanned_jobs": 8863,
  "by_kind": {
-  "evergreen": 20,
-  "tracked": 87,
   "discovery": 93,
-  "blindspot": 144
+  "blindspot": 144,
+  "tracked": 87,
+  "evergreen": 23
  },
- "total_listings": 344,
+ "total_listings": 347,
  "matched": 87,
- "off_board_file": 3,
- "evergreen": 20,
+ "off_board_file": 6,
+ "evergreen": 23,
  "xposts": 5,
  "discover": 237,
  "simplify": {
   "season": "Summer2027",
   "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
   "tried": [
-   "Summer2027: 2251 live",
+   "Summer2027: 2244 live",
    "Summer2028: HTTP 404",
-   "Summer2026: 2251 live"
+   "Summer2026: 2244 live"
   ],
   "newest_entry_age_days": 0,
   "stale": false,
-  "total": 14918,
-  "active": 2250,
-  "phd": 445,
+  "total": 14917,
+  "active": 2243,
+  "phd": 442,
   "blindspot": 144,
   "discovery": 124,
   "dropped_tracked": 16,
-  "dropped_category": 161,
+  "dropped_category": 158,
   "dropped_excluded": 0,
   "by_title": 16,
   "discovery_after_title_filter": 93
  },
- "new": 0,
+ "new": 3,
  "by_lab": [
   {
    "lab": "NVIDIA",
@@ -167,7 +167,7 @@
    "lab": "Databricks",
    "ats": "greenhouse",
    "slug": "databricks",
-   "postings": 850,
+   "postings": 856,
    "matched": 1,
    "evergreen": 0,
    "error": null
@@ -383,7 +383,7 @@
    "lab": "OpenAI",
    "ats": "ashby",
    "slug": "openai",
-   "postings": 758,
+   "postings": 755,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -644,7 +644,7 @@
    "lab": "FuriosaAI",
    "ats": "greenhouse",
    "slug": "furiosaai",
-   "postings": 48,
+   "postings": 49,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -902,7 +902,7 @@
    "error": null
   },
   {
-   "lab": "Sea AI Lab",
+   "lab": "Sail Research",
    "ats": "ashby",
    "slug": "sail",
    "postings": 5,
@@ -1078,7 +1078,7 @@
   "Cradle",
   "Owkin",
   "deepset",
-  "Sea AI Lab",
+  "Sail Research",
   "Stability AI",
   "Imbue",
   "Ideogram",

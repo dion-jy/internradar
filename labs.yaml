@@ -1219,14 +1219,23 @@ labs:
   domain: kakaobrain.com
   note: own applicant system
 - name: Sea AI Lab
+  ats: none
+  slug: null
+  tier: research-org
+  verified_at: '2026-08-31'
+  job_count: 0
+  active: false
+  domain: sail.sea.com
+  note: 'Singapore, Fusionopolis, part of Sea Limited. Own system at career.sea.com. Does run Research Intern, Research Intern (AI for Science) and the Sea Industrial PhD Program -- all carried in manual.yaml. NOT ashby/sail: that board is Sail Research of San Francisco, and matching it here on the shared SAIL acronym was an identification error, exactly the failure the owner check exists to catch'
+- name: Sail Research
   ats: ashby
   slug: sail
-  tier: research-org
-  verified_at: '2026-08-26'
-  job_count: 4
+  tier: startup
+  verified_at: '2026-08-31'
+  job_count: 5
   active: true
-  domain: sail.sea.com
-  note: 'Singapore. Board owner reads "Sail Research Jobs"; the earlier sea/seagroup/sea-ai-lab guesses all failed'
+  domain: sail.software
+  note: San Francisco; unrelated to Sea AI Lab despite the slug
 - name: Silo AI
   ats: none
   slug: null

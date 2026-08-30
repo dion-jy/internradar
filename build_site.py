@@ -43,7 +43,9 @@ with open("data.js", "w") as f:
         f.write("window.%s=%s;\n" % (name, json.dumps(blob, ensure_ascii=False)))
 
 new_ids = {j["job_id"] for j in new.get("jobs", [])}
+# collect.py decided the order and stamped it; concatenation order is irrelevant here.
 listings = manual["jobs"] + jobs["jobs"] + evergreen["jobs"] + discover["jobs"]
+listings.sort(key=lambda j: j.get("order", 1 << 30))
 e = lambda s: html.escape(str(s or ""))
 
 

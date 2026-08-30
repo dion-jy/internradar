@@ -1,6 +1,82 @@
 {
- "generated_at": "2026-08-30T06:10:27.071112+00:00",
+ "generated_at": "2026-08-30T16:54:29.726153+00:00",
  "first_run": false,
- "count": 0,
- "jobs": []
+ "count": 3,
+ "jobs": [
+  {
+   "company": "Sea AI Lab",
+   "tier": "research-org",
+   "ats": "manual",
+   "source": "manual",
+   "kind": "evergreen",
+   "title": "Research Intern",
+   "location": "Singapore",
+   "url": "https://career.sea.com/position/J00290392",
+   "posted_at": null,
+   "department": "",
+   "source_label": "Lab website",
+   "confidence": "high",
+   "match": [
+    "off-board",
+    "via-lab-page"
+   ],
+   "phd": true,
+   "note": "Sea AI Lab is Sea Limited's research arm in Singapore (Fusionopolis), publishing at ICLR and ICML. Listed on their own careers page with no closing date.",
+   "job_id": "manual:6a30ab4d0d438f99",
+   "order": 344,
+   "regions": [
+    "Asia"
+   ]
+  },
+  {
+   "company": "Sea AI Lab",
+   "tier": "research-org",
+   "ats": "manual",
+   "source": "manual",
+   "kind": "evergreen",
+   "title": "Research Intern (AI for Science)",
+   "location": "Singapore",
+   "url": "https://career.sea.com/position/J00215947",
+   "posted_at": null,
+   "department": "",
+   "source_label": "Lab website",
+   "confidence": "high",
+   "match": [
+    "off-board",
+    "via-lab-page"
+   ],
+   "phd": true,
+   "note": "",
+   "job_id": "manual:d63a5673b8ee0559",
+   "order": 345,
+   "regions": [
+    "Asia"
+   ]
+  },
+  {
+   "company": "Sea AI Lab",
+   "tier": "research-org",
+   "ats": "manual",
+   "source": "manual",
+   "kind": "evergreen",
+   "title": "Sea Industrial PhD Program (IPP)",
+   "location": "Singapore",
+   "url": "https://career.sea.com/position/J00216226",
+   "posted_at": null,
+   "department": "",
+   "source_label": "Lab website",
+   "confidence": "high",
+   "match": [
+    "off-board",
+    "via-lab-page"
+   ],
+   "phd": true,
+   "note": "Joint programme between SAIL and Singapore universities for graduate students doing AI research. Full tuition support plus a monthly salary. Not an internship but the closest thing on the board to a funded research position for a student.",
+   "job_id": "manual:be0b516f507f407a",
+   "order": 346,
+   "regions": [
+    "Asia"
+   ]
+  }
+ ]
 }

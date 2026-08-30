@@ -67,3 +67,39 @@ openings:
       Product-side applied research (Sakana Chat, Marlin, Fugu), listed as
       "Full-time / Contract / Intern". Apply by emailing careers@sakana.ai naming the role,
       then submit their Google Form.
+
+  # Sea AI Lab (SAIL), Singapore. Part of Sea Limited, on career.sea.com rather than
+  # any supported ATS. Found only after correcting an identification error: ashby/sail
+  # is Sail Research of San Francisco, and the shared acronym had it recorded here as
+  # Sea AI Lab for five days, which is why the board showed zero Singapore listings.
+  - company: Sea AI Lab
+    title: Research Intern
+    url: https://career.sea.com/position/J00290392
+    via: lab-page
+    tier: research-org
+    location: Singapore
+    always_open: true
+    phd: true
+    note: >-
+      Sea AI Lab is Sea Limited's research arm in Singapore (Fusionopolis), publishing
+      at ICLR and ICML. Listed on their own careers page with no closing date.
+  - company: Sea AI Lab
+    title: Research Intern (AI for Science)
+    url: https://career.sea.com/position/J00215947
+    via: lab-page
+    tier: research-org
+    location: Singapore
+    always_open: true
+    phd: true
+  - company: Sea AI Lab
+    title: Sea Industrial PhD Program (IPP)
+    url: https://career.sea.com/position/J00216226
+    via: lab-page
+    tier: research-org
+    location: Singapore
+    always_open: true
+    phd: true
+    note: >-
+      Joint programme between SAIL and Singapore universities for graduate students
+      doing AI research. Full tuition support plus a monthly salary. Not an internship
+      but the closest thing on the board to a funded research position for a student.

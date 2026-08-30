@@ -581,7 +581,29 @@ def main():
         previous = set(json.load(open("data/seen.json"))["job_ids"])
     except (FileNotFoundError, KeyError, ValueError):
         previous = set()
+    # One ordering, decided here, obeyed everywhere else. The four sources used to be
+    # concatenated in a fixed order and never sorted as a whole, which pinned the three
+    # always-open manual entries to the top of the page permanently and ran the
+    # date-descending sequence twice -- so a listing posted today could sit below one
+    # from March purely because of which source it came from.
+    #
+    # Undated listings go last rather than first. They are the always-open channels;
+    # having no date is not the same as being new, and the "No deadline" filter is how
+    # they are meant to be found.
     everything = manual + matched + evergreen + discover
+    dated = [j for j in everything if j.get("posted_at")]
+    undated = [j for j in everything if not j.get("posted_at")]
+    # Sorted by company first, then by date: Python's sort is stable, so same-timestamp
+    # listings stay in company order instead of being reversed along with the date.
+    dated.sort(key=lambda j: ((j.get("company") or "").lower(), (j.get("title") or "").lower()))
+    dated.sort(key=lambda j: str(j.get("posted_at")), reverse=True)
+    undated.sort(key=lambda j: (j.get("tier") or "", (j.get("company") or "").lower(),
+                                (j.get("title") or "").lower()))
+    everything = dated + undated
+    # The per-kind API files share these dict objects, so stamping the rank here is what
+    # lets build_site.py and the page reproduce this order without re-deriving it.
+    for i, j in enumerate(everything):
+        j["order"] = i
     # Region is attached here rather than in each source, because there are four of
     # them and patching each one is how one of them ends up without the field.
     for j in everything:

@@ -1,47 +1,47 @@
 {
- "generated_at": "2026-08-30T16:54:29.726153+00:00",
+ "generated_at": "2026-08-31T06:35:34.814865+00:00",
  "scanned_labs": 109,
- "scanned_jobs": 8863,
+ "scanned_jobs": 8871,
  "by_kind": {
+  "blindspot": 146,
   "discovery": 93,
-  "blindspot": 144,
   "tracked": 87,
   "evergreen": 23
  },
- "total_listings": 347,
+ "total_listings": 349,
  "matched": 87,
  "off_board_file": 6,
  "evergreen": 23,
  "xposts": 5,
- "discover": 237,
+ "discover": 239,
  "simplify": {
   "season": "Summer2027",
   "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
   "tried": [
-   "Summer2027: 2244 live",
+   "Summer2027: 2316 live",
    "Summer2028: HTTP 404",
-   "Summer2026: 2244 live"
+   "Summer2026: 2316 live"
   ],
   "newest_entry_age_days": 0,
   "stale": false,
-  "total": 14917,
-  "active": 2243,
-  "phd": 442,
-  "blindspot": 144,
-  "discovery": 124,
+  "total": 14961,
+  "active": 2315,
+  "phd": 465,
+  "blindspot": 146,
+  "discovery": 126,
   "dropped_tracked": 16,
-  "dropped_category": 158,
+  "dropped_category": 177,
   "dropped_excluded": 0,
   "by_title": 16,
   "discovery_after_title_filter": 93
  },
- "new": 3,
+ "new": 2,
  "by_lab": [
   {
    "lab": "NVIDIA",
    "ats": "workday",
    "slug": "nvidia.wd5.myworkdayjobs.com/nvidia/NVIDIAExternalCareerSite",
-   "postings": 61,
+   "postings": 64,
    "matched": 28,
    "evergreen": 0,
    "error": null
@@ -50,7 +50,7 @@
    "lab": "Scale AI",
    "ats": "greenhouse",
    "slug": "scaleai",
-   "postings": 219,
+   "postings": 217,
    "matched": 10,
    "evergreen": 0,
    "error": null
@@ -68,7 +68,7 @@
    "lab": "Anthropic",
    "ats": "greenhouse",
    "slug": "anthropic",
-   "postings": 571,
+   "postings": 572,
    "matched": 4,
    "evergreen": 1,
    "error": null
@@ -176,7 +176,7 @@
    "lab": "Waymo",
    "ats": "greenhouse",
    "slug": "waymo",
-   "postings": 350,
+   "postings": 349,
    "matched": 1,
    "evergreen": 0,
    "error": null
@@ -221,7 +221,7 @@
    "lab": "1X",
    "ats": "ashby",
    "slug": "1x",
-   "postings": 81,
+   "postings": 82,
    "matched": 1,
    "evergreen": 0,
    "error": null
@@ -383,7 +383,7 @@
    "lab": "OpenAI",
    "ats": "ashby",
    "slug": "openai",
-   "postings": 755,
+   "postings": 753,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -410,7 +410,7 @@
    "lab": "xAI",
    "ats": "greenhouse",
    "slug": "xai",
-   "postings": 252,
+   "postings": 253,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -428,7 +428,7 @@
    "lab": "Sierra",
    "ats": "ashby",
    "slug": "sierra",
-   "postings": 199,
+   "postings": 200,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -446,7 +446,7 @@
    "lab": "Wayve",
    "ats": "greenhouse",
    "slug": "wayve",
-   "postings": 143,
+   "postings": 148,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -455,7 +455,7 @@
    "lab": "Woven by Toyota",
    "ats": "lever",
    "slug": "woven-by-toyota",
-   "postings": 143,
+   "postings": 144,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -560,18 +560,18 @@
    "error": null
   },
   {
-   "lab": "KRAFTON",
+   "lab": "Agility Robotics",
    "ats": "greenhouse",
-   "slug": "krafton",
-   "postings": 67,
+   "slug": "agilityrobotics",
+   "postings": 66,
    "matched": 0,
    "evergreen": 0,
    "error": null
   },
   {
-   "lab": "Agility Robotics",
+   "lab": "KRAFTON",
    "ats": "greenhouse",
-   "slug": "agilityrobotics",
+   "slug": "krafton",
    "postings": 66,
    "matched": 0,
    "evergreen": 0,
@@ -644,7 +644,7 @@
    "lab": "FuriosaAI",
    "ats": "greenhouse",
    "slug": "furiosaai",
-   "postings": 49,
+   "postings": 48,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -662,7 +662,7 @@
    "lab": "Thinking Machines Lab",
    "ats": "ashby",
    "slug": "thinkingmachines",
-   "postings": 38,
+   "postings": 40,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -1013,10 +1013,10 @@
    "lab": "Adobe",
    "ats": "workday",
    "slug": "adobe.wd5.myworkdayjobs.com/adobe/external_experienced",
-   "postings": 0,
+   "postings": null,
    "matched": 0,
    "evergreen": 0,
-   "error": null
+   "error": "ReadTimeout: HTTPSConnectionPool(host='adobe.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=40)"
   }
  ],
  "silent_labs": [
@@ -1040,8 +1040,8 @@
   "Lambda",
   "DeepL",
   "Fireworks AI",
-  "KRAFTON",
   "Agility Robotics",
+  "KRAFTON",
   "Sarvam AI",
   "Suno",
   "Together AI",
@@ -1089,5 +1089,12 @@
   "Aleph Alpha",
   "Samsung Research"
  ],
- "errors": []
+ "errors": [
+  {
+   "lab": "Adobe",
+   "ats": "workday",
+   "slug": "adobe.wd5.myworkdayjobs.com/adobe/external_experienced",
+   "error": "ReadTimeout: HTTPSConnectionPool(host='adobe.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=40)"
+  }
+ ]
 }

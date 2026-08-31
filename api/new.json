@@ -1,81 +1,66 @@
 {
- "generated_at": "2026-08-30T16:54:29.726153+00:00",
+ "generated_at": "2026-08-31T06:35:34.814865+00:00",
  "first_run": false,
- "count": 3,
+ "count": 2,
  "jobs": [
   {
-   "company": "Sea AI Lab",
-   "tier": "research-org",
-   "ats": "manual",
-   "source": "manual",
-   "kind": "evergreen",
-   "title": "Research Intern",
-   "location": "Singapore",
-   "url": "https://career.sea.com/position/J00290392",
-   "posted_at": null,
-   "department": "",
-   "source_label": "Lab website",
+   "company": "TikTok",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Machine Learning Engineer Intern - E-Commerce Knowledge Graph",
+   "location": "San Jose, CA",
+   "url": "https://lifeattiktok.com/search/7676652813409552645",
+   "posted_at": "2026-08-31T05:07:21+00:00",
+   "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "off-board",
-    "via-lab-page"
+    "simplify-degrees-phd"
    ],
    "phd": true,
-   "note": "Sea AI Lab is Sea Limited's research arm in Singapore (Fusionopolis), publishing at ICLR and ICML. Listed on their own careers page with no closing date.",
-   "job_id": "manual:6a30ab4d0d438f99",
-   "order": 344,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:4b81bd00-4b97-4ec4-954b-892368c48de0",
+   "order": 0,
    "regions": [
-    "Asia"
+    "US"
    ]
   },
   {
-   "company": "Sea AI Lab",
-   "tier": "research-org",
-   "ats": "manual",
-   "source": "manual",
-   "kind": "evergreen",
-   "title": "Research Intern (AI for Science)",
-   "location": "Singapore",
-   "url": "https://career.sea.com/position/J00215947",
-   "posted_at": null,
-   "department": "",
-   "source_label": "Lab website",
+   "company": "TikTok",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Machine Learning Engineer Intern - E-Commerce Knowledge Graph",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7676650607912601861",
+   "posted_at": "2026-08-31T05:07:21+00:00",
+   "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "off-board",
-    "via-lab-page"
+    "simplify-degrees-phd"
    ],
    "phd": true,
-   "note": "",
-   "job_id": "manual:d63a5673b8ee0559",
-   "order": 345,
-   "regions": [
-    "Asia"
-   ]
-  },
-  {
-   "company": "Sea AI Lab",
-   "tier": "research-org",
-   "ats": "manual",
-   "source": "manual",
-   "kind": "evergreen",
-   "title": "Sea Industrial PhD Program (IPP)",
-   "location": "Singapore",
-   "url": "https://career.sea.com/position/J00216226",
-   "posted_at": null,
-   "department": "",
-   "source_label": "Lab website",
-   "confidence": "high",
-   "match": [
-    "off-board",
-    "via-lab-page"
+   "degrees": [
+    "PhD"
    ],
-   "phd": true,
-   "note": "Joint programme between SAIL and Singapore universities for graduate students doing AI research. Full tuition support plus a monthly salary. Not an internship but the closest thing on the board to a funded research position for a student.",
-   "job_id": "manual:be0b516f507f407a",
-   "order": 346,
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:30c6e50a-a52b-4624-ad9a-bff649958700",
+   "order": 1,
    "regions": [
-    "Asia"
+    "US"
    ]
   }
  ]

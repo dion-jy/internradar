@@ -1227,6 +1227,15 @@ labs:
   active: false
   domain: sail.sea.com
   note: 'Singapore, Fusionopolis, part of Sea Limited. Own system at career.sea.com. Does run Research Intern, Research Intern (AI for Science) and the Sea Industrial PhD Program -- all carried in manual.yaml. NOT ashby/sail: that board is Sail Research of San Francisco, and matching it here on the shared SAIL acronym was an identification error, exactly the failure the owner check exists to catch'
+- name: AMI Labs
+  ats: ashby
+  slug: ami
+  tier: frontier
+  verified_at: '2026-09-01'
+  job_count: 7
+  active: true
+  domain: ami.inc
+  note: 'board owner reads "AMI Jobs". Found from the apply link in @jihanyang13''s announcement, not by guessing -- ami.inc/careers and amilabs.ai/careers both 404, and ami.inc itself resolves to an unrelated Japanese company. Roles list Paris as the location even where the announcement says NYC, Montreal and Singapore too'
 - name: Sail Research
   ats: ashby
   slug: sail

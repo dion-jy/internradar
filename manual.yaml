@@ -2,7 +2,9 @@
 #
 # For the labs this board structurally cannot see: places that announce an
 # internship in an X post, a mailing list or on their own site without ever
-# filing it on a job board. Sakana AI and AMI Labs are the canonical cases.
+# filing it on a job board. Sakana AI and Sea AI Lab are the canonical cases.
+# (AMI Labs used to be listed here as a third; it turned out to have an Ashby
+# board all along, so it is tracked normally now.)
 #
 # Nothing here is filtered — an entry is on the board because someone judged it
 # worth adding. Only `company`, `title` and `url` are required.

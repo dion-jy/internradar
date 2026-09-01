@@ -1,41 +1,41 @@
 {
- "generated_at": "2026-09-01T00:55:27.863488+00:00",
+ "generated_at": "2026-09-01T05:58:34.326349+00:00",
  "scanned_labs": 110,
- "scanned_jobs": 8885,
+ "scanned_jobs": 8891,
  "by_kind": {
-  "discovery": 98,
-  "blindspot": 144,
+  "discovery": 99,
+  "blindspot": 150,
   "tracked": 90,
   "evergreen": 24
  },
- "total_listings": 356,
+ "total_listings": 363,
  "matched": 90,
  "off_board_file": 6,
  "evergreen": 24,
  "xposts": 6,
- "discover": 242,
+ "discover": 249,
  "simplify": {
   "season": "Summer2027",
   "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
   "tried": [
-   "Summer2027: 2374 live",
+   "Summer2027: 2461 live",
    "Summer2028: HTTP 404",
-   "Summer2026: 2374 live"
+   "Summer2026: 2461 live"
   ],
   "newest_entry_age_days": 0,
   "stale": false,
-  "total": 15096,
-  "active": 2373,
-  "phd": 465,
-  "blindspot": 144,
-  "discovery": 137,
+  "total": 15198,
+  "active": 2460,
+  "phd": 475,
+  "blindspot": 150,
+  "discovery": 139,
   "dropped_tracked": 17,
-  "dropped_category": 167,
+  "dropped_category": 169,
   "dropped_excluded": 0,
   "by_title": 16,
-  "discovery_after_title_filter": 98
+  "discovery_after_title_filter": 99
  },
- "new": 11,
+ "new": 7,
  "by_lab": [
   {
    "lab": "NVIDIA",
@@ -131,7 +131,7 @@
    "lab": "Etched",
    "ats": "ashby",
    "slug": "etched",
-   "postings": 108,
+   "postings": 109,
    "matched": 1,
    "evergreen": 1,
    "error": null
@@ -176,7 +176,7 @@
    "lab": "Databricks",
    "ats": "greenhouse",
    "slug": "databricks",
-   "postings": 851,
+   "postings": 853,
    "matched": 1,
    "evergreen": 0,
    "error": null
@@ -185,7 +185,7 @@
    "lab": "Waymo",
    "ats": "greenhouse",
    "slug": "waymo",
-   "postings": 351,
+   "postings": 350,
    "matched": 1,
    "evergreen": 0,
    "error": null
@@ -194,7 +194,7 @@
    "lab": "Tenstorrent",
    "ats": "greenhouse",
    "slug": "tenstorrent",
-   "postings": 135,
+   "postings": 136,
    "matched": 1,
    "evergreen": 0,
    "error": null
@@ -212,7 +212,7 @@
    "lab": "Mercor",
    "ats": "ashby",
    "slug": "mercor",
-   "postings": 93,
+   "postings": 94,
    "matched": 1,
    "evergreen": 0,
    "error": null
@@ -284,7 +284,7 @@
    "lab": "Physical Intelligence",
    "ats": "ashby",
    "slug": "physicalintelligence",
-   "postings": 33,
+   "postings": 34,
    "matched": 1,
    "evergreen": 0,
    "error": null
@@ -401,7 +401,7 @@
    "lab": "OpenAI",
    "ats": "ashby",
    "slug": "openai",
-   "postings": 766,
+   "postings": 765,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -446,7 +446,7 @@
    "lab": "Sierra",
    "ats": "ashby",
    "slug": "sierra",
-   "postings": 204,
+   "postings": 206,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -473,7 +473,7 @@
    "lab": "Woven by Toyota",
    "ats": "lever",
    "slug": "woven-by-toyota",
-   "postings": 148,
+   "postings": 151,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -608,7 +608,7 @@
    "lab": "Sarvam AI",
    "ats": "ashby",
    "slug": "sarvam",
-   "postings": 63,
+   "postings": 62,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -623,18 +623,18 @@
    "error": null
   },
   {
-   "lab": "SambaNova",
+   "lab": "Together AI",
    "ats": "greenhouse",
-   "slug": "sambanovasystems",
-   "postings": 60,
+   "slug": "togetherai",
+   "postings": 58,
    "matched": 0,
    "evergreen": 0,
    "error": null
   },
   {
-   "lab": "Together AI",
+   "lab": "SambaNova",
    "ats": "greenhouse",
-   "slug": "togetherai",
+   "slug": "sambanovasystems",
    "postings": 58,
    "matched": 0,
    "evergreen": 0,
@@ -1054,8 +1054,8 @@
   "Suno",
   "Sarvam AI",
   "Synthesia",
-  "SambaNova",
   "Together AI",
+  "SambaNova",
   "Writer",
   "Parloa",
   "FuriosaAI",

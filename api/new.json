@@ -1,22 +1,24 @@
 {
- "generated_at": "2026-08-31T06:35:34.814865+00:00",
+ "generated_at": "2026-09-01T00:55:27.863488+00:00",
  "first_run": false,
- "count": 2,
+ "count": 11,
  "jobs": [
   {
-   "company": "TikTok",
-   "tier": "bigtech",
+   "company": "Integra FEC",
+   "tier": "other",
    "ats": "simplify",
    "source": "simplify",
-   "kind": "blindspot",
-   "title": "Machine Learning Engineer Intern - E-Commerce Knowledge Graph",
-   "location": "San Jose, CA",
-   "url": "https://lifeattiktok.com/search/7676652813409552645",
-   "posted_at": "2026-08-31T05:07:21+00:00",
+   "kind": "discovery",
+   "title": "Data Scientist Intern - PhD",
+   "location": "Austin, TX",
+   "url": "https://job-boards.greenhouse.io/integra/jobs/5406092008",
+   "posted_at": "2026-08-31T19:43:45+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "simplify-degrees-phd"
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-strong"
    ],
    "phd": true,
    "degrees": [
@@ -24,29 +26,31 @@
    ],
    "sponsorship": "Other",
    "terms": [
-    "Summer 2027"
+    "Spring 2026"
    ],
-   "domain": "bytedance.com",
-   "job_id": "simplify:4b81bd00-4b97-4ec4-954b-892368c48de0",
+   "domain": "",
+   "job_id": "simplify:1bc050fb-4d18-49b0-b06e-2bb888fcf4a2",
    "order": 0,
    "regions": [
     "US"
    ]
   },
   {
-   "company": "TikTok",
-   "tier": "bigtech",
+   "company": "Integra FEC",
+   "tier": "other",
    "ats": "simplify",
    "source": "simplify",
-   "kind": "blindspot",
-   "title": "Machine Learning Engineer Intern - E-Commerce Knowledge Graph",
-   "location": "Seattle, WA",
-   "url": "https://lifeattiktok.com/search/7676650607912601861",
-   "posted_at": "2026-08-31T05:07:21+00:00",
+   "kind": "discovery",
+   "title": "Data Scientist Intern - PhD",
+   "location": "Austin, TX",
+   "url": "https://job-boards.greenhouse.io/integra/jobs/5406094008",
+   "posted_at": "2026-08-31T19:41:43+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "simplify-degrees-phd"
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-strong"
    ],
    "phd": true,
    "degrees": [
@@ -54,13 +58,269 @@
    ],
    "sponsorship": "Other",
    "terms": [
-    "Summer 2027"
+    "Summer 2026"
    ],
-   "domain": "bytedance.com",
-   "job_id": "simplify:30c6e50a-a52b-4624-ad9a-bff649958700",
+   "domain": "",
+   "job_id": "simplify:da3e67cf-32d9-4cc8-a198-dcb8705acd1f",
    "order": 1,
    "regions": [
     "US"
+   ]
+  },
+  {
+   "company": "C3.ai",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "Data Scientist Intern - Summer 2027",
+   "location": "Redwood City, CA",
+   "url": "https://c3.ai/job-description/8738918002?gh_jid=8738918002",
+   "posted_at": "2026-08-31T19:19:54+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "degrees": [
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "",
+   "job_id": "simplify:222db458-975e-451f-8e50-02fed5bc0583",
+   "order": 2,
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "Integra FEC",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "Data Scientist Intern - PhD",
+   "location": "Austin, TX",
+   "url": "https://job-boards.greenhouse.io/integrainterns/jobs/5406093008",
+   "posted_at": "2026-08-31T18:54:24+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-strong"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Spring 2027"
+   ],
+   "domain": "",
+   "job_id": "simplify:a747cf98-60b0-4ecc-a94e-99f6f44fb3db",
+   "order": 3,
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "Integra FEC",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "Data Scientist Intern",
+   "location": "Austin, TX",
+   "url": "https://job-boards.greenhouse.io/integrainterns/jobs/5406095008",
+   "posted_at": "2026-08-31T18:45:07+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:4c6a393d-581a-4bc1-abf5-6b41bf2f2340",
+   "order": 4,
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "Adobe",
+   "tier": "bigtech",
+   "ats": "workday",
+   "domain": "adobe.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "2027 Intern - Machine Learning Engineer",
+   "location": "San Jose",
+   "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519",
+   "posted_at": "2026-08-31T00:00:00+00:00",
+   "department": "",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": true,
+   "job_id": "workday:adobe.wd5.myworkdayjobs.com/adobe/external_experienced:R171519",
+   "order": 7,
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "Copart",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "AI Engineer Intern",
+   "location": "Dallas, TX",
+   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/AI-Engineer-Intern_JR110948",
+   "posted_at": "2026-08-31T00:00:00+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:830ccf37-7c74-49d4-a859-b0e01238b7ab",
+   "order": 8,
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "Micron Technology",
+   "tier": "other",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "discovery",
+   "title": "AI Systems and Infrastructure Engineering Intern",
+   "location": "Austin, TX",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Austin-TX/Intern---AI-Systems-and-Infrastructure-Engineering_JR109990",
+   "posted_at": "2026-08-31T00:00:00+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
+   ],
+   "phd": true,
+   "degrees": [
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "",
+   "job_id": "simplify:31c8f262-dd88-45f4-b7b3-d0d9c0cf3013",
+   "order": 9,
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "NVIDIA",
+   "tier": "bigtech",
+   "ats": "workday",
+   "domain": "nvidia.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "PhD Intern, AI ML in Wireless L1/L2 - Fall 2026",
+   "location": "India, Bengaluru",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423",
+   "posted_at": "2026-08-31T00:00:00+00:00",
+   "department": "",
+   "confidence": "high",
+   "match": [
+    "title-strong"
+   ],
+   "phd": true,
+   "job_id": "workday:nvidia.wd5.myworkdayjobs.com/nvidia/NVIDIAExternalCareerSite:JR2024423",
+   "order": 11,
+   "regions": [
+    "Asia"
+   ]
+  },
+  {
+   "company": "AMI Labs",
+   "tier": "frontier",
+   "ats": "ashby",
+   "domain": "ami.inc",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "AMI Scientist/Interns - Geometry and 3D Vision",
+   "location": "Paris",
+   "url": "https://jobs.ashbyhq.com/ami/0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2",
+   "posted_at": "2026-08-27T10:46:00.167+00:00",
+   "department": "Technical Staff",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "ashby:ami:0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2",
+   "order": 16,
+   "regions": [
+    "Europe"
+   ]
+  },
+  {
+   "company": "AMI Labs",
+   "tier": "frontier",
+   "ats": "ashby",
+   "domain": "ami.inc",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "General Application",
+   "location": "Paris",
+   "url": "https://jobs.ashbyhq.com/ami/34d3053f-381f-4350-9c9b-172e5d6a6b70",
+   "posted_at": "2026-02-23T17:07:26.810+00:00",
+   "department": "All Departments",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "ashby:ami:34d3053f-381f-4350-9c9b-172e5d6a6b70",
+   "order": 294,
+   "regions": [
+    "Europe"
    ]
   }
  ]

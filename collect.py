@@ -13,6 +13,7 @@ diff survives between GitHub Actions runs.
 import html
 import json
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
@@ -381,12 +382,36 @@ WORKDAY_TITLE = re.compile(
     r"fellowship|student|phd|ph\.d|postdoc|post-?doctoral)\b", re.I)
 
 
+
+WORKDAY_RETRIES = 3
+
+
+def _wd_request(method, url, **kw):
+    """Workday is read over roughly eighty requests per lab, where the other three
+    readers make one. That changes the odds: on 2026-08-31 a single read timeout on
+    one Adobe page took the entire lab out of that day's run. Retries absorb the
+    blip. A failure that survives them still raises, so it lands in status.errors
+    instead of the lab quietly reporting zero openings."""
+    last = None
+    for attempt in range(WORKDAY_RETRIES):
+        try:
+            r = method(url, timeout=TIMEOUT, **kw)
+            if r.status_code < 500:
+                return r
+            last = ValueError("http %d" % r.status_code)
+        except requests.RequestException as exc:
+            last = exc
+        if attempt < WORKDAY_RETRIES - 1:
+            time.sleep(1.5 * (attempt + 1))
+    raise last
+
+
 def _workday_list(base, term):
     out, offset = [], 0
     for _ in range(WORKDAY_MAX_PAGES):
-        r = requests.post(base + "/jobs", headers=WD_HEADERS, timeout=TIMEOUT,
-                          json={"appliedFacets": {}, "limit": WORKDAY_PAGE,
-                                "offset": offset, "searchText": term})
+        r = _wd_request(requests.post, base + "/jobs", headers=WD_HEADERS,
+                        json={"appliedFacets": {}, "limit": WORKDAY_PAGE,
+                              "offset": offset, "searchText": term})
         if r.status_code != 200:
             raise ValueError("http %d on '%s'" % (r.status_code, term))
         posts = r.json().get("jobPostings")
@@ -408,7 +433,12 @@ def _workday_date(value):
 
 
 def _workday_detail(base, lab, path):
-    r = requests.get(base + path, headers=WD_HEADERS, timeout=TIMEOUT)
+    # A detail that will not load costs one listing, not the lab, so this one swallows
+    # the failure where the listing pass deliberately does not.
+    try:
+        r = _wd_request(requests.get, base + path, headers=WD_HEADERS)
+    except Exception:
+        return None
     if r.status_code != 200:
         return None
     info = r.json().get("jobPostingInfo") or {}

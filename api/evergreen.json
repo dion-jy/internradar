@@ -1,7 +1,30 @@
 {
- "generated_at": "2026-08-31T06:35:34.814865+00:00",
- "count": 17,
+ "generated_at": "2026-09-01T00:55:27.863488+00:00",
+ "count": 18,
  "jobs": [
+  {
+   "company": "AMI Labs",
+   "tier": "frontier",
+   "ats": "ashby",
+   "domain": "ami.inc",
+   "source": "ats",
+   "kind": "evergreen",
+   "title": "General Application",
+   "location": "Paris",
+   "url": "https://jobs.ashbyhq.com/ami/34d3053f-381f-4350-9c9b-172e5d6a6b70",
+   "posted_at": "2026-02-23T17:07:26.810+00:00",
+   "department": "All Departments",
+   "confidence": "evergreen",
+   "match": [
+    "always-open"
+   ],
+   "phd": false,
+   "job_id": "ashby:ami:34d3053f-381f-4350-9c9b-172e5d6a6b70",
+   "order": 294,
+   "regions": [
+    "Europe"
+   ]
+  },
   {
    "company": "Anthropic",
    "tier": "frontier",
@@ -20,7 +43,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:anthropic:4610158008",
-   "order": 330,
+   "order": 337,
    "regions": [
     "UK"
    ]
@@ -43,7 +66,7 @@
    ],
    "phd": false,
    "job_id": "ashby:hcompany:dd1fdec1-2943-456e-ac9a-517d19a58fd6",
-   "order": 327,
+   "order": 334,
    "regions": [
     "Europe",
     "Remote"
@@ -67,7 +90,7 @@
    ],
    "phd": false,
    "job_id": "ashby:primeintellect:b9343f5d-326d-4b01-b6a7-acf56cffe3ac",
-   "order": 185,
+   "order": 194,
    "regions": [
     "US"
    ]
@@ -90,7 +113,7 @@
    ],
    "phd": false,
    "job_id": "ashby:reflectionai:bb02e922-8df8-4641-9aab-910997f76392",
-   "order": 325,
+   "order": 332,
    "regions": [
     "US"
    ]
@@ -113,7 +136,7 @@
    ],
    "phd": false,
    "job_id": "ashby:etched:2021199f-221e-4a8c-aa66-210496cb38da",
-   "order": 201,
+   "order": 210,
    "regions": [
     "US"
    ]
@@ -136,7 +159,7 @@
    ],
    "phd": false,
    "job_id": "lever:epoch-ai:137cb0dc-03a6-4747-b9dc-8255194daee2",
-   "order": 326,
+   "order": 333,
    "regions": [
     "Remote"
    ]
@@ -159,7 +182,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:goodfire:4103718008",
-   "order": 336,
+   "order": 343,
    "regions": [
     "US"
    ]
@@ -182,7 +205,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:isomorphiclabs:4336321004",
-   "order": 342,
+   "order": 349,
    "regions": [
     "UK"
    ]
@@ -205,7 +228,7 @@
    ],
    "phd": false,
    "job_id": "lever:metr:f3a6db11-7fd1-48e4-af42-20aad1ded72d",
-   "order": 340,
+   "order": 347,
    "regions": [
     "US"
    ]
@@ -228,7 +251,7 @@
    ],
    "phd": false,
    "job_id": "ashby:cognition:4841bda0-057a-4471-801f-70309c3c02d5",
-   "order": 337,
+   "order": 344,
    "regions": [
     "US"
    ]
@@ -251,7 +274,7 @@
    ],
    "phd": false,
    "job_id": "ashby:corti:51db89f4-91e5-4f71-acf6-d2c743c61e17",
-   "order": 333,
+   "order": 340,
    "regions": [
     "Europe"
    ]
@@ -274,7 +297,7 @@
    ],
    "phd": false,
    "job_id": "ashby:faculty:cdcb1dd3-5d82-488e-86f9-db2faa708620",
-   "order": 184,
+   "order": 193,
    "regions": [
     "UK"
    ]
@@ -297,7 +320,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:humeai:4003656008",
-   "order": 338,
+   "order": 345,
    "regions": [
     "US",
     "Remote"
@@ -321,7 +344,7 @@
    ],
    "phd": false,
    "job_id": "ashby:lumaai:54903477-7bc2-43cd-a8a1-0b4ee22fa888",
-   "order": 160,
+   "order": 169,
    "regions": [
     "US"
    ]
@@ -344,7 +367,7 @@
    ],
    "phd": false,
    "job_id": "ashby:midjourney:2ef177d4-42a0-4756-9c11-0738b9bcbc87",
-   "order": 194,
+   "order": 203,
    "regions": [
     "US"
    ]
@@ -367,7 +390,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:moloco:7655058003",
-   "order": 280,
+   "order": 286,
    "regions": [
     "US"
    ]
@@ -390,7 +413,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:moloco:7711666003",
-   "order": 252,
+   "order": 258,
    "regions": [
     "Asia"
    ]

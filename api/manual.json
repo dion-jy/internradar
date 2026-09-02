@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T02:43:36.763474+00:00",
+ "generated_at": "2026-09-02T05:22:58.118197+00:00",
  "count": 6,
  "jobs": [
   {
@@ -22,7 +22,7 @@
    "phd": false,
    "note": "Research category, listed as \"Internship / Visiting Researcher\", English. \"We are occasionally hiring researchers who are passionate about novel approaches to develop the next generation of nature-inspired foundation AI models.\" No degree requirement stated. Apply by emailing careers@sakana.ai naming the role, then submit their Google Form with CV and cover letter in English.",
    "job_id": "manual:44c6a22d93d3a3cb",
-   "order": 366,
+   "order": 367,
    "regions": [
     "Asia"
    ]
@@ -47,7 +47,7 @@
    "phd": false,
    "note": "Listed as \"Full-time / Visiting Researcher / Internship\". The Recursive Self-Improvement Lab works on redesigning the AI development process itself with AI. Apply by emailing careers@sakana.ai naming the role, then submit their Google Form.",
    "job_id": "manual:79175c948fb48e7e",
-   "order": 365,
+   "order": 366,
    "regions": [
     "Asia"
    ]
@@ -72,7 +72,7 @@
    "phd": false,
    "note": "Product-side applied research (Sakana Chat, Marlin, Fugu), listed as \"Full-time / Contract / Intern\". Apply by emailing careers@sakana.ai naming the role, then submit their Google Form.",
    "job_id": "manual:8da55e842aa205f7",
-   "order": 364,
+   "order": 365,
    "regions": [
     "Asia"
    ]
@@ -97,7 +97,7 @@
    "phd": true,
    "note": "Sea AI Lab is Sea Limited's research arm in Singapore (Fusionopolis), publishing at ICLR and ICML. Listed on their own careers page with no closing date.",
    "job_id": "manual:6a30ab4d0d438f99",
-   "order": 367,
+   "order": 368,
    "regions": [
     "Asia"
    ]
@@ -122,7 +122,7 @@
    "phd": true,
    "note": "",
    "job_id": "manual:d63a5673b8ee0559",
-   "order": 368,
+   "order": 369,
    "regions": [
     "Asia"
    ]
@@ -147,7 +147,7 @@
    "phd": true,
    "note": "Joint programme between SAIL and Singapore universities for graduate students doing AI research. Full tuition support plus a monthly salary. Not an internship but the closest thing on the board to a funded research position for a student.",
    "job_id": "manual:be0b516f507f407a",
-   "order": 369,
+   "order": 370,
    "regions": [
     "Asia"
    ]

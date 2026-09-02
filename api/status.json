@@ -1,31 +1,31 @@
 {
- "generated_at": "2026-09-02T02:43:36.763474+00:00",
+ "generated_at": "2026-09-02T05:22:58.118197+00:00",
  "scanned_labs": 110,
  "scanned_jobs": 8848,
  "by_kind": {
+  "discovery": 102,
   "blindspot": 154,
-  "discovery": 101,
   "tracked": 91,
   "evergreen": 24
  },
- "total_listings": 370,
+ "total_listings": 371,
  "matched": 91,
  "off_board_file": 6,
  "evergreen": 24,
  "xposts": 6,
- "discover": 255,
+ "discover": 256,
  "simplify": {
   "season": "Summer2027",
   "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
   "tried": [
-   "Summer2027: 2728 live",
+   "Summer2027: 2740 live",
    "Summer2028: HTTP 404",
-   "Summer2026: 2728 live"
+   "Summer2026: 2740 live"
   ],
   "newest_entry_age_days": 0,
   "stale": false,
-  "total": 15501,
-  "active": 2727,
+  "total": 15518,
+  "active": 2739,
   "phd": 495,
   "blindspot": 154,
   "discovery": 146,
@@ -33,9 +33,9 @@
   "dropped_category": 178,
   "dropped_excluded": 0,
   "by_title": 16,
-  "discovery_after_title_filter": 101
+  "discovery_after_title_filter": 102
  },
- "new": 10,
+ "new": 1,
  "by_lab": [
   {
    "lab": "NVIDIA",
@@ -68,7 +68,7 @@
    "lab": "Anthropic",
    "ats": "greenhouse",
    "slug": "anthropic",
-   "postings": 575,
+   "postings": 577,
    "matched": 4,
    "evergreen": 1,
    "error": null
@@ -140,7 +140,7 @@
    "lab": "Perplexity",
    "ats": "ashby",
    "slug": "perplexity",
-   "postings": 99,
+   "postings": 98,
    "matched": 2,
    "evergreen": 0,
    "error": null
@@ -176,7 +176,7 @@
    "lab": "Databricks",
    "ats": "greenhouse",
    "slug": "databricks",
-   "postings": 862,
+   "postings": 864,
    "matched": 1,
    "evergreen": 0,
    "error": null
@@ -248,7 +248,7 @@
    "lab": "Faculty",
    "ats": "ashby",
    "slug": "faculty",
-   "postings": 71,
+   "postings": 70,
    "matched": 0,
    "evergreen": 1,
    "error": null
@@ -275,7 +275,7 @@
    "lab": "LG AI Research",
    "ats": "greenhouse",
    "slug": "lgairesearch",
-   "postings": 43,
+   "postings": 42,
    "matched": 1,
    "evergreen": 0,
    "error": null
@@ -401,7 +401,7 @@
    "lab": "OpenAI",
    "ats": "ashby",
    "slug": "openai",
-   "postings": 770,
+   "postings": 769,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -446,7 +446,7 @@
    "lab": "Sierra",
    "ats": "ashby",
    "slug": "sierra",
-   "postings": 209,
+   "postings": 211,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -554,7 +554,7 @@
    "lab": "Spotify",
    "ats": "lever",
    "slug": "spotify",
-   "postings": 77,
+   "postings": 76,
    "matched": 0,
    "evergreen": 0,
    "error": null
@@ -743,7 +743,7 @@
    "lab": "Twelve Labs",
    "ats": "ashby",
    "slug": "twelve-labs",
-   "postings": 18,
+   "postings": 17,
    "matched": 0,
    "evergreen": 0,
    "error": null

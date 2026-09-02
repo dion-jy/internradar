@@ -23,7 +23,7 @@ jobs:
         run: |
           git config user.name  "phd-intern-board-bot"
           git config user.email "actions@github.com"
-          git add -A api data data.js index.html sitemap.xml robots.txt
+          git add -A api data data.js index.html sitemap.xml robots.txt feed.xml
           if git diff --staged --quiet; then
             echo "nothing changed"
             exit 0

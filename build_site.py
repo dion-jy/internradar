@@ -207,6 +207,55 @@ src = re.sub(r'(<meta property="og:description" content=")[^"]*(")',
              lambda m: m.group(1) + html.escape(desc) + m.group(2), src)
 open("index.html", "w").write(src)
 
+# --- feed.xml ----------------------------------------------------------------
+# Atom rather than a mailing list, and first rather than instead.
+#
+# A static site cannot collect an address or send a message -- there is no server to
+# do either. A feed needs neither: it costs one file, asks nobody for consent, stores
+# nothing about anybody, and every mailing-list service worth using (Buttondown,
+# Mailchimp, MailerLite) can read a feed and send from it. So this is the piece that
+# has to exist before email is even a question, and it is useful on its own to anyone
+# who reads feeds.
+#
+# <updated> tracks the newest listing, not the run clock, for the same reason the
+# sitemap does: a timestamp that changes every run makes every run look like news.
+feed_items = [j for j in listings if j.get("posted_at")]
+feed_items.sort(key=lambda j: str(j.get("posted_at")), reverse=True)
+feed_items = feed_items[:60]
+feed_updated = (str(feed_items[0]["posted_at"]) if feed_items
+                else datetime.now(timezone.utc).isoformat())
+
+
+def atom_entry(j):
+    loc = where(j.get("location"))
+    tier = TIER_LABEL.get(j.get("tier"), j.get("tier") or "")
+    bits = [x for x in (loc, tier, "PhD" if j.get("phd") else "") if x]
+    return (
+        "  <entry>\n"
+        "    <title>%s &#8212; %s</title>\n"
+        "    <link rel=\"alternate\" href=\"%s\"/>\n"
+        "    <id>urn:phd-intern-board:%s</id>\n"
+        "    <updated>%s</updated>\n"
+        "    <summary>%s</summary>\n"
+        "  </entry>\n"
+    ) % (e(j.get("company")), e(j.get("title")), e(j.get("url")),
+         e(j.get("job_id")), e(j.get("posted_at")), e(" \u00b7 ".join(bits)))
+
+
+open("feed.xml", "w").write(
+    '<?xml version="1.0" encoding="UTF-8"?>\n'
+    '<feed xmlns="http://www.w3.org/2005/Atom">\n'
+    "  <title>PhD Intern Board</title>\n"
+    "  <subtitle>AI research internships, updated every day</subtitle>\n"
+    '  <link rel="alternate" href="%s"/>\n'
+    '  <link rel="self" href="%sfeed.xml"/>\n'
+    "  <id>%s</id>\n"
+    "  <updated>%s</updated>\n"
+    "%s"
+    "</feed>\n"
+    % (SITE, SITE, SITE, feed_updated, "".join(atom_entry(j) for j in feed_items)))
+print("wrote feed.xml, %d entries, updated %s" % (len(feed_items), feed_updated[:10]))
+
 # sitemap.xml and robots.txt are generated here and are on the workflow's commit
 # list, so what gets published always matches what was built.
 #

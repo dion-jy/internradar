@@ -1,18 +1,101 @@
 {
- "generated_at": "2026-09-02T05:22:58.118197+00:00",
+ "generated_at": "2026-09-02T15:05:19.884707+00:00",
  "first_run": false,
- "count": 1,
+ "count": 4,
  "jobs": [
+  {
+   "company": "Perplexity",
+   "tier": "startup",
+   "ats": "ashby",
+   "domain": "perplexity.ai",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Internship - Machine Learning Research Engineer",
+   "location": "Berlin",
+   "url": "https://jobs.ashbyhq.com/perplexity/b9e1ff15-d52a-46d5-abf0-26460f2a116c",
+   "posted_at": "2026-09-02T10:35:02.552+00:00",
+   "department": "Search",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": false,
+   "job_id": "ashby:perplexity:b9e1ff15-d52a-46d5-abf0-26460f2a116c",
+   "order": 0,
+   "regions": [
+    "Europe"
+   ]
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Research Intern - AI-Native Databases",
+   "location": "San Jose, CA",
+   "url": "https://jobs.bytedance.com/en/position/7678450462765254965/detail",
+   "posted_at": "2026-09-02T07:32:51+00:00",
+   "department": "Software",
+   "confidence": "medium",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:a35fbd54-2c09-4c0e-8677-4b9065708400",
+   "order": 1,
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "ByteDance",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Research Intern - AI-Native Databases",
+   "location": "Seattle, WA",
+   "url": "https://jobs.bytedance.com/en/position/7678451067500529925/detail",
+   "posted_at": "2026-09-02T07:32:49+00:00",
+   "department": "Software",
+   "confidence": "medium",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:3b02c249-20be-43f2-8ef1-e09f6b887db6",
+   "order": 2,
+   "regions": [
+    "US"
+   ]
+  },
   {
    "company": "Boston Scientific",
    "tier": "other",
    "ats": "simplify",
    "source": "simplify",
    "kind": "discovery",
-   "title": "Research Data Science Intern - Active Implantable Systems",
+   "title": "Research Algorithm & Data Science Intern - Interns/Graduates",
    "location": "Arden Hills, MN",
-   "url": "https://bostonscientific.eightfold.ai/careers/job/563602813483103",
-   "posted_at": "2026-09-02T03:27:44+00:00",
+   "url": "https://bostonscientific.eightfold.ai/careers/job/563602813483110",
+   "posted_at": "2026-09-02T06:24:26+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
@@ -29,8 +112,8 @@
     "Summer 2027"
    ],
    "domain": "",
-   "job_id": "simplify:e70a1d3f-de57-4ecd-8e8b-810c43a7f615",
-   "order": 0,
+   "job_id": "simplify:1660f3b8-719e-4c50-ab5b-b793e4f1da1f",
+   "order": 3,
    "regions": [
     "US"
    ]

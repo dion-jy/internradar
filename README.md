@@ -228,3 +228,23 @@ something actually changed.
 **This repository sends nothing.** A separate agent reads `api/new.json` on a schedule and
 composes the briefing. Note the `first_run` flag: on a cold start every listing counts as new,
 and a briefing should suppress that case.
+
+## Rebasing onto a daily commit
+
+`index.html` mixes hand-written source with regions `build_site.py` rewrites (the
+SEO description, the pre-rendered rows, the ItemList, the logo CSS, the feed count).
+The daily workflow commits it, so rebasing a local change onto a daily commit
+conflicts on it every time.
+
+Resolve it with **`--theirs`**, i.e. keep the local version, then re-run
+`build_site.py` to regenerate the generated regions. Taking `--ours` looks like the
+safe choice for a generated file and is wrong here: it discards the hand-written
+half. That has already silently dropped a `ordered()` helper once and the Open Graph
+tags once.
+
+    for f in $(git diff --name-only --diff-filter=U); do
+      if [ "$f" = "index.html" ]; then git checkout --theirs -- "$f"; else git checkout --ours -- "$f"; fi
+      git add "$f"
+    done
+    git rebase --continue
+    python collect.py && python build_site.py

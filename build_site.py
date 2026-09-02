@@ -49,6 +49,19 @@ listings.sort(key=lambda j: j.get("order", 1 << 30))
 e = lambda s: html.escape(str(s or ""))
 
 
+def where(loc):
+    """Card label for a location. Boards report up to four or five places for one
+    role; printing them all turns the footer into a paragraph, so the card shows two
+    and counts the rest. The listing keeps the full string, which is what the region
+    filter and the search box read."""
+    parts = [p.strip() for p in str(loc or "").split(";") if p.strip()]
+    if not parts:
+        return "Location not stated"
+    if len(parts) <= 2:
+        return ", ".join(parts)
+    return "%s +%d more" % (", ".join(parts[:2]), len(parts) - 2)
+
+
 def posted_ago(iso):
     """Mirror of the client-side relative date, so pre-rendered cards read the
     same as the ones JavaScript draws."""
@@ -103,7 +116,7 @@ def card(j):
         if when else "",
     ])
     foot = "".join([
-        '<span class="where">%s</span>' % e(j.get("location") or "Location not stated"),
+        '<span class="where">%s</span>' % e(where(j.get("location"))),
         '<span class="tier tier-%s">%s</span>'
         % (e(j.get("tier") or "other"),
            e(TIER_LABEL.get(j.get("tier"), j.get("tier") or "Other"))),

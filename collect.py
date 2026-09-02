@@ -288,6 +288,33 @@ def classify(title, desc, employment_type, commitment, department):
 
 
 # --- one parser per ATS --------------------------------------------------
+def merge_locations(*parts):
+    """One location string out of however many fields a board reports.
+
+    All four boards carry the extra locations and all four were being read for only
+    the first, so AMI Labs' role open in Paris, Singapore, New York and Montreal was
+    filed under Europe alone and never showed under Asia or the Americas:
+
+        Ashby       location + secondaryLocations[].location
+        Greenhouse  location.name + offices[].name
+        Lever       categories.location + categories.allLocations
+        Workday     location + additionalLocations
+
+    Greenhouse already packs several into location.name separated by "|" or ";" and
+    then repeats them under offices, so splitting on both separators and
+    de-duplicating is what keeps the result from tripling in length.
+    """
+    out = []
+    for part in parts:
+        items = part if isinstance(part, (list, tuple)) else [part]
+        for item in items:
+            for piece in re.split(r"\s*[|;]\s*", str(item or "")):
+                piece = piece.strip()
+                if piece and piece not in out:
+                    out.append(piece)
+    return "; ".join(out)
+
+
 def strip_html(s):
     return re.sub(r"<[^>]+>", " ", html.unescape(s or "")).replace("\xa0", " ")
 
@@ -300,7 +327,8 @@ def fetch_greenhouse(lab):
     return [{
         "job_id": "greenhouse:%s:%s" % (lab["slug"], j["id"]),
         "title": (j.get("title") or "").strip(),
-        "location": (j.get("location") or {}).get("name", ""),
+        "location": merge_locations((j.get("location") or {}).get("name", ""),
+                                    [o.get("name") for o in (j.get("offices") or [])]),
         "url": j.get("absolute_url", ""),
         "posted_at": j.get("first_published") or j.get("updated_at"),
         "desc": strip_html(j.get("content", ""))[:6000],
@@ -321,7 +349,8 @@ def fetch_ashby(lab):
     return [{
         "job_id": "ashby:%s:%s" % (lab["slug"], j["id"]),
         "title": (j.get("title") or "").strip(),
-        "location": j.get("location") or "",
+        "location": merge_locations(j.get("location"),
+                                    [s.get("location") for s in (j.get("secondaryLocations") or [])]),
         "url": j.get("jobUrl") or j.get("applyUrl", ""),
         "posted_at": j.get("publishedAt"),
         "desc": (j.get("descriptionPlain") or "")[:6000],
@@ -344,7 +373,7 @@ def fetch_lever(lab):
         out.append({
             "job_id": "lever:%s:%s" % (lab["slug"], j["id"]),
             "title": (j.get("text") or "").strip(),
-            "location": cat.get("location") or "",
+            "location": merge_locations(cat.get("location"), cat.get("allLocations") or []),
             "url": j.get("hostedUrl") or j.get("applyUrl", ""),
             "posted_at": datetime.fromtimestamp(created / 1000, timezone.utc).isoformat()
                          if created else None,
@@ -447,7 +476,7 @@ def _workday_detail(base, lab, path):
     return {
         "job_id": "workday:%s:%s" % (lab["slug"], info.get("jobReqId") or path),
         "title": (info.get("title") or "").strip(),
-        "location": info.get("location") or "",
+        "location": merge_locations(info.get("location"), info.get("additionalLocations") or []),
         "url": info.get("externalUrl") or "",
         # Workday gives a bare date ("2026-08-19") where the other three give a full
         # timestamp with an offset. Normalising here keeps every consumer -- the site's

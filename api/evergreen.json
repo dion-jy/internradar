@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T05:58:34.326349+00:00",
+ "generated_at": "2026-09-02T02:43:36.763474+00:00",
  "count": 18,
  "jobs": [
   {
@@ -10,7 +10,7 @@
    "source": "ats",
    "kind": "evergreen",
    "title": "General Application",
-   "location": "Paris",
+   "location": "Paris; Singapore; New York; Montreal",
    "url": "https://jobs.ashbyhq.com/ami/34d3053f-381f-4350-9c9b-172e5d6a6b70",
    "posted_at": "2026-02-23T17:07:26.810+00:00",
    "department": "All Departments",
@@ -20,9 +20,12 @@
    ],
    "phd": false,
    "job_id": "ashby:ami:34d3053f-381f-4350-9c9b-172e5d6a6b70",
-   "order": 301,
+   "order": 308,
    "regions": [
-    "Europe"
+    "Asia",
+    "Europe",
+    "Canada",
+    "US"
    ]
   },
   {
@@ -43,7 +46,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:anthropic:4610158008",
-   "order": 344,
+   "order": 351,
    "regions": [
     "UK"
    ]
@@ -56,7 +59,7 @@
    "source": "ats",
    "kind": "evergreen",
    "title": "Spontaneous Application",
-   "location": "Hybrid Paris",
+   "location": "Hybrid Paris; Hybrid New York; Hybrid London; Hybrid SF/Bay Area",
    "url": "https://jobs.ashbyhq.com/hcompany/dd1fdec1-2943-456e-ac9a-517d19a58fd6",
    "posted_at": "2025-09-22T12:08:12.252+00:00",
    "department": "TBD",
@@ -66,9 +69,11 @@
    ],
    "phd": false,
    "job_id": "ashby:hcompany:dd1fdec1-2943-456e-ac9a-517d19a58fd6",
-   "order": 341,
+   "order": 348,
    "regions": [
+    "UK",
     "Europe",
+    "US",
     "Remote"
    ]
   },
@@ -80,7 +85,7 @@
    "source": "ats",
    "kind": "evergreen",
    "title": "Open Application for Unconventional Talent",
-   "location": "San Francisco",
+   "location": "San Francisco; Remote",
    "url": "https://jobs.ashbyhq.com/primeintellect/b9343f5d-326d-4b01-b6a7-acf56cffe3ac",
    "posted_at": "2026-07-08T18:43:13.470+00:00",
    "department": "Others",
@@ -90,9 +95,10 @@
    ],
    "phd": false,
    "job_id": "ashby:primeintellect:b9343f5d-326d-4b01-b6a7-acf56cffe3ac",
-   "order": 201,
+   "order": 208,
    "regions": [
-    "US"
+    "US",
+    "Remote"
    ]
   },
   {
@@ -103,7 +109,7 @@
    "source": "ats",
    "kind": "evergreen",
    "title": "Don't See Your Role? Apply Here!",
-   "location": "San Francisco, CA",
+   "location": "San Francisco, CA; London; New York, NY",
    "url": "https://jobs.ashbyhq.com/reflectionai/bb02e922-8df8-4641-9aab-910997f76392",
    "posted_at": "2025-10-07T01:29:34.348+00:00",
    "department": "Other",
@@ -113,8 +119,9 @@
    ],
    "phd": false,
    "job_id": "ashby:reflectionai:bb02e922-8df8-4641-9aab-910997f76392",
-   "order": 339,
+   "order": 346,
    "regions": [
+    "UK",
     "US"
    ]
   },
@@ -136,7 +143,7 @@
    ],
    "phd": false,
    "job_id": "ashby:etched:2021199f-221e-4a8c-aa66-210496cb38da",
-   "order": 217,
+   "order": 224,
    "regions": [
     "US"
    ]
@@ -159,7 +166,7 @@
    ],
    "phd": false,
    "job_id": "lever:epoch-ai:137cb0dc-03a6-4747-b9dc-8255194daee2",
-   "order": 340,
+   "order": 347,
    "regions": [
     "Remote"
    ]
@@ -172,7 +179,7 @@
    "source": "ats",
    "kind": "evergreen",
    "title": "General Interest",
-   "location": "San Francisco, CA",
+   "location": "San Francisco, CA; San Francisco",
    "url": "https://job-boards.greenhouse.io/goodfire/jobs/4103718008",
    "posted_at": "2024-08-14T17:08:54-04:00",
    "department": "General",
@@ -182,7 +189,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:goodfire:4103718008",
-   "order": 350,
+   "order": 357,
    "regions": [
     "US"
    ]
@@ -205,7 +212,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:isomorphiclabs:4336321004",
-   "order": 356,
+   "order": 363,
    "regions": [
     "UK"
    ]
@@ -228,7 +235,7 @@
    ],
    "phd": false,
    "job_id": "lever:metr:f3a6db11-7fd1-48e4-af42-20aad1ded72d",
-   "order": 354,
+   "order": 361,
    "regions": [
     "US"
    ]
@@ -251,7 +258,7 @@
    ],
    "phd": false,
    "job_id": "ashby:cognition:4841bda0-057a-4471-801f-70309c3c02d5",
-   "order": 351,
+   "order": 358,
    "regions": [
     "US"
    ]
@@ -264,7 +271,7 @@
    "source": "ats",
    "kind": "evergreen",
    "title": "Join Corti's Talent Community",
-   "location": "Copenhagen, Denmark",
+   "location": "Copenhagen, Denmark; Remote, US; Remote, Europe; New York, USA",
    "url": "https://jobs.ashbyhq.com/corti/51db89f4-91e5-4f71-acf6-d2c743c61e17",
    "posted_at": "2024-09-16T20:15:25.404+00:00",
    "department": "Talent Community ",
@@ -274,9 +281,11 @@
    ],
    "phd": false,
    "job_id": "ashby:corti:51db89f4-91e5-4f71-acf6-d2c743c61e17",
-   "order": 347,
+   "order": 354,
    "regions": [
-    "Europe"
+    "Europe",
+    "US",
+    "Remote"
    ]
   },
   {
@@ -297,7 +306,7 @@
    ],
    "phd": false,
    "job_id": "ashby:faculty:cdcb1dd3-5d82-488e-86f9-db2faa708620",
-   "order": 200,
+   "order": 207,
    "regions": [
     "UK"
    ]
@@ -310,7 +319,7 @@
    "source": "ats",
    "kind": "evergreen",
    "title": "Open Role",
-   "location": "NYC, San Jose, or Remote",
+   "location": "NYC, San Jose, or Remote; New York Office; Remote; San Jose Office",
    "url": "https://job-boards.greenhouse.io/humeai/jobs/4003656008",
    "posted_at": "2024-02-26T14:13:28-05:00",
    "department": "Other",
@@ -320,7 +329,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:humeai:4003656008",
-   "order": 352,
+   "order": 359,
    "regions": [
     "US",
     "Remote"
@@ -344,7 +353,7 @@
    ],
    "phd": false,
    "job_id": "ashby:lumaai:54903477-7bc2-43cd-a8a1-0b4ee22fa888",
-   "order": 176,
+   "order": 184,
    "regions": [
     "US"
    ]
@@ -357,7 +366,7 @@
    "source": "ats",
    "kind": "evergreen",
    "title": "General Interest",
-   "location": "San Francisco",
+   "location": "San Francisco; San Francisco Bay Area Hybrid",
    "url": "https://jobs.ashbyhq.com/midjourney/2ef177d4-42a0-4756-9c11-0738b9bcbc87",
    "posted_at": "2026-07-01T23:43:42.495+00:00",
    "department": "Midjourney Medical",
@@ -367,9 +376,10 @@
    ],
    "phd": false,
    "job_id": "ashby:midjourney:2ef177d4-42a0-4756-9c11-0738b9bcbc87",
-   "order": 210,
+   "order": 217,
    "regions": [
-    "US"
+    "US",
+    "Remote"
    ]
   },
   {
@@ -380,7 +390,7 @@
    "source": "ats",
    "kind": "evergreen",
    "title": "Expression of Interest: Machine Learning Engineer",
-   "location": "Menlo Park, California, United States; New York, New York, United States; Seattle, Washington, United States",
+   "location": "Menlo Park, California, United States; New York, New York, United States; Seattle, Washington, United States; Menlo Park - Office; New York - Office; Seattle - Office",
    "url": "https://job-boards.greenhouse.io/moloco/jobs/7655058003",
    "posted_at": "2026-03-06T12:06:23-05:00",
    "department": "Engineering",
@@ -390,7 +400,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:moloco:7655058003",
-   "order": 293,
+   "order": 300,
    "regions": [
     "US"
    ]
@@ -403,7 +413,7 @@
    "source": "ats",
    "kind": "evergreen",
    "title": "Expression of Interest(채용관심등록): Software Engineer - Korea",
-   "location": "Seoul, Korea",
+   "location": "Seoul, Korea; Seoul - Office",
    "url": "https://job-boards.greenhouse.io/moloco/jobs/7711666003",
    "posted_at": "2026-04-23T00:41:21-04:00",
    "department": "Engineering",
@@ -413,7 +423,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:moloco:7711666003",
-   "order": 265,
+   "order": 272,
    "regions": [
     "Asia"
    ]

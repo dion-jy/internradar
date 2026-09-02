@@ -172,6 +172,11 @@
   /* ---- coverage note ------------------------------------------------- */
 
 
+  .rss{
+    display:inline-flex;align-items:center;gap:5px;
+  }
+  .rss svg{flex:none;color:#e8722c}
+
   /* ---- sister-site switcher ------------------------------------------- */
   /* A disclosure, not a menu: it contains two links, so native <details>
      semantics are correct and it works with JavaScript off. The script below only
@@ -876,7 +881,8 @@ Apply here
   <footer>
     <span id="foot"></span><br>
     Free static JSON API — <code>api/jobs.json</code> <code>api/discover.json</code>
-    <code>api/new.json</code> <code>api/evergreen.json</code> <code>api/manual.json</code> <code>api/xposts.json</code> <code>api/labs.json</code> <code>api/status.json</code><br>
+    <code>api/new.json</code> <code>api/evergreen.json</code> <code>api/manual.json</code> <code>api/xposts.json</code> <code>api/labs.json</code> <code>api/status.json</code> &#183; Atom feed <code>feed.xml</code><br>
+    <a class="rss" href="feed.xml"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg> Subscribe by RSS</a> ·
     <a href="https://github.com/dion-jy/phd-intern-board">Source on GitHub</a> ·
     <a href="https://github.com/dion-jy">@dion-jy</a><br>
   </footer>

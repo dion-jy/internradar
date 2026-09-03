@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T15:05:19.884707+00:00",
+ "generated_at": "2026-09-03T05:25:50.156302+00:00",
  "count": 18,
  "jobs": [
   {
@@ -20,7 +20,7 @@
    ],
    "phd": false,
    "job_id": "ashby:ami:34d3053f-381f-4350-9c9b-172e5d6a6b70",
-   "order": 311,
+   "order": 305,
    "regions": [
     "Asia",
     "Europe",
@@ -46,7 +46,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:anthropic:4610158008",
-   "order": 354,
+   "order": 348,
    "regions": [
     "UK"
    ]
@@ -69,7 +69,7 @@
    ],
    "phd": false,
    "job_id": "ashby:hcompany:dd1fdec1-2943-456e-ac9a-517d19a58fd6",
-   "order": 351,
+   "order": 345,
    "regions": [
     "UK",
     "Europe",
@@ -95,7 +95,7 @@
    ],
    "phd": false,
    "job_id": "ashby:primeintellect:b9343f5d-326d-4b01-b6a7-acf56cffe3ac",
-   "order": 211,
+   "order": 205,
    "regions": [
     "US",
     "Remote"
@@ -119,7 +119,7 @@
    ],
    "phd": false,
    "job_id": "ashby:reflectionai:bb02e922-8df8-4641-9aab-910997f76392",
-   "order": 349,
+   "order": 343,
    "regions": [
     "UK",
     "US"
@@ -143,7 +143,7 @@
    ],
    "phd": false,
    "job_id": "ashby:etched:2021199f-221e-4a8c-aa66-210496cb38da",
-   "order": 227,
+   "order": 221,
    "regions": [
     "US"
    ]
@@ -166,7 +166,7 @@
    ],
    "phd": false,
    "job_id": "lever:epoch-ai:137cb0dc-03a6-4747-b9dc-8255194daee2",
-   "order": 350,
+   "order": 344,
    "regions": [
     "Remote"
    ]
@@ -189,7 +189,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:goodfire:4103718008",
-   "order": 360,
+   "order": 354,
    "regions": [
     "US"
    ]
@@ -212,7 +212,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:isomorphiclabs:4336321004",
-   "order": 366,
+   "order": 360,
    "regions": [
     "UK"
    ]
@@ -235,7 +235,7 @@
    ],
    "phd": false,
    "job_id": "lever:metr:f3a6db11-7fd1-48e4-af42-20aad1ded72d",
-   "order": 364,
+   "order": 358,
    "regions": [
     "US"
    ]
@@ -258,7 +258,7 @@
    ],
    "phd": false,
    "job_id": "ashby:cognition:4841bda0-057a-4471-801f-70309c3c02d5",
-   "order": 361,
+   "order": 355,
    "regions": [
     "US"
    ]
@@ -281,7 +281,7 @@
    ],
    "phd": false,
    "job_id": "ashby:corti:51db89f4-91e5-4f71-acf6-d2c743c61e17",
-   "order": 357,
+   "order": 351,
    "regions": [
     "Europe",
     "US",
@@ -306,7 +306,7 @@
    ],
    "phd": false,
    "job_id": "ashby:faculty:cdcb1dd3-5d82-488e-86f9-db2faa708620",
-   "order": 210,
+   "order": 204,
    "regions": [
     "UK"
    ]
@@ -329,7 +329,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:humeai:4003656008",
-   "order": 362,
+   "order": 356,
    "regions": [
     "US",
     "Remote"
@@ -353,7 +353,7 @@
    ],
    "phd": false,
    "job_id": "ashby:lumaai:54903477-7bc2-43cd-a8a1-0b4ee22fa888",
-   "order": 187,
+   "order": 183,
    "regions": [
     "US"
    ]
@@ -376,7 +376,7 @@
    ],
    "phd": false,
    "job_id": "ashby:midjourney:2ef177d4-42a0-4756-9c11-0738b9bcbc87",
-   "order": 220,
+   "order": 214,
    "regions": [
     "US",
     "Remote"
@@ -400,7 +400,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:moloco:7655058003",
-   "order": 303,
+   "order": 297,
    "regions": [
     "US"
    ]
@@ -423,7 +423,7 @@
    ],
    "phd": false,
    "job_id": "greenhouse:moloco:7711666003",
-   "order": 275,
+   "order": 269,
    "regions": [
     "Asia"
    ]

@@ -5,20 +5,20 @@
   <link rel="alternate" href="https://dion-jy.github.io/phd-intern-board/"/>
   <link rel="self" href="https://dion-jy.github.io/phd-intern-board/feed.xml"/>
   <id>https://dion-jy.github.io/phd-intern-board/</id>
-  <updated>2026-09-03T02:34:25+00:00</updated>
+  <updated>2026-09-03T22:22:12+00:00</updated>
+  <entry>
+    <title>Microsoft &#8212; Data Scientist PhD Intern</title>
+    <link rel="alternate" href="https://apply.careers.microsoft.com/careers/job/1970393556986137"/>
+    <id>urn:phd-intern-board:simplify:a4bb4181-58ef-45f8-8194-7e00cc47ab86</id>
+    <updated>2026-09-03T22:22:12+00:00</updated>
+    <summary>Redmond, WA · Big tech · PhD</summary>
+  </entry>
   <entry>
     <title>X Development &#8212; PhD Resident - Multiple Teams</title>
     <link rel="alternate" href="https://x.company/careers/8771593002?gh_jid=8771593002"/>
     <id>urn:phd-intern-board:simplify:b5144d7a-4031-4237-8ae0-01a01c08e570</id>
     <updated>2026-09-03T02:34:25+00:00</updated>
     <summary>Mountain View, CA · Other · PhD</summary>
-  </entry>
-  <entry>
-    <title>Microsoft &#8212; Applied Science Intern - PhD</title>
-    <link rel="alternate" href="https://apply.careers.microsoft.com/careers/job/1970393556986140"/>
-    <id>urn:phd-intern-board:simplify:549cf0cc-9150-4b08-9120-b87fc4510590</id>
-    <updated>2026-09-03T02:07:29+00:00</updated>
-    <summary>Redmond, WA, Mountain View, CA · Big tech · PhD</summary>
   </entry>
   <entry>
     <title>Shure &#8212; Applied Research Science Intern</title>
@@ -33,6 +33,27 @@
     <id>urn:phd-intern-board:simplify:31a9d3a5-6abe-49c9-95e9-6a7fc79eb810</id>
     <updated>2026-09-03T02:05:20+00:00</updated>
     <summary>Niles, IL · Other · PhD</summary>
+  </entry>
+  <entry>
+    <title>Ancestry &#8212; Applied AI Science Co-op - Embedding models - Personalization</title>
+    <link rel="alternate" href="https://ancestry.wd501.myworkdayjobs.com/Careers/job/Remote/Applied-AI-Science-Co-op---Embedding-models-and-Personalization_R003442"/>
+    <id>urn:phd-intern-board:simplify:6d124577-37f3-43dc-9f09-4adaf82dbdae</id>
+    <updated>2026-09-03T00:00:00+00:00</updated>
+    <summary>Remote in USA · Other · PhD</summary>
+  </entry>
+  <entry>
+    <title>Corteva &#8212; Research and Development Intern - Computer and Data Science</title>
+    <link rel="alternate" href="https://corteva.wd5.myworkdayjobs.com/corteva/job/Indianapolis-Indiana-United-States/R---D-Intern---Computer---Data-Science_248131W"/>
+    <id>urn:phd-intern-board:simplify:04fa737d-39fc-4d4c-a941-98752f72b8ec</id>
+    <updated>2026-09-03T00:00:00+00:00</updated>
+    <summary>Indianapolis, IN · Other · PhD</summary>
+  </entry>
+  <entry>
+    <title>Micron Technology &#8212; AI Agentic Systems Engineer Intern</title>
+    <link rel="alternate" href="https://micron.wd1.myworkdayjobs.com/External/job/Folsom-CA/Intern---AI-Agentic-Systems-Engineer_JR110474"/>
+    <id>urn:phd-intern-board:simplify:1254980f-c0ca-441d-8d7e-1a972710ee7b</id>
+    <updated>2026-09-03T00:00:00+00:00</updated>
+    <summary>San Jose, CA, Folsom, CA · Other · PhD</summary>
   </entry>
   <entry>
     <title>Perplexity &#8212; Internship - Machine Learning Research Engineer</title>
@@ -404,26 +425,5 @@
     <id>urn:phd-intern-board:simplify:16d31201-b650-445a-bd1c-acf6b02d80b7</id>
     <updated>2026-08-21T20:09:04+00:00</updated>
     <summary>Edinburgh, UK · Other · PhD</summary>
-  </entry>
-  <entry>
-    <title>AMD &#8212; Research Engineering Intern/Co-op - AMD Research</title>
-    <link rel="alternate" href="https://careers.amd.com/jobs/90926?icims=1"/>
-    <id>urn:phd-intern-board:simplify:a554688a-fa61-4d32-8d02-a22d0e78ac6a</id>
-    <updated>2026-08-21T06:22:18+00:00</updated>
-    <summary>Secaucus, NJ, Austin, TX, Longmont, CO, Fishkill, NY, Fort Collins, CO, Boxborough, MA · Other · PhD</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA &#8212; CUDA Full Stack &amp; AI Test Dev Intern - 2027</title>
-    <link rel="alternate" href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/CUDA-Full-Stack---AI-Test-Dev-Intern---2027_JR2023666-1"/>
-    <id>urn:phd-intern-board:workday:nvidia.wd5.myworkdayjobs.com/nvidia/NVIDIAExternalCareerSite:JR2023666</id>
-    <updated>2026-08-21T00:00:00+00:00</updated>
-    <summary>China, Shanghai · Big tech · PhD</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA &#8212; Deep Learning Software Engineering Intern, Test Development - 2027</title>
-    <link rel="alternate" href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023639"/>
-    <id>urn:phd-intern-board:workday:nvidia.wd5.myworkdayjobs.com/nvidia/NVIDIAExternalCareerSite:JR2023639</id>
-    <updated>2026-08-21T00:00:00+00:00</updated>
-    <summary>China, Shanghai · Big tech</summary>
   </entry>
 </feed>

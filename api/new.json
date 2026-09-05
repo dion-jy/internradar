@@ -1,22 +1,47 @@
 {
- "generated_at": "2026-09-04T05:23:43.536595+00:00",
+ "generated_at": "2026-09-05T05:12:42.770952+00:00",
  "first_run": false,
- "count": 6,
+ "count": 14,
  "jobs": [
   {
-   "company": "Microsoft",
+   "company": "NVIDIA",
    "tier": "bigtech",
+   "ats": "workday",
+   "domain": "nvidia.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Compute System Arch AI Infra Intern - 2027",
+   "location": "China, Shanghai",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Compute-System-Arch-AI-Infra-Intern---2027_JR2023889",
+   "posted_at": "2026-09-05T00:00:00+00:00",
+   "department": "",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": true,
+   "job_id": "workday:nvidia.wd5.myworkdayjobs.com/nvidia/NVIDIAExternalCareerSite:JR2023889",
+   "order": 0,
+   "regions": [
+    "Asia"
+   ]
+  },
+  {
+   "company": "X Development",
+   "tier": "other",
    "ats": "simplify",
    "source": "simplify",
-   "kind": "blindspot",
-   "title": "Data Scientist PhD Intern",
-   "location": "Redmond, WA",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393556986137",
-   "posted_at": "2026-09-03T22:22:12+00:00",
+   "kind": "discovery",
+   "title": "PhD Resident - Earth Scientist AI Resident - Early Stage Project",
+   "location": "Mountain View, CA",
+   "url": "https://x.company/careers/8784053002?gh_jid=8784053002",
+   "posted_at": "2026-09-04T22:40:13+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "simplify-degrees-phd"
+    "simplify-degrees-phd",
+    "ats-intern-flag",
+    "title-research"
    ],
    "phd": true,
    "degrees": [
@@ -26,29 +51,27 @@
    "terms": [
     "Winter 2026"
    ],
-   "domain": "microsoft.com",
-   "job_id": "simplify:a4bb4181-58ef-45f8-8194-7e00cc47ab86",
-   "order": 0,
+   "domain": "",
+   "job_id": "simplify:4019895f-e7c7-4964-a342-a6f9694f5a67",
+   "order": 1,
    "regions": [
     "US"
    ]
   },
   {
-   "company": "Ancestry",
-   "tier": "other",
+   "company": "Apple",
+   "tier": "bigtech",
    "ats": "simplify",
    "source": "simplify",
-   "kind": "discovery",
-   "title": "Applied AI Science Co-op - Embedding models - Personalization",
-   "location": "Remote in USA",
-   "url": "https://ancestry.wd501.myworkdayjobs.com/Careers/job/Remote/Applied-AI-Science-Co-op---Embedding-models-and-Personalization_R003442",
-   "posted_at": "2026-09-03T00:00:00+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
+   "kind": "blindspot",
+   "title": "Formal Verification Intern",
+   "location": "St Albans, UK",
+   "url": "https://jobs.apple.com/en-us/details/200681934",
+   "posted_at": "2026-09-04T14:07:38+00:00",
+   "department": "Hardware",
+   "confidence": "medium",
    "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
+    "simplify-degrees-phd"
    ],
    "phd": true,
    "degrees": [
@@ -59,24 +82,69 @@
    "terms": [
     "Winter 2026"
    ],
-   "domain": "",
-   "job_id": "simplify:6d124577-37f3-43dc-9f09-4adaf82dbdae",
-   "order": 4,
+   "domain": "apple.com",
+   "job_id": "simplify:b9be901f-af0f-44d1-ad38-c58e3e251f77",
+   "order": 2,
    "regions": [
-    "US",
-    "Remote"
+    "UK"
    ]
   },
   {
-   "company": "Corteva",
+   "company": "NVIDIA",
+   "tier": "bigtech",
+   "ats": "workday",
+   "domain": "nvidia.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "AI Developer Technology Engineering Intern - 2027",
+   "location": "China, Beijing; China, Shanghai; China, Shenzhen",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineering-Intern---2027_JR2024818",
+   "posted_at": "2026-09-04T00:00:00+00:00",
+   "department": "",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": true,
+   "job_id": "workday:nvidia.wd5.myworkdayjobs.com/nvidia/NVIDIAExternalCareerSite:JR2024818",
+   "order": 3,
+   "regions": [
+    "Asia"
+   ]
+  },
+  {
+   "company": "NVIDIA",
+   "tier": "bigtech",
+   "ats": "workday",
+   "domain": "nvidia.com",
+   "source": "ats",
+   "kind": "tracked",
+   "title": "Deep Learning Algorithm Engineering Intern - 2026",
+   "location": "Switzerland, Zurich",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/Deep-Learning-Algorithm-Engineering-Intern---2026_JR2012814",
+   "posted_at": "2026-09-04T00:00:00+00:00",
+   "department": "",
+   "confidence": "medium",
+   "match": [
+    "title-research"
+   ],
+   "phd": true,
+   "job_id": "workday:nvidia.wd5.myworkdayjobs.com/nvidia/NVIDIAExternalCareerSite:JR2012814",
+   "order": 4,
+   "regions": [
+    "Europe"
+   ]
+  },
+  {
+   "company": "Fervo Energy",
    "tier": "other",
    "ats": "simplify",
    "source": "simplify",
    "kind": "discovery",
-   "title": "Research and Development Intern - Computer and Data Science",
-   "location": "Indianapolis, IN",
-   "url": "https://corteva.wd5.myworkdayjobs.com/corteva/job/Indianapolis-Indiana-United-States/R---D-Intern---Computer---Data-Science_248131W",
-   "posted_at": "2026-09-03T00:00:00+00:00",
+   "title": "AI Applications Engineering Intern",
+   "location": "Houston, TX",
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4465652",
+   "posted_at": "2026-08-31T23:02:40+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
@@ -86,7 +154,6 @@
    ],
    "phd": true,
    "degrees": [
-    "Bachelor's",
     "Master's",
     "PhD"
    ],
@@ -95,56 +162,22 @@
     "Summer 2026"
    ],
    "domain": "",
-   "job_id": "simplify:04fa737d-39fc-4d4c-a941-98752f72b8ec",
-   "order": 5,
-   "regions": [
-    "Asia",
-    "US"
-   ]
-  },
-  {
-   "company": "Micron Technology",
-   "tier": "other",
-   "ats": "simplify",
-   "source": "simplify",
-   "kind": "discovery",
-   "title": "AI Agentic Systems Engineer Intern",
-   "location": "San Jose, CA, Folsom, CA",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Folsom-CA/Intern---AI-Agentic-Systems-Engineer_JR110474",
-   "posted_at": "2026-09-03T00:00:00+00:00",
-   "department": "AI/ML/Data",
-   "confidence": "high",
-   "match": [
-    "simplify-degrees-phd",
-    "ats-intern-flag",
-    "title-research"
-   ],
-   "phd": true,
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "sponsorship": "Other",
-   "terms": [
-    "Winter 2026"
-   ],
-   "domain": "",
-   "job_id": "simplify:1254980f-c0ca-441d-8d7e-1a972710ee7b",
-   "order": 6,
+   "job_id": "simplify:d95c9645-60a9-4399-9ff8-4cf36da717b8",
+   "order": 27,
    "regions": [
     "US"
    ]
   },
   {
-   "company": "ByteDance",
+   "company": "TikTok",
    "tier": "bigtech",
    "ats": "simplify",
    "source": "simplify",
    "kind": "blindspot",
-   "title": "Student Researcher - AI Foundation Models Infrastructure - Seed Infra",
+   "title": "Machine Learning Engineer Intern - E-Commerce Supply Chain & Logistics-LLM/Agent - PhD",
    "location": "Seattle, WA",
-   "url": "https://jobs.bytedance.com/en/position/7670329439609850165/detail",
-   "posted_at": "2026-08-05T09:14:39+00:00",
+   "url": "https://lifeattiktok.com/search/7675845333947812149",
+   "posted_at": "2026-08-20T09:17:24+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
@@ -156,11 +189,103 @@
    ],
    "sponsorship": "Other",
    "terms": [
-    "N/A"
+    "Summer 2027"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:cdf9395b-da0f-432f-9723-65b649252bd5",
-   "order": 143,
+   "job_id": "simplify:79ddabd2-cd14-4fd6-8aec-f82858b2190e",
+   "order": 73,
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "TikTok",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Machine Learning Engineer Intern",
+   "location": "Seattle, WA",
+   "url": "https://lifeattiktok.com/search/7675847556668295429",
+   "posted_at": "2026-08-20T09:17:19+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "bytedance.com",
+   "job_id": "simplify:a908b011-3049-4c5c-831e-b0a4e17ddebf",
+   "order": 74,
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "NVIDIA",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Digital Circuit Design Intern",
+   "location": "Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Digital-Circuit-Design_JR2023504",
+   "posted_at": "2026-08-19T00:00:00+00:00",
+   "department": "Hardware",
+   "confidence": "medium",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Summer 2027"
+   ],
+   "domain": "nvidia.com",
+   "job_id": "simplify:51a4a857-a381-433e-a84a-c418a90df692",
+   "order": 89,
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "Amazon",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Applied Science Intern - Automated Reasoning - PhD Student Science Recruiting",
+   "location": "Seattle, WA",
+   "url": "https://amazon.jobs/en/jobs/10394156/2026-fall-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting",
+   "posted_at": "2026-07-23T09:10:04+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "amazon.com",
+   "job_id": "simplify:58856b41-819a-46fe-b1b3-cb5b18811424",
+   "order": 212,
    "regions": [
     "US"
    ]
@@ -171,27 +296,116 @@
    "ats": "simplify",
    "source": "simplify",
    "kind": "blindspot",
-   "title": "Student Researcher - AI Foundation Models Infrastructure - Seed Infra",
+   "title": "Applied Research Intern - AI Safety Security - Global Tech Research Program",
    "location": "San Jose, CA",
-   "url": "https://jobs.bytedance.com/en/position/7669973602626308357/detail",
-   "posted_at": "2026-08-05T01:15:08+00:00",
+   "url": "https://jobs.bytedance.com/en/position/7645070235035044101/detail",
+   "posted_at": "2026-06-03T06:08:16+00:00",
    "department": "AI/ML/Data",
    "confidence": "high",
    "match": [
-    "simplify-research-title"
+    "simplify-degrees-phd"
    ],
-   "phd": false,
+   "phd": true,
    "degrees": [
-    "Bachelor's",
-    "Master's"
+    "PhD"
    ],
    "sponsorship": "Other",
    "terms": [
-    "N/A"
+    "Summer 2026"
    ],
    "domain": "bytedance.com",
-   "job_id": "simplify:5b7f08a3-2a1a-4cc9-9c45-1c1354b90913",
-   "order": 152,
+   "job_id": "simplify:6cf0985b-9f4b-4fbb-9dee-114a376730a2",
+   "order": 275,
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "Amazon",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Applied Science Intern - Multiple Teams",
+   "location": "Palo Alto, CA, Boston, MA, Seattle, WA, Santa Clara, CA, Arlington, VA, NYC, Bellevue, WA, San Diego, CA",
+   "url": "https://amazon.jobs/en/jobs/10394230/2026-fall-applied-science-internship-information-knowledge-management-machine-learning-united-states-phd-student-science-recruiting",
+   "posted_at": "2026-04-16T22:11:16+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "amazon.com",
+   "job_id": "simplify:683c26d5-8306-435d-9738-d85e030935f5",
+   "order": 319,
+   "regions": [
+    "US"
+   ]
+  },
+  {
+   "company": "Amazon",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Applied Science Intern - Science Recruiting",
+   "location": "Toronto, ON, Canada, Burnaby, BC, Canada, Pitt Meadows, BC, Canada, Vancouver, BC, Canada",
+   "url": "https://amazon.jobs/en/jobs/10394248/fall-2026-applied-science-internship-canada-phd-student-science-recruiting",
+   "posted_at": "2026-04-16T22:11:16+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "amazon.com",
+   "job_id": "simplify:16763ef8-e382-4bed-9bf1-aade7161fb68",
+   "order": 321,
+   "regions": [
+    "Canada"
+   ]
+  },
+  {
+   "company": "Amazon",
+   "tier": "bigtech",
+   "ats": "simplify",
+   "source": "simplify",
+   "kind": "blindspot",
+   "title": "Applied Science Intern - Reinforcement Learning & Optimization - Machine Learning",
+   "location": "Palo Alto, CA, Boston, MA, Seattle, WA, Santa Clara, CA, Corvallis, OR, NYC, Bellevue, WA, San Diego, CA",
+   "url": "https://amazon.jobs/en/jobs/10394278/2026-fall-applied-science-internship-reinforcement-learning-optimization-machine-learning-united-states-phd-student-science-recruiting",
+   "posted_at": "2026-04-16T22:11:15+00:00",
+   "department": "AI/ML/Data",
+   "confidence": "high",
+   "match": [
+    "simplify-degrees-phd"
+   ],
+   "phd": true,
+   "degrees": [
+    "PhD"
+   ],
+   "sponsorship": "Other",
+   "terms": [
+    "Fall 2026"
+   ],
+   "domain": "amazon.com",
+   "job_id": "simplify:d2d779ba-bdb3-4801-889e-f3c0da9be4ee",
+   "order": 322,
    "regions": [
     "US"
    ]
